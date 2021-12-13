@@ -150,14 +150,6 @@
           "status": "complete"
         },
         {
-          "id": "2-1-2",
-          "title": "Prevalença de la inseguretat alimentària moderada o greu entre la població, segons l'escala d'experiència d'inseguretat alimentària",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/2-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "2-2-1",
           "title": "Població de 5 a 14 anys amb retard del creixement",
           "description": "",
@@ -230,30 +222,6 @@
           "status": "complete"
         },
         {
-          "id": "2-4-1",
-          "title": "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/2-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-1",
-          "title": "Nombre de recursos genètics vegetals i animals per a l'alimentació i l'agricultura preservats en instal·lacions de conservació a mitjà i llarg termini",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/2-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-2",
-          "title": "Proporció de races i varietats locals considerades en risc d'extinció, sense risc o amb un nivell de risc desconegut",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/2-5-2",
-          "status": "notstarted"
-        },
-        {
           "id": "2-a-1",
           "title": "Pressupost municipal destinat a Cooperació ODS2",
           "description": "",
@@ -284,22 +252,6 @@
           "keywords": "",
           "href": "/estadistica/2-a-4",
           "status": "complete"
-        },
-        {
-          "id": "2-b-1",
-          "title": "Subsidis a l'exportació de productes agropecuaris",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/2-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-c-1",
-          "title": "Indicador d'anomalies en els preus dels aliments",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/2-c-1",
-          "status": "notstarted"
         }]
     }
   },

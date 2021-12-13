@@ -150,14 +150,6 @@
           "status": "complete"
         },
         {
-          "id": "2-1-2",
-          "title": "Prevalencia de la inseguridad alimentaria moderada o grave entre la población, según la escala de experiencia de inseguridad alimentaria",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/2-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "2-2-1",
           "title": "Población de 5 a 14 años con retraso del crecimiento",
           "description": "",
@@ -230,30 +222,6 @@
           "status": "complete"
         },
         {
-          "id": "2-4-1",
-          "title": "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/2-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-1",
-          "title": "Número de recursos genéticos vegetales y animales para la alimentación y la agricultura preservados en instalaciones de conservación a medio y largo plazo",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/2-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-2",
-          "title": "Proporción de razas y variedades locales consideradas en riesgo de extinción",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/2-5-2",
-          "status": "notstarted"
-        },
-        {
           "id": "2-a-1",
           "title": "Presupuesto municipal destinado a Cooperación ODS2",
           "description": "",
@@ -284,22 +252,6 @@
           "keywords": "",
           "href": "/estadistica/es/2-a-4",
           "status": "complete"
-        },
-        {
-          "id": "2-b-1",
-          "title": "Subsidios a la exportación de productos agropecuarios",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/2-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-c-1",
-          "title": "Indicador de anomalías en los precios de los alimentos",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/2-c-1",
-          "status": "notstarted"
         }]
     }
   },
