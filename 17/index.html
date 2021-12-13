@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ca" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ods-valencia.github.io/data/en',
+  remoteDataBaseUrl: 'https://ods-valencia.github.io/data/ca',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ca',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 17 - Partnerships for the goals - Indicators For The Sustainable Development Goals</title>
+    <title>Objectiu 17 - Aliança per a Assolir els Objectius - Indicadors per als Objectius de Desenvolupament Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213073512">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213075416">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -147,21 +147,21 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-ca
 layout-goal-by-target-vertical
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alfa</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:test@example.com">comentaris</a>.
   </div>
 </div>
 
@@ -172,15 +172,15 @@ layout-goal-by-target-vertical
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/estadistica/" id="home">
-    <img src="/estadistica/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/estadistica/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -191,8 +191,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -209,8 +209,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/17/">
               Español
@@ -225,9 +225,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/estadistica/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -243,8 +243,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/17/">
               Español
@@ -258,8 +258,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -270,8 +270,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -290,19 +290,19 @@ data-event-label="high"
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/estadistica/goals">Goals</a>
+    <a href="/estadistica/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/reporting-status">Reporting Status</a>
+    <a href="/estadistica/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/about">About</a>
+    <a href="/estadistica/about">Informació</a>
 </li><li class="nav-link ">
     <a href="/estadistica/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/news">Updates</a>
+    <a href="/estadistica/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -314,8 +314,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/17/">
               Español
@@ -331,8 +331,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -343,8 +343,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -361,29 +361,29 @@ data-event-label="high"
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/estadistica/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/estadistica/goals">Goals</a>
+    <a href="/estadistica/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/reporting-status">Reporting Status</a>
+    <a href="/estadistica/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/about">About</a>
+    <a href="/estadistica/about">Informació</a>
 </li><li class="nav-link ">
     <a href="/estadistica/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/news">Updates</a>
+    <a href="/estadistica/news">Actualitzacions</a>
 </li>
 
 </ul>
@@ -401,8 +401,8 @@ data-event-label="high"
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/estadistica/">Home</a></li>
-  <li><a href="/estadistica/goals">Goals</a></li>
+  <li><a href="/estadistica/">Inici</a></li>
+  <li><a href="/estadistica/goals">Objectius</a></li>
   
   
 </ol>
@@ -413,13 +413,13 @@ data-event-label="high"
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/estadistica/16" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Objectiu anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/estadistica/1" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Següent objectiu</span>
         </a>
     </div>
 </div>
@@ -432,11 +432,11 @@ data-event-label="high"
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" id="goal-17" class="goal-icon-image goal-icon-image-" />
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/17.png" alt="Aliança per a Assolir els Objectius - Objectiu 17" id="goal-17" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 17: </span>Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
+          <span class="hidden-sm hidden-md hidden-lg">Objectiu 17: </span>Enfortir els mitjans per a implementar i revitalitzar l’Aliança Mundial per al Desenvolupament Sostenible
         </h1>
       </div>
     </div>
@@ -451,16 +451,16 @@ data-event-label="high"
 
 
   <div class="container">
-    <h2>Targets and indicators</h2>
+    <h2>Fites i indicadors</h2>
 
     
     
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.1</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.1</span>
         </h3>
-        <span class="target-name">Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection</span>
+        <span class="target-name">Enfortir la mobilització de recursos interns, també mitjançant la prestació de suport internacional als països en desenvolupament, a fi de millorar la capacitat nacional per a recaptar ingressos fiscals i d’altra índole.</span>
         
 
           
@@ -469,17 +469,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.1.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.1.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-1-1">Total government revenue as a proportion of GDP, by source</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-1-1">Total d'ingressos del govern en proporció al PIB, desglossat per font.</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -499,17 +499,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.1.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.1.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-1-2">Proportion of domestic budget funded by domestic taxes</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-1-2">Proporció del pressupost nacional finançat per impostos interns</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -527,9 +527,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.2</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.2</span>
         </h3>
-        <span class="target-name">Developed countries to implement fully their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent of gross national income for official development assistance (ODA/GNI) to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries; ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries</span>
+        <span class="target-name">Vetllar perquè els països desenvolupats compleixin plenament els seus compromisos en relació amb l’ajut oficial al desenvolupament (AOD), inclòs el compromís adquirit per nombrosos països desenvolupats d’assolir l’objectiu de destinar el 0,7% del producte nacional brut (PNB) a l’AOD i del 0,15% al 0,20% del PNB a l’AOD dels països menys avançats, i encoratjar els proveïdors d’AOD que considerin fixar una meta per tal de destinar almenys el 0,20% del PNB a l’AOD dels països menys avançats.</span>
         
 
           
@@ -538,17 +538,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.2.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.2.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-2-1">Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-2-1">Assistència oficial per al desenvolupament neta, total i per als països menys avançats en proporció a l'ingrés nacional brut (INB) dels donants del Comitè d'Assistència per al Desenvolupament de l'Organització de Cooperació i Desenvolupament Econòmics (OCDE)</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -566,9 +566,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.3</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.3</span>
         </h3>
-        <span class="target-name">Mobilize additional financial resources for developing countries from multiple sources</span>
+        <span class="target-name">Mobilitzar recursos financers addicionals provinents de múltiples fonts per als països en desenvolupament.</span>
         
 
           
@@ -577,17 +577,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.3.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.3.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-3-1">Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-3-1">Inversió estrangera directa, assistència oficial per al desenvolupament i cooperació Sud-Sud en proporció al pressupost nacional total</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -607,17 +607,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.3.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.3.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-3-2">Volume of remittances (in United States dollars) as a proportion of total GDP</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-3-2">Volum de remeses (en dòlars dels Estats Units) en proporció al PIB total</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -635,9 +635,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.4</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.4</span>
         </h3>
-        <span class="target-name">Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress</span>
+        <span class="target-name">Assistir els països en desenvolupament per a aconseguir la sostenibilitat del deute a llarg termini amb po­lítiques coordinades orientades a fomentar el finançament, l’alleujament i la reestructuració del deute, si escau, i fer front al deute extern dels països pobres altament endeutats a fi de reduir l’endeutament excessiu.</span>
         
 
           
@@ -646,17 +646,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.4.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.4.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-4-1">Debt service as a proportion of exports of goods and services</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-4-1">Servei del deute en proporció a les exportacions de béns i serveis</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -674,9 +674,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.5</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.5</span>
         </h3>
-        <span class="target-name">Adopt and implement investment promotion regimes for least developed countries</span>
+        <span class="target-name">Adoptar i aplicar sistemes de promoció d’inversió a favor dels països menys avançats.</span>
         
 
           
@@ -685,17 +685,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.5.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.5.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-5-1">Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-5-1">Nombre de països que adopten i apliquen sistemes de promoció de les inversions en favor dels països menys avançats</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -713,9 +713,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.6</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.6</span>
         </h3>
-        <span class="target-name">Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge-sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism</span>
+        <span class="target-name">Millorar la cooperació regional i internacional nord-sud, sud-sud i triangular i l’accés a la ciència, tecnolo­gia i innovació, i augmentar l’intercanvi de coneixements en condicions mútuament convingudes, entre d’altres maneres millorant la coordinació entre els mecanismes existents, en particular en l’àmbit de les Nacions Unides, i mitjançant un mecanisme global de facilitació de la tecnologia.</span>
         
 
           
@@ -724,17 +724,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.6.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.6.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-6-1">Fixed Internet broadband subscriptions per 100 inhabitants, by speed</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-6-1">Nombre d'acords i programes de cooperació en matèria de ciència o tecnologia subscrits pels països, desglossat per tipus de cooperació</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -752,9 +752,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.7</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.7</span>
         </h3>
-        <span class="target-name">Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed</span>
+        <span class="target-name">Promoure el desenvolupament, així com la transferència, divulgació i difusió de tecnologies ecològicament racionals als països en desenvolupament en condicions favorables, incloent condicions concessionàries i prefe­rencials, de mutu acord.</span>
         
 
           
@@ -763,17 +763,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.7.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.7.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-7-1">Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-7-1">Total dels fons aprovats per als països en desenvolupament a fi de promoure el desenvolupament, la transferència i la difusió de tecnologies ecològicament racionals</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -791,9 +791,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.8</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.8</span>
         </h3>
-        <span class="target-name">Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology</span>
+        <span class="target-name">Posar en ple funcionament, a tot tardar el 2017, el banc de tecnologia i el mecanisme de suport a la ciència, tecnologia i innovació per als països menys avançats, i augmentar l’ús de tecnologies instrumentals, en particular de les tecnologies de la informació i la comunicació.</span>
         
 
           
@@ -802,17 +802,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.8.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.8.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-8-1">Proportion of individuals using the Internet</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-8-1">Proporció de persones que utilitzen Internet</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -830,9 +830,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.9</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.9</span>
         </h3>
-        <span class="target-name">Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the Sustainable Development Goals, including through North-South, South-South and triangular cooperation</span>
+        <span class="target-name">Augmentar el suport internacional a la implementació eficaç i amb objectius concrets de programes de formació als països en desenvolupament per tal de donar suport als plans nacionals orientats a aplicar tots els Objectius de Desenvolupament Sostenible, mitjançant, entre d’altres, la cooperació nord-sud, sud-sud i triangular.</span>
         
 
           
@@ -841,17 +841,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.9.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.9.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-9-1">Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-9-1">Valor en dòlars de l'assistència financera i tècnica (fins i tot mitjançant la cooperació Nord-Sud, Sud‐Sud i triangular) promesa als països en desenvolupament</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -869,9 +869,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.10</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.10</span>
         </h3>
-        <span class="target-name">Promote a universal, rules-based, open, non‐discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda</span>
+        <span class="target-name">Promoure un sistema de comerç multilateral universal, basat en normes, obert, no discriminatori i equi­tatiu en el marc de l’Organització Mundial del Comerç, mitjançant, entre d’altres, la conclusió de negociacions d’acord amb el Programa de Doha per al desenvolupament.</span>
         
 
           
@@ -880,17 +880,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.10.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.10.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-10-1">Worldwide weighted tariff-average</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-10-1">Mitjana aranzelària mundial ponderada</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -908,9 +908,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.11</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.11</span>
         </h3>
-        <span class="target-name">Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries’ share of global exports by 2020</span>
+        <span class="target-name">Augmentar de manera significativa les exportacions dels països en desenvolupament, en particular amb la perspectiva de duplicar la participació dels països menys avançats en les exportacions mundials per a 2020.</span>
         
 
           
@@ -919,17 +919,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.11.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.11.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-11-1">Developing countries’ and least developed countries’ share of global exports</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-11-1">Participació dels països en desenvolupament i els països menys avançats en les exportacions mundials</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -947,9 +947,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.12</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.12</span>
         </h3>
-        <span class="target-name">Realize timely implementation of duty-free and quota-free market access on a lasting basis for all least developed countries, consistent with World Trade Organization decisions, including by ensuring that preferential rules of origin applicable to imports from least developed countries are transparent and simple, and contribute to facilitating market access</span>
+        <span class="target-name">Aconseguir la implementació oportuna d’un accés permanent als mercats, sense aranzels ni quotes per a tots els països menys avançats, de conformitat amb les decisions de l’Organització Mundial del Comerç, i, entre d’altres, vetllant per tal que les normes d’origen preferencials aplicables a les importacions dels països menys avançats siguin transparents i senzilles, i contribueixin a facilitar l’accés als mercats.</span>
         
 
           
@@ -958,17 +958,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.12.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.12.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-12-1">Weighted average tariffs faced by developing countries, least developed countries and small island developing States</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-12-1">Mitjana dels aranzels que enfronten els països en desenvolupament, els països menys avançats i els petits Estats insulars en desenvolupament</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -986,9 +986,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.13</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.13</span>
         </h3>
-        <span class="target-name">Enhance global macroeconomic stability, including through policy coordination and policy coherence</span>
+        <span class="target-name">Augmentar l’estabilitat macroeconòmica mundial, mitjançant, entre d’altres, la coordinació i coherència de polítiques.</span>
         
 
           
@@ -997,17 +997,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.13.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.13.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-13-1">Macroeconomic Dashboard</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-13-1">Tauler macroeconòmic</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1025,9 +1025,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.14</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.14</span>
         </h3>
-        <span class="target-name">Enhance policy coherence for sustainable development</span>
+        <span class="target-name">Millorar la coherència de polítiques per al desenvolupament sostenible.</span>
         
 
           
@@ -1036,17 +1036,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.14.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.14.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-14-1">Number of countries with mechanisms in place to enhance policy coherence of sustainable development</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-14-1">Nombre de països que compten amb mecanismes per a millorar la coherència de les polítiques de desenvolupament sostenible</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1064,9 +1064,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.15</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.15</span>
         </h3>
-        <span class="target-name">Respect each country’s policy space and leadership to establish and implement policies for poverty eradication and sustainable development</span>
+        <span class="target-name">Respectar el lideratge i la política de cada país per a establir i aplicar polítiques orientades a l’eradicació de la pobresa i la promoció del desenvolupament sostenible.</span>
         
 
           
@@ -1075,17 +1075,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.15.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.15.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-15-1">Extent of use of country-owned results frameworks and planning tools by providers of development cooperation</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-15-1">Grau d'utilització dels marcs de resultats i les eines de planificació dels propis països pels proveïdors de cooperació per al desenvolupament</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1103,9 +1103,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.16</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.16</span>
         </h3>
-        <span class="target-name">Enhance the Global Partnership for Sustainable Development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources, to support the achievement of the Sustainable Development Goals in all countries, in particular developing countries</span>
+        <span class="target-name">Enfortir l’Aliança Mundial per al Desenvolupament Sostenible, complementada per aliances entre múlti­ples actors que mobilitzin i promoguin l’intercanvi de coneixements, expertesa, tecnologies i recursos financers, amb la finalitat de donar suport a l’assoliment dels Objectius de Desenvolupament Sostenible a tots els països, en particular als països en desenvolupament.</span>
         
 
           
@@ -1114,17 +1114,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.16.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.16.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-16-1">Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-16-1">Nombre de països que informen dels seus progressos en els marcs de múltiples interessats per al seguiment de l'eficàcia de les activitats de desenvolupament que donen suport a l'assoliment dels Objectius de Desenvolupament Sostenible</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1142,9 +1142,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.17</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.17</span>
         </h3>
-        <span class="target-name">Encourage and promote effective public, public-private and civil society partnerships, building on the experience and resourcing strategies of partnerships</span>
+        <span class="target-name">Encoratjar i promoure la constitució d’aliances eficaces en els àmbits públic, público-privat i de la societat civil, aprofitant l’experiència i les estratègies d’obtenció de recursos dels partenariats.</span>
         
 
           
@@ -1153,17 +1153,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.17.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.17.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-17-1">Amount in United States dollars committed to public-private partnerships for infrastructure</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-17-1">Suma en dòlars dels Estats Units promesa a les: a) aliances públic-privades i b) aliances amb la societat civil</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1181,9 +1181,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.18</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.18</span>
         </h3>
-        <span class="target-name">By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts</span>
+        <span class="target-name">Per a 2020, millorar la prestació de suport a la formació per als països en desenvolupament, inclosos els països menys avançats i els petits estats insulars en desenvolupament, amb la perspectiva d’augmentar de forma significativa la disponibilitat de dades actualitzades, fiables i de qualitat, desglossades per grups d’ingressos, gènere, edat, raça, origen ètnic, condició migratòria, discapacitat, ubicació geogràfica i altres característiques pertinents segons el context nacional.</span>
         
 
           
@@ -1192,17 +1192,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.18.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.18.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-18-1">Statistical capacity indicator for Sustainable Development Goal monitoring</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-18-1">Proporció d'indicadors de desenvolupament sostenible produïts a nivell nacional, amb ple desglossament quan sigui pertinent per a la meta, de conformitat amb els Principis Fonamentals de les Estadístiques Oficials</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1222,17 +1222,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.18.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.18.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-18-2">Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-18-2">Nombre de països la legislació nacional dels quals sobre estadístiques compleix els Principis Fonamentals de les Estadístiques Oficials</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1252,17 +1252,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.18.3</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.18.3</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-18-3">Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-18-3">Nombre de països que compten amb un pla estadístic nacional plenament finançat i en procés d'aplicació, desglossat per font de finançament</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1280,9 +1280,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 17.19</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 17.19</span>
         </h3>
-        <span class="target-name">By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries</span>
+        <span class="target-name">Per a 2030, aprofitar les iniciatives existents per a elaborar indicadors que permetin mesurar els pro­gressos aconseguits en matèria de desenvolupament sostenible i constitueixin un complement dels indicadors utilitzats per a mesurar el producte interior brut, i donar suport a la formació en estadística als països en desenvolupament.</span>
         
 
           
@@ -1291,17 +1291,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.19.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.19.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-19-1">Dollar value of all resources made available to strengthen statistical capacity in developing countries</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-19-1">Valor en dòlars de tots els recursos proporcionats per a enfortir la capacitat estadística dels països en desenvolupament</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1321,17 +1321,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 17.19.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 17.19.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/17-19-2">Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/17-19-2">Proporció de països que a) han realitzat almenys un cens de població i habitatge en els últims deu anys; i b) han registrat el 100% dels naixements i el 80% de les defuncions</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -1355,10 +1355,10 @@ data-event-label="high"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
-                <a href="/estadistica/contact-us">Contact us</a>
+                <a href="/estadistica/contact-us">Contacte</a>
                 
                 </li>
               <li>
@@ -1367,7 +1367,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/estadistica/about/cookies-and-privacy/">Cookies</a>
+                <a href="/estadistica/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -1402,17 +1402,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20211213073512'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20211213075416'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20211213073512"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20211213075416"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -2,12 +2,12 @@
   {
     "goal": {
       "id": "1",
-      "title": "End poverty in all its forms everywhere",
+      "title": "Erradicar la pobresa a tot el món en totes les seues formes",
       "indicators": [
         
         {
           "id": "1-1-1",
-          "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)",
+          "title": "Proporció de la població que viu per sota del llindar internacional de pobresa, desglossada per sexe, edat, situació laboral i ubicació geogràfica (urbana o rural)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-1-1",
@@ -15,7 +15,7 @@
         },
         {
           "id": "1-2-1",
-          "title": "Proportion of population living below the national poverty line, by sex and age",
+          "title": "Proporció de la població que viu per sota del llindar nacional de pobresa, desglossada per sexe i edat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-2-1",
@@ -23,7 +23,7 @@
         },
         {
           "id": "1-2-2",
-          "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
+          "title": "Proporció d'homes, dones i nens de totes les edats que viuen en la pobresa, en totes les seves dimensions, conformement a les definicions nacionals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-2-2",
@@ -31,7 +31,7 @@
         },
         {
           "id": "1-3-1",
-          "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",
+          "title": "Proporció de la població coberta per sistemes o nivells mínims de protecció social, desglossada per sexe, distingint entre els nens, els aturats, els ancians, les persones amb discapacitat, les dones embarassades, els nounats, les víctimes d'accidents de treball, els pobres i els vulnerables",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-3-1",
@@ -39,7 +39,7 @@
         },
         {
           "id": "1-4-1",
-          "title": "Proportion of population living in households with access to basic services",
+          "title": "Proporció de la població que viu en llars amb accés als serveis bàsics",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-4-1",
@@ -47,7 +47,7 @@
         },
         {
           "id": "1-4-2",
-          "title": "Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",
+          "title": "Proporció del total de la població adulta amb drets segurs de tinença de la terra: a) que posseeix documentació reconeguda legalment sobre aquest tema i b) considera segurs els seus drets, desglossada per sexe i tipus de tinença",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-4-2",
@@ -55,7 +55,7 @@
         },
         {
           "id": "1-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-5-1",
@@ -63,7 +63,7 @@
         },
         {
           "id": "1-5-2",
-          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
+          "title": "Pèrdues econòmiques directes atribuïdes als desastres en relació amb el producte interor brut (PIB) mundial",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-5-2",
@@ -71,7 +71,7 @@
         },
         {
           "id": "1-5-3",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-5-3",
@@ -79,7 +79,7 @@
         },
         {
           "id": "1-5-4",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "Proporció de governs locals que adopten i apliquen estratègies locals de reducció del risc de desastres d'acord amb les estratègies nacionals de reducció del risc de desastres",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-5-4",
@@ -87,7 +87,7 @@
         },
         {
           "id": "1-a-1",
-          "title": "Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income",
+          "title": "Proporció dels recursos generats a nivell intern que el govern assigna directament a programes de reducció de la pobresa",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-a-1",
@@ -95,7 +95,7 @@
         },
         {
           "id": "1-a-2",
-          "title": "Proportion of total government spending on essential services (education, health and social protection)",
+          "title": "Proporció de la despesa pública total que es dedica a serveis essencials (educació, salut i protecció social)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-a-2",
@@ -103,7 +103,7 @@
         },
         {
           "id": "1-b-1",
-          "title": "Pro-poor public social spending",
+          "title": "Proporció de les despeses públiques periòdiques i de capital que es dedica a sectors que beneficien de manera desproporcionada a les dones, els pobres i els grups vulnerables",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-b-1",
@@ -114,12 +114,12 @@
   {
     "goal": {
       "id": "2",
-      "title": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture",
+      "title": "Posar fi a la fam, assolir la seguretat alimentària i la millora de la nutrició, i promoure l’agricultura sostenible",
       "indicators": [
         
         {
           "id": "2-1-1",
-          "title": "Prevalence of undernourishment",
+          "title": "Prevalença de la subalimentació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-1-1",
@@ -127,7 +127,7 @@
         },
         {
           "id": "2-1-2",
-          "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
+          "title": "Prevalença de la inseguretat alimentària moderada o greu entre la població, segons l'escala d'experiència d'inseguretat alimentària",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-1-2",
@@ -135,7 +135,7 @@
         },
         {
           "id": "2-2-1",
-          "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+          "title": "Prevalença del retard del creixement (alçada per a l'edat, desviació típica < -2 de la mitjana dels patrons de creixement infantil de l'Organització Mundial de la Salut (OMS)) entre els nens menors de 5 anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-2-1",
@@ -143,7 +143,7 @@
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
+          "title": "Prevalença de la malnutrició (pes per a l'alçada, desviació típica >+2 o <-2 de la mitjana dels patrons de creixement infantil de l'OMS) entre els nens menors de 5 anys, desglossada per tipus (emaciació i sobrepès)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-2-2",
@@ -151,7 +151,7 @@
         },
         {
           "id": "2-2-3",
-          "title": "Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",
+          "title": "global_indicators.2-2-3-title",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-2-3",
@@ -159,7 +159,7 @@
         },
         {
           "id": "2-3-1",
-          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+          "title": "Volum de producció per unitat de treball desglossat per grandària i tipus d'explotació (agropecuària/ramadera/forestal)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-3-1",
@@ -167,7 +167,7 @@
         },
         {
           "id": "2-3-2",
-          "title": "Average income of small-scale food producers, by sex and indigenous status",
+          "title": "Mitjana d'ingressos dels productors d'aliments en petita escala, desglossada per sexe i condició indígena",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-3-2",
@@ -175,7 +175,7 @@
         },
         {
           "id": "2-4-1",
-          "title": "Proportion of agricultural area under productive and sustainable agriculture",
+          "title": "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-4-1",
@@ -183,7 +183,7 @@
         },
         {
           "id": "2-5-1",
-          "title": "Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities",
+          "title": "Nombre de recursos genètics vegetals i animals per a l'alimentació i l'agricultura preservats en instal·lacions de conservació a mitjà i llarg termini",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-5-1",
@@ -191,7 +191,7 @@
         },
         {
           "id": "2-5-2",
-          "title": "Proportion of local breeds classified as being at risk of extinction",
+          "title": "Proporció de races i varietats locals considerades en risc d'extinció, sense risc o amb un nivell de risc desconegut",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-5-2",
@@ -199,7 +199,7 @@
         },
         {
           "id": "2-a-1",
-          "title": "The agriculture orientation index for government expenditures",
+          "title": "Índex d'orientació agrícola per a la despesa pública",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-a-1",
@@ -207,7 +207,7 @@
         },
         {
           "id": "2-a-2",
-          "title": "Total official flows (official development assistance plus other official flows) to the agriculture sector",
+          "title": "Total de corrents oficials de recursos (assistència oficial per al desenvolupament més altres corrents oficials) destinat al sector agrícola",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-a-2",
@@ -215,7 +215,7 @@
         },
         {
           "id": "2-b-1",
-          "title": "Agricultural export subsidies",
+          "title": "Subsidis a l'exportació de productes agropecuaris",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-b-1",
@@ -223,7 +223,7 @@
         },
         {
           "id": "2-c-1",
-          "title": "Indicator of food price anomalies",
+          "title": "Indicador d'anomalies en els preus dels aliments",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-c-1",
@@ -234,12 +234,12 @@
   {
     "goal": {
       "id": "3",
-      "title": "Ensure healthy lives and promote well-being for all at all ages",
+      "title": "Garantir una vida sana i promoure el benestar per a totes les persones a totes les edats",
       "indicators": [
         
         {
           "id": "3-1-1",
-          "title": "Maternal mortality ratio",
+          "title": "Taxa de mortalitat materna",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-1-1",
@@ -247,7 +247,7 @@
         },
         {
           "id": "3-1-2",
-          "title": "Proportion of births attended by skilled health personnel",
+          "title": "Proporció de parts atesos per personal sanitari especialitzat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-1-2",
@@ -255,7 +255,7 @@
         },
         {
           "id": "3-2-1",
-          "title": "Under‐5 mortality rate",
+          "title": "Taxa de mortalitat de nens menors de 5 anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-2-1",
@@ -263,7 +263,7 @@
         },
         {
           "id": "3-2-2",
-          "title": "Neonatal mortality rate",
+          "title": "Taxa de mortalitat neonatal",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-2-2",
@@ -271,7 +271,7 @@
         },
         {
           "id": "3-3-1",
-          "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+          "title": "Nombre de noves infeccions pel VIH per cada 1.000 habitants no infectats, desglossat per sexe, edat i poblacions clau",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-1",
@@ -279,7 +279,7 @@
         },
         {
           "id": "3-3-2",
-          "title": "Tuberculosis incidence per 100,000 population",
+          "title": "Incidència de la tuberculosi per cada 100.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-2",
@@ -287,7 +287,7 @@
         },
         {
           "id": "3-3-3",
-          "title": "Malaria incidence per 1,000 population",
+          "title": "Incidència de la malària per cada 1.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-3",
@@ -295,7 +295,7 @@
         },
         {
           "id": "3-3-4",
-          "title": "Hepatitis B incidence per 100,000 population",
+          "title": "Incidència de l'hepatitis B per cada 100.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-4",
@@ -303,7 +303,7 @@
         },
         {
           "id": "3-3-5",
-          "title": "Number of people requiring interventions against neglected tropical diseases",
+          "title": "Nombre de persones que requereixen intervencions contra malalties tropicals desateses",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-5",
@@ -311,7 +311,7 @@
         },
         {
           "id": "3-4-1",
-          "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+          "title": "Taxa de mortalitat atribuïda a les malalties cardiovasculars, el càncer, la diabetis o les malalties respiratòries cròniques",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-1",
@@ -319,7 +319,7 @@
         },
         {
           "id": "3-4-2",
-          "title": "Suicide mortality rate",
+          "title": "Taxa de mortalitat per suïcidi",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-2",
@@ -327,7 +327,7 @@
         },
         {
           "id": "3-5-1",
-          "title": "Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",
+          "title": "Cobertura dels tractaments(farmacològics i psicosocials i serveis de rehabilitació i posttractament) de trastorns per abús de substàncies addictives",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-5-1",
@@ -335,7 +335,7 @@
         },
         {
           "id": "3-5-2",
-          "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "title": "Consum nociu d'alcohol, definit segons el context nacional com el consum d'alcohol per càpita (a partir dels 15 anys d'edat) durant un any civil en litres d'alcohol pur",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-5-2",
@@ -343,7 +343,7 @@
         },
         {
           "id": "3-6-1",
-          "title": "Death rate due to road traffic injuries",
+          "title": "Taxa de mortalitat per lesions degudes a accidents de trànsit",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-6-1",
@@ -351,7 +351,7 @@
         },
         {
           "id": "3-7-1",
-          "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods",
+          "title": "Proporció de dones en edat de procrear (entre 15 i 49 anys) que cobreixen les seves necessitats de planificació familiar amb mètodes moderns",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-7-1",
@@ -359,7 +359,7 @@
         },
         {
           "id": "3-7-2",
-          "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group",
+          "title": "Taxa de fecunditat de les adolescents (entre 10 i 14 anys i entre 15 i 19 anys) per cada 1.000 dones d'aquest grup d'edat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-7-2",
@@ -367,7 +367,7 @@
         },
         {
           "id": "3-8-1",
-          "title": "Coverage of essential health services",
+          "title": "Cobertura dels serveis de salut essencials (definida com la cobertura mitjana dels serveis essencials entre la població general i els més desfavorits, calculada a partir d'intervencions traçadores com les relacionades amb la salut reproductiva, materna, neonatal i infantil, les malalties infeccioses, les malalties no transmissibles i la capacitat dels serveis i l'accés a ells)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-8-1",
@@ -375,7 +375,7 @@
         },
         {
           "id": "3-8-2",
-          "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income",
+          "title": "Proporció de la població amb grans despeses sanitàries per llar com a percentatge del total de despeses o ingressos de les llars",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-8-2",
@@ -383,7 +383,7 @@
         },
         {
           "id": "3-9-1",
-          "title": "Mortality rate attributed to household and ambient air pollution",
+          "title": "Taxa de mortalitat atribuïda a la contaminació de les llars i de l'aire ambient",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-9-1",
@@ -391,7 +391,7 @@
         },
         {
           "id": "3-9-2",
-          "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
+          "title": "Taxa de mortalitat atribuïda a l'aigua insalubre, el sanejament deficient i la falta d'higiene (exposició a serveis insalubres d'aigua, sanejament i higiene per a tots (WASH))",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-9-2",
@@ -399,7 +399,7 @@
         },
         {
           "id": "3-9-3",
-          "title": "Mortality rate attributed to unintentional poisoning",
+          "title": "Taxa de mortalitat atribuïda a intoxicacions involuntàries",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-9-3",
@@ -407,7 +407,7 @@
         },
         {
           "id": "3-a-1",
-          "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
+          "title": "Prevalença del consum actual de tabac a partir dels 15 anys d'edat (edats ajustades)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-a-1",
@@ -415,7 +415,7 @@
         },
         {
           "id": "3-b-1",
-          "title": "Proportion of the target population covered by all vaccines included in their national programme",
+          "title": "Proporció de la població immunitzada amb totes les vacunes incloses en cada programa nacional",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-b-1",
@@ -423,7 +423,7 @@
         },
         {
           "id": "3-b-2",
-          "title": "Total net official development assistance to medical research and basic health sectors",
+          "title": "Total net d'assistència oficial per al desenvolupament destinat als sectors de la recerca mèdica i l'atenció sanitària bàsica",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-b-2",
@@ -431,7 +431,7 @@
         },
         {
           "id": "3-b-3",
-          "title": "Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis",
+          "title": "Proporció de centres de salut que disposen d'un conjunt bàsic de medicaments essencials assequibles de manera sostenible",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-b-3",
@@ -439,7 +439,7 @@
         },
         {
           "id": "3-c-1",
-          "title": "Health worker density and distribution",
+          "title": "Densitat i distribució del personal sanitari",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-c-1",
@@ -447,7 +447,7 @@
         },
         {
           "id": "3-d-1",
-          "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
+          "title": "Capacitat prevista en el Reglament Sanitari Internacional (RSI) i preparació per a emergències de salut",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-d-1",
@@ -455,7 +455,7 @@
         },
         {
           "id": "3-d-2",
-          "title": "Percentage of bloodstream infections due to selected antimicrobial-resistant organisms",
+          "title": "global_indicators.3-d-2-title",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-d-2",
@@ -466,12 +466,12 @@
   {
     "goal": {
       "id": "4",
-      "title": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
+      "title": "Garantir una educació inclusiva, equitativa i de qualitat i promoure oportunitats d’aprenentatge durant tota la vida per a tothom",
       "indicators": [
         
         {
           "id": "4-1-1",
-          "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
+          "title": "Proporció de nens, nenes i adolescents que, a) en els cursos segon i tercer, b) al final de l'ensenyament primari i c) al final de l'ensenyament secundari inferior, han aconseguit almenys un nivell mínim de competència en i) lectura i ii) matemàtiques, desglossada per sexe",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-1-1",
@@ -479,7 +479,7 @@
         },
         {
           "id": "4-1-2",
-          "title": "Completion rate (primary education, lower secondary education, upper secondary education)",
+          "title": "global_indicators.4-1-2-title",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-1-2",
@@ -487,7 +487,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex",
+          "title": "Proporció de nens menors de 5 anys el desenvolupament dels quals és adequat quant a la salut, l'aprenentatge i el benestar psicosocial, desglossada per sexe.",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-2-1",
@@ -495,7 +495,7 @@
         },
         {
           "id": "4-2-2",
-          "title": "Participation rate in organized learning (one year before the official primary entry age), by sex",
+          "title": "Taxa de participació en l'aprenentatge organitzat (un any abans de l'edat oficial d'ingrés en l'ensenyament primari), desglossada per sexe",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-2-2",
@@ -503,7 +503,7 @@
         },
         {
           "id": "4-3-1",
-          "title": "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",
+          "title": "Taxa de participació dels joves i adults en l'ensenyament i formació acadèmica i no acadèmica en els últims 12 mesos, desglossada per sexe",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-3-1",
@@ -511,7 +511,7 @@
         },
         {
           "id": "4-4-1",
-          "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",
+          "title": "Proporció de joves i adults amb competències en tecnologia de la informació i les comunicacions (TIC), desglossada per tipus de competència tècnica",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-4-1",
@@ -519,7 +519,7 @@
         },
         {
           "id": "4-5-1",
-          "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
+          "title": "Índexs de paritat (entre dones i homes, zones rurals i urbanes, quintils de riquesa superior i inferior i grups com els discapacitats, els pobles indígenes i els afectats pels conflictes, a mesura que es disposi de dades) per a tots els indicadors educatius d'aquesta llista que puguin desglossar-se",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-5-1",
@@ -527,7 +527,7 @@
         },
         {
           "id": "4-6-1",
-          "title": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",
+          "title": "Proporció de la població en un grup d'edat determinat que ha aconseguit almenys un nivell fix de competència funcional en a) alfabetització i b) nocions elementals d'aritmètica, desglossada per sexe",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-6-1",
@@ -535,7 +535,7 @@
         },
         {
           "id": "4-7-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Grau en què i) l'educació per a la ciutadania mundial i ii) l'educació per al desenvolupament sostenible, inclosa la igualtat de gènere i els drets humans, s'incorporen en tots els nivells de a) les polítiques nacionals d'educació, b) els plans d'estudi, c) la formació del professorat i d) l'avaluació dels estudiants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-7-1",
@@ -543,7 +543,7 @@
         },
         {
           "id": "4-a-1",
-          "title": "Proportion of schools offering basic services, by type of service",
+          "title": "Proporció d'escoles amb accés a a) electricitat, b) Internet amb finalitats pedagògics, c) computadores amb finalitats pedagògics, d) infraestructura i materials adaptats als estudiants amb discapacitat, e) subministrament bàsic d'aigua potable, f) instal·lacions de sanejament bàsiques separades per sexe i g) instal·lacions bàsiques per a la rentada de mans (segons les definicions dels indicadors WASH)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-a-1",
@@ -551,7 +551,7 @@
         },
         {
           "id": "4-b-1",
-          "title": "Volume of official development assistance flows for scholarships by sector and type of study",
+          "title": "Volum de l'assistència oficial per al desenvolupament destinada a beques, desglossat per sector i tipus d'estudi",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-b-1",
@@ -559,7 +559,7 @@
         },
         {
           "id": "4-c-1",
-          "title": "Proportion of teachers with the minimum required qualifications, by education level",
+          "title": "Proporció del professorat d'educació a) preescolar, b) primària, c) secundària inferior i d) secundària superior que ha rebut almenys la mínima formació docent organitzada prèvia a l'ocupació o en l'ocupació (per exemple, formació pedagògica) exigida per a impartir ensenyament a cada nivell en un país determinat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-c-1",
@@ -570,12 +570,12 @@
   {
     "goal": {
       "id": "5",
-      "title": "Achieve gender equality and empower all women and girls",
+      "title": "Aconseguir la igualtat de gènere i empoderar a totes les dones i xiquetes",
       "indicators": [
         
         {
           "id": "5-1-1",
-          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex",
+          "title": "Determinar si existeixen o no marcs jurídicos per a promoure, fer complir i supervisar la igualtat i la no discriminació per raó de sexe",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-1-1",
@@ -583,7 +583,7 @@
         },
         {
           "id": "5-2-1",
-          "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
+          "title": "Proporció de dones i nenes a partir de 15 anys d'edat que han sofert violència física, sexual o psicològica a les mans del seu actual o anterior parella en els últims 12 mesos, desglossada per forma de violència i edat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-2-1",
@@ -591,7 +591,7 @@
         },
         {
           "id": "5-2-2",
-          "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+          "title": "Proporció de dones i nenes a partir de 15 anys d'edat que han sofert violència sexual a les mans de persones que no eren la seva parella en els últims 12 mesos, desglossada per edat i lloc del fet",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-2-2",
@@ -599,7 +599,7 @@
         },
         {
           "id": "5-3-1",
-          "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18",
+          "title": "Proporció de dones d'entre 20 i 24 anys que estaven casades o mantenien una unió estable abans de complir els 15 anys i abans de complir els 18 anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-3-1",
@@ -607,7 +607,7 @@
         },
         {
           "id": "5-3-2",
-          "title": "Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age",
+          "title": "Proporció de nenes i dones d'entre 15 i 49 anys que han sofert mutilació o ablació genital femenina, desglossada per edat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-3-2",
@@ -615,7 +615,7 @@
         },
         {
           "id": "5-4-1",
-          "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location",
+          "title": "Proporció de temps dedicat al treball domèstic i assistencial no remunerat, desglossada per sexe, edat i ubicació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-4-1",
@@ -623,7 +623,7 @@
         },
         {
           "id": "5-5-1",
-          "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments",
+          "title": "Proporció d'escons ocupats per dones en a) els parlaments nacionals i b) els governs locals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-5-1",
@@ -631,7 +631,7 @@
         },
         {
           "id": "5-5-2",
-          "title": "Proportion of women in managerial positions",
+          "title": "Proporció de dones en càrrecs directius",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-5-2",
@@ -639,7 +639,7 @@
         },
         {
           "id": "5-6-1",
-          "title": "Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
+          "title": "Proporció de dones d'entre 15 i 49 anys que prenen les seves pròpies decisions informades sobre les relacions sexuals, l'ús d'anticonceptius i l'atenció de la salut reproductiva",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-6-1",
@@ -647,7 +647,7 @@
         },
         {
           "id": "5-6-2",
-          "title": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",
+          "title": "Nombre de països amb lleis i reglaments que garanteixen als homes i les dones a partir dels 15 anys d'edat un accés ple i igualitari als serveis de salut sexual i reproductiva i a la informació i educació sobre aquest tema",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-6-2",
@@ -655,7 +655,7 @@
         },
         {
           "id": "5-a-1",
-          "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
+          "title": "a) Proporció del total de la població agrícola amb drets de propietat o drets segurs sobre terres agrícoles, desglossada per sexe; i b) proporció de dones entre els propietaris o els titulars de drets sobre terres agrícoles, desglossada per tipus de tinença",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-a-1",
@@ -663,7 +663,7 @@
         },
         {
           "id": "5-a-2",
-          "title": "Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",
+          "title": "Proporció de països l'ordenament jurídic dels quals (inclòs el dret consuetudinari) garanteix la igualtat de drets de la dona a la propietat o el control de les terres",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-a-2",
@@ -671,7 +671,7 @@
         },
         {
           "id": "5-b-1",
-          "title": "Proportion of individuals who own a mobile telephone, by sex",
+          "title": "Proporció de persones que posseeixen un telèfon mòbil, desglossada per sexe.",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-b-1",
@@ -679,7 +679,7 @@
         },
         {
           "id": "5-c-1",
-          "title": "Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment",
+          "title": "Proporció de països amb sistemes per al seguiment de la igualtat de gènere i l'apoderament de les dones i l'assignació de fons públics per a aquest fi",
           "description": "",
           "keywords": "",
           "href": "/estadistica/5-c-1",
@@ -690,12 +690,12 @@
   {
     "goal": {
       "id": "6",
-      "title": "Ensure availability and sustainable management of water and sanitation for all",
+      "title": "Garantir la disponibilitat i una gestió sostenible de l'aigua i de les condicions de sanejament per a totes les persones",
       "indicators": [
         
         {
           "id": "6-1-1",
-          "title": "Proportion of population using safely managed drinking water services",
+          "title": "Proporció de la població que utilitza serveis de subministrament d'aigua potable gestionats sense riscos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-1-1",
@@ -703,7 +703,7 @@
         },
         {
           "id": "6-2-1",
-          "title": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water",
+          "title": "Proporció de la població que utilitza: a) serveis de sanejament gestionats sense riscos i b) instal·lacions per a la rentada de mans amb aigua i sabó",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-2-1",
@@ -711,7 +711,7 @@
         },
         {
           "id": "6-3-1",
-          "title": "Proportion of domestic and industrial wastewater flows safely treated",
+          "title": "Proporció d'aigües residuals tractades de manera adequada",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-3-1",
@@ -719,7 +719,7 @@
         },
         {
           "id": "6-3-2",
-          "title": "Proportion of bodies of water with good ambient water quality",
+          "title": "Proporció de masses d'aigua de bona qualitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-3-2",
@@ -727,7 +727,7 @@
         },
         {
           "id": "6-4-1",
-          "title": "Change in water-use efficiency over time",
+          "title": "Canvi en l'ús eficient dels recursos hídrics amb el pas del temps",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-4-1",
@@ -735,7 +735,7 @@
         },
         {
           "id": "6-4-2",
-          "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
+          "title": "Nivell d'estrès hídric: extracció d'aigua dolça en proporció als recursos d'aigua dolça disponibles",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-4-2",
@@ -743,7 +743,7 @@
         },
         {
           "id": "6-5-1",
-          "title": "Degree of integrated water resources management",
+          "title": "Grau d'implementació de la gestió integrada dels recursos hídrics (0‐100)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-5-1",
@@ -751,7 +751,7 @@
         },
         {
           "id": "6-5-2",
-          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
+          "title": "Proporció de la superfície de conques transfrontereres subjectes a arranjaments operacionals per a la cooperació en matèria d'aigües",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-5-2",
@@ -759,7 +759,7 @@
         },
         {
           "id": "6-6-1",
-          "title": "Change in the extent of water-related ecosystems over time",
+          "title": "Canvi en l'extensió dels ecosistemes relacionats amb l'aigua amb el pas del temps",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-6-1",
@@ -767,7 +767,7 @@
         },
         {
           "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+          "title": "Volum de l'assistència oficial per al desenvolupament destinada a l'aigua i el sanejament que forma part d'un pla de despeses coordinades pel govern",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-a-1",
@@ -775,7 +775,7 @@
         },
         {
           "id": "6-b-1",
-          "title": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management",
+          "title": "Proporció de dependències administratives locals que han establert polítiques i procediments operacionals per a la participació de les comunitats locals en la gestió de l'aigua i el sanejament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-b-1",
@@ -786,12 +786,12 @@
   {
     "goal": {
       "id": "7",
-      "title": "Ensure access to affordable, reliable, sustainable and modern energy for all",
+      "title": "Garantir l’accés a una energia assequible, segura, sostenible i moderna per a totes les persones",
       "indicators": [
         
         {
           "id": "7-1-1",
-          "title": "Proportion of population with access to electricity",
+          "title": "Proporció de la població que té accés a l'electricitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-1-1",
@@ -799,7 +799,7 @@
         },
         {
           "id": "7-1-2",
-          "title": "Proportion of population with primary reliance on clean fuels and technology",
+          "title": "Proporció de la població la font primària de la qual d'energia són els combustibles i tecnologies nets",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-1-2",
@@ -807,7 +807,7 @@
         },
         {
           "id": "7-2-1",
-          "title": "Renewable energy share in the total final energy consumption",
+          "title": "Proporció d'energia renovable en el consum final total d'energia",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-2-1",
@@ -815,7 +815,7 @@
         },
         {
           "id": "7-3-1",
-          "title": "Energy intensity measured in terms of primary energy and GDP",
+          "title": "Intensitat energètica mesurada en funció de l'energia primària i el PIB",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-3-1",
@@ -823,7 +823,7 @@
         },
         {
           "id": "7-a-1",
-          "title": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",
+          "title": "Corrents financers internacionals cap als països en desenvolupament per a donar suport a la recerca i el desenvolupament d'energies netes i la producció d'energia renovable, inclosos els sistemes híbrids",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-a-1",
@@ -831,7 +831,7 @@
         },
         {
           "id": "7-b-1",
-          "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)",
+          "title": "Inversions en eficiència energètica en proporció al PIB i a la quantia de la inversió estrangera directa en transferències financeres destinades a infraestructura i tecnologia per a serveis de desenvolupament sostenible",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-b-1",
@@ -842,12 +842,12 @@
   {
     "goal": {
       "id": "8",
-      "title": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all",
+      "title": "Promoure el creixement econòmic sostingut, inclusiu i sostenible, l’ocupació plena i productiva i el treball digne per a tothom",
       "indicators": [
         
         {
           "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
+          "title": "Taxa de creixement anual del PIB real per càpita",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-1-1",
@@ -855,7 +855,7 @@
         },
         {
           "id": "8-2-1",
-          "title": "Annual growth rate of real GDP per employed person",
+          "title": "Taxa de creixement anual del PIB real per persona ocupada",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-2-1",
@@ -863,7 +863,7 @@
         },
         {
           "id": "8-3-1",
-          "title": "Proportion of informal employment in total employment, by sector and sex",
+          "title": "Proporció d'ocupació informal en el sector no agrícola, desglossada per sexe",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-3-1",
@@ -871,7 +871,7 @@
         },
         {
           "id": "8-4-1",
-          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
+          "title": "Empremta material en termes absoluts, Empremta material per càpita i Empremta material per PIB",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-4-1",
@@ -879,7 +879,7 @@
         },
         {
           "id": "8-4-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+          "title": "Consum material intern en termes absoluts, consum material intern per càpita i consum material intern per PIB",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-4-2",
@@ -887,7 +887,7 @@
         },
         {
           "id": "8-5-1",
-          "title": "Average hourly earnings of employees, by sex, age, occupation and persons with disabilities",
+          "title": "Ingrés mitjà per hora d'empleades i empleats, desglossat per ocupació, edat i persones amb discapacitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-5-1",
@@ -895,7 +895,7 @@
         },
         {
           "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
+          "title": "Taxa de desocupació, desglossada per sexe, edat i persones amb discapacitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-5-2",
@@ -903,7 +903,7 @@
         },
         {
           "id": "8-6-1",
-          "title": "Proportion of youth (aged 15–24 years) not in education, employment or training",
+          "title": "Proporció de joves (entre 15 i 24 anys) que no cursen estudis, no estan ocupats ni reben capacitació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-6-1",
@@ -911,7 +911,7 @@
         },
         {
           "id": "8-7-1",
-          "title": "Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",
+          "title": "Proporció i nombre de nens d'entre 5 i 17 anys que fan treball infantil, desglossats per sexe i edat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-7-1",
@@ -919,7 +919,7 @@
         },
         {
           "id": "8-8-1",
-          "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",
+          "title": "Taxes de freqüència de les lesions ocupacionals mortals i no mortals, desglossades per sexe i estatus migratori",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-8-1",
@@ -927,7 +927,7 @@
         },
         {
           "id": "8-8-2",
-          "title": "Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",
+          "title": "Nivell de compliment nacional dels drets laborals (llibertat d'associació i negociació col·lectiva) conformement a les fonts textuals de l'Organització Internacional del Treball (OIT) i la legislació interna, desglossat per sexe i estatus migratori",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-8-2",
@@ -935,7 +935,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
+          "title": "PIB generat directament pel turisme en proporció al PIB total i a la taxa de creixement",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-9-1",
@@ -943,7 +943,7 @@
         },
         {
           "id": "8-10-1",
-          "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
+          "title": "a) Nombre de sucursals de bancs comercials per cada 100.000 adults i b) nombre de caixers automàtics per cada 100.000 adults",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-10-1",
@@ -951,7 +951,7 @@
         },
         {
           "id": "8-10-2",
-          "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
+          "title": "Proporció d'adults (a partir de 15 anys d'edat) que tenen un compte en un banc o una altra institució financera o un proveïdor de serveis de diners mòbils",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-10-2",
@@ -959,7 +959,7 @@
         },
         {
           "id": "8-a-1",
-          "title": "Aid for Trade commitments and disbursements",
+          "title": "Compromisos i desemborsaments en relació amb la iniciativa Ajuda per al Comerç",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-a-1",
@@ -967,7 +967,7 @@
         },
         {
           "id": "8-b-1",
-          "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
+          "title": "Existència d'una estratègia nacional organitzada i en marxa per a l'ús dels joves, com a estratègia independent o com a part d'una estratègia nacional d'ocupació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-b-1",
@@ -978,12 +978,12 @@
   {
     "goal": {
       "id": "9",
-      "title": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",
+      "title": "Construir infraestructures resilients, promoure la industrialització inclusiva i sostenible i fomentar la innovació",
       "indicators": [
         
         {
           "id": "9-1-1",
-          "title": "Proportion of the rural population who live within 2 km of an all-season road",
+          "title": "Proporció de la població rural que viu a menys de 2 km d'una carretera transitable tot l'any",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-1-1",
@@ -991,7 +991,7 @@
         },
         {
           "id": "9-1-2",
-          "title": "Passenger and freight volumes, by mode of transport",
+          "title": "Volum de transport de passatgers i càrrega, desglossat per mitjà de transport",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-1-2",
@@ -999,7 +999,7 @@
         },
         {
           "id": "9-2-1",
-          "title": "Manufacturing value added as a proportion of GDP and per capita",
+          "title": "Valor afegit del sector manufacturo en proporció al PIB i per càpita",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-2-1",
@@ -1007,7 +1007,7 @@
         },
         {
           "id": "9-2-2",
-          "title": "Manufacturing employment as a proportion of total employment",
+          "title": "Ús del sector manufacturer en proporció a l'ocupació total",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-2-2",
@@ -1015,7 +1015,7 @@
         },
         {
           "id": "9-3-1",
-          "title": "Proportion of small-scale industries in total industry value added",
+          "title": "Proporció del valor afegit total del sector industrial corresponent a les petites indústries",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-3-1",
@@ -1023,7 +1023,7 @@
         },
         {
           "id": "9-3-2",
-          "title": "Proportion of small-scale industries with a loan or line of credit",
+          "title": "Proporció de les petites indústries que han obtingut un préstec o una línia de crèdit",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-3-2",
@@ -1031,7 +1031,7 @@
         },
         {
           "id": "9-4-1",
-          "title": "CO2 emission per unit of value added",
+          "title": "Emissions de CO2 per unitat de valor afegit",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-4-1",
@@ -1039,7 +1039,7 @@
         },
         {
           "id": "9-5-1",
-          "title": "Research and development expenditure as a proportion of GDP",
+          "title": "Despeses en recerca i desenvolupament en proporció al PIB",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-5-1",
@@ -1047,7 +1047,7 @@
         },
         {
           "id": "9-5-2",
-          "title": "Researchers (in full-time equivalent) per million inhabitants",
+          "title": "Nombre d'investigadors (en equivalent a temps complet) per cada milió d'habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-5-2",
@@ -1055,7 +1055,7 @@
         },
         {
           "id": "9-a-1",
-          "title": "Total official international support (official development assistance plus other official flows) to infrastructure",
+          "title": "Total de suport internacional oficial (assistència oficial per al desenvolupament més altres corrents oficials de recursos) destinat a la infraestructura",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-a-1",
@@ -1063,7 +1063,7 @@
         },
         {
           "id": "9-b-1",
-          "title": "Proportion of medium and high-tech industry value added in total value added",
+          "title": "Proporció del valor afegit per la indústria de tecnologia mitjana i alta en el valor afegit total",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-b-1",
@@ -1071,7 +1071,7 @@
         },
         {
           "id": "9-c-1",
-          "title": "Proportion of population covered by a mobile network, by technology",
+          "title": "Proporció de la població amb cobertura de xarxa mòbil, desglossada per tecnologia",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-c-1",
@@ -1082,12 +1082,12 @@
   {
     "goal": {
       "id": "10",
-      "title": "Reduce inequality within and among countries",
+      "title": "Reduir les desigualtats dins els països i entre els països",
       "indicators": [
         
         {
           "id": "10-1-1",
-          "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
+          "title": "Taxes de creixement per càpita de les despeses o ingressos de les llars del 40% més pobre de la població i la població total",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-1-1",
@@ -1095,7 +1095,7 @@
         },
         {
           "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "title": "Proporció de persones que viuen per sota del 50% de la mitjana dels ingressos, desglossada per sexe, edat i persones amb discapacitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-2-1",
@@ -1103,7 +1103,7 @@
         },
         {
           "id": "10-3-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "Proporció de la població que declara haver-se sentit personalment discriminada o assetjada en els últims 12 mesos per motius de discriminació prohibits pel dret internacional dels drets humans",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-3-1",
@@ -1111,7 +1111,7 @@
         },
         {
           "id": "10-4-1",
-          "title": "Labour share of GDP",
+          "title": "Proporció del PIB generada pel treball, que comprèn els salaris i les transferències de protecció social",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-4-1",
@@ -1119,7 +1119,7 @@
         },
         {
           "id": "10-4-2",
-          "title": "Redistributive impact of fiscal policy",
+          "title": "global_indicators.10-4-2-title",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-4-2",
@@ -1127,7 +1127,7 @@
         },
         {
           "id": "10-5-1",
-          "title": "Financial Soundness Indicators",
+          "title": "Indicadors de solidesa financera",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-5-1",
@@ -1135,7 +1135,7 @@
         },
         {
           "id": "10-6-1",
-          "title": "Proportion of members and voting rights of developing countries in international organizations",
+          "title": "Proporció de membres i drets de vot dels països en desenvolupament en organitzacions internacionals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-6-1",
@@ -1143,7 +1143,7 @@
         },
         {
           "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of monthly income earned in country of destination",
+          "title": "Cost de la contractació sufragat per l'empleat en proporció als ingressos anuals percebuts al país de destinació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-7-1",
@@ -1151,7 +1151,7 @@
         },
         {
           "id": "10-7-2",
-          "title": "Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people",
+          "title": "Nombre de països que han aplicat polítiques migratòries ben gestionades",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-7-2",
@@ -1159,7 +1159,7 @@
         },
         {
           "id": "10-7-3",
-          "title": "Number of people who died or disappeared in the process of migration towards an international destination",
+          "title": "global_indicators.10-7-3-title",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-7-3",
@@ -1167,7 +1167,7 @@
         },
         {
           "id": "10-7-4",
-          "title": "Proportion of the population who are refugees, by country of origin",
+          "title": "global_indicators.10-7-4-title",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-7-4",
@@ -1175,7 +1175,7 @@
         },
         {
           "id": "10-a-1",
-          "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
+          "title": "Proporció de línies aranzelàries que s'apliquen a les importacions dels països menys avançats i els països en desenvolupament amb aranzel zero",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-a-1",
@@ -1183,7 +1183,7 @@
         },
         {
           "id": "10-b-1",
-          "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",
+          "title": "Corrents totals de recursos per al desenvolupament, desglossades per país receptor i país donant i per tipus de corrent (per exemple, assistència oficial per al desenvolupament, inversió estrangera directa i altres corrents)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-b-1",
@@ -1191,7 +1191,7 @@
         },
         {
           "id": "10-c-1",
-          "title": "Remittance costs as a proportion of the amount remitted",
+          "title": "Cost de les remeses en proporció a les sumes remeses",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-c-1",
@@ -1202,12 +1202,12 @@
   {
     "goal": {
       "id": "11",
-      "title": "Make cities and human settlements inclusive, safe, resilient and sustainable",
+      "title": "Aconseguir que les ciutats i els assentaments humans siguen inclusius, segurs, resilients i sostenibles",
       "indicators": [
         
         {
           "id": "11-1-1",
-          "title": "Proportion of urban population living in slums, informal settlements or inadequate housing",
+          "title": "Proporció de la població urbana que viu en barris marginals, assentaments informals o habitatges inadequats",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-1-1",
@@ -1215,7 +1215,7 @@
         },
         {
           "id": "11-2-1",
-          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
+          "title": "Proporció de la població que té fàcil accés al transport públic, desglossada per sexe, edat i persones amb discapacitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-2-1",
@@ -1223,7 +1223,7 @@
         },
         {
           "id": "11-3-1",
-          "title": "Ratio of land consumption rate to population growth rate",
+          "title": "Relació entre la taxa de consum de terres i la taxa de creixement de la població",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-3-1",
@@ -1231,7 +1231,7 @@
         },
         {
           "id": "11-3-2",
-          "title": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
+          "title": "Proporció de ciutats que compten amb una estructura de participació directa de la societat civil en la planificació i la gestió urbanes i funcionen amb regularitat i democràticament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-3-2",
@@ -1239,7 +1239,7 @@
         },
         {
           "id": "11-4-1",
-          "title": "Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)",
+          "title": "Total de despeses (públiques i privades) per càpita destinades a la preservació, protecció i conservació de tot el patrimoni cultural i natural, desglossat per tipus de patrimoni (cultural, natural, mixt i reconegut pel Centre del Patrimoni Mundial), nivell de govern (nacional, regional i local o municipal), tipus de despeses (despeses de funcionament o inversions) i tipus de finançament privat (donacions en espècie, finançament procedent del sector privat sense fins de lucre i patrocini)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-4-1",
@@ -1247,7 +1247,7 @@
         },
         {
           "id": "11-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-5-1",
@@ -1255,7 +1255,7 @@
         },
         {
           "id": "11-5-2",
-          "title": "Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",
+          "title": "Pèrdues econòmiques directes en relació amb el PIB mundial, danys en la infraestructura essencial i nombre d'interrupcions dels serveis bàsics atribuïts a desastres",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-5-2",
@@ -1263,7 +1263,7 @@
         },
         {
           "id": "11-6-1",
-          "title": "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities",
+          "title": "Proporció de deixalles sòlides urbanes recollides periòdicament i amb una descàrrega final adequada respecte del total de deixalles sòlides urbanes generades, desglossada per ciutat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-6-1",
@@ -1271,7 +1271,7 @@
         },
         {
           "id": "11-6-2",
-          "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
+          "title": "Nivells mitjans anuals de partícules fines en suspensió (per exemple, PM2.5 i PM10) a les ciutats (ponderats segons la població)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-6-2",
@@ -1279,7 +1279,7 @@
         },
         {
           "id": "11-7-1",
-          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
+          "title": "Proporció mitjana de la superfície edificada de les ciutats que es dedica a espais oberts per a ús públic de tots, desglossada per sexe, edat i persones amb discapacitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-7-1",
@@ -1287,7 +1287,7 @@
         },
         {
           "id": "11-7-2",
-          "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
+          "title": "Proporció de persones que han estat víctimes d'assetjament físic o sexual en els últims 12 mesos, desglossada per sexe, edat, grau de discapacitat i lloc del fet",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-7-2",
@@ -1295,7 +1295,7 @@
         },
         {
           "id": "11-a-1",
-          "title": "Number of countries that have national urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space",
+          "title": "Proporció de la població resident en ciutats que apliquen plans de desenvolupament urbà i regional que tenen en compte les previsions demogràfiques i les necessitats de recursos, desglossada per grandària de ciutat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-a-1",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": "11-b-1",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-b-1",
@@ -1311,7 +1311,7 @@
         },
         {
           "id": "11-b-2",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "Proporció de governs locals que adopten i apliquen estratègies locals de reducció del risc de desastres d'acord amb les estratègies nacionals de reducció del risc de desastres",
           "description": "",
           "keywords": "",
           "href": "/estadistica/11-b-2",
@@ -1322,12 +1322,12 @@
   {
     "goal": {
       "id": "12",
-      "title": "Ensure sustainable consumption and production patterns",
+      "title": "Garantir modalitats de consum i producció sostenibles",
       "indicators": [
         
         {
           "id": "12-1-1",
-          "title": "Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",
+          "title": "Nombre de països que inclouen com a prioritat o fita en les polítiques nacionals plans d'acció nacionals sobre el consum i la producció sostenibles",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-1-1",
@@ -1335,7 +1335,7 @@
         },
         {
           "id": "12-2-1",
-          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
+          "title": "Empremta material en termes absoluts, empremta material per càpita i empremta material per PIB",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-2-1",
@@ -1343,7 +1343,7 @@
         },
         {
           "id": "12-2-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+          "title": "Consum material intern en termes absoluts, consum material intern per càpita i consum material intern per PIB",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-2-2",
@@ -1351,7 +1351,7 @@
         },
         {
           "id": "12-3-1",
-          "title": "(a) Food loss index and (b) food waste index",
+          "title": "Índex mundial de pèrdues d'aliments",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-3-1",
@@ -1359,7 +1359,7 @@
         },
         {
           "id": "12-4-1",
-          "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
+          "title": "Nombre de parts en els acords ambientals multilaterals internacionals sobre deixalles perilloses i altres productes químics que compleixen els seus compromisos i obligacions de transmetre informació com s'exigeix en cadascun d'aquests acords",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-4-1",
@@ -1367,7 +1367,7 @@
         },
         {
           "id": "12-4-2",
-          "title": "(a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment",
+          "title": "Deixalles perilloses generades per càpita i proporció de deixalles perilloses tractades, desglossats per tipus de tractament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-4-2",
@@ -1375,7 +1375,7 @@
         },
         {
           "id": "12-5-1",
-          "title": "National recycling rate, tons of material recycled",
+          "title": "Taxa nacional de reciclatge, en tones de material reciclat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-5-1",
@@ -1383,7 +1383,7 @@
         },
         {
           "id": "12-6-1",
-          "title": "Number of companies publishing sustainability reports",
+          "title": "Nombre d'empreses que publiquen informes sobre sostenibilitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-6-1",
@@ -1391,7 +1391,7 @@
         },
         {
           "id": "12-7-1",
-          "title": "Degree of sustainable public procurement policies and action plan implementation",
+          "title": "Nombre de països que apliquen polítiques i plans d'acció sostenibles en matèria d'adquisicions públiques",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-7-1",
@@ -1399,7 +1399,7 @@
         },
         {
           "id": "12-8-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Grau en què i) l'educació per a la ciutadania mundial i ii) l'educació per al desenvolupament sostenible (inclosa l'educació sobre el canvi climàtic) s'incorporen en a) les polítiques nacionals d'educació, b) els plans d'estudi, c) la formació del professorat i d) l'avaluació dels estudiants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-8-1",
@@ -1407,7 +1407,7 @@
         },
         {
           "id": "12-a-1",
-          "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)",
+          "title": "Quantitat de suport en matèria de recerca i desenvolupament prestat als països en desenvolupament per al consum i la producció sostenibles i les tecnologies ecològicament racionals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-a-1",
@@ -1415,7 +1415,7 @@
         },
         {
           "id": "12-b-1",
-          "title": "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability",
+          "title": "Nombre d'estratègies o polítiques de turisme sostenible i de plans d'acció aplicats que inclouen instruments de seguiment i avaluació convinguts",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-b-1",
@@ -1423,7 +1423,7 @@
         },
         {
           "id": "12-c-1",
-          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption)",
+          "title": "Quantia dels subsidis als combustibles fòssils per unitat de PIB (producció i consum) i en proporció al total de les despeses nacionals en combustibles fòssils",
           "description": "",
           "keywords": "",
           "href": "/estadistica/12-c-1",
@@ -1434,12 +1434,12 @@
   {
     "goal": {
       "id": "13",
-      "title": "Take urgent action to combat climate change and its impacts",
+      "title": "Adoptar mesures urgents per a combatre el canvi climàtic i els efectes que se'n deriven",
       "indicators": [
         
         {
           "id": "13-1-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-1-1",
@@ -1447,7 +1447,7 @@
         },
         {
           "id": "13-1-2",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-1-2",
@@ -1455,7 +1455,7 @@
         },
         {
           "id": "13-1-3",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "Proporció de governs locals que adopten i apliquen estratègies locals de reducció del risc de desastres d'acord amb les estratègies nacionals de reducció del risc de desastres",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-1-3",
@@ -1463,7 +1463,7 @@
         },
         {
           "id": "13-2-1",
-          "title": "Number of countries with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",
+          "title": "Nombre de països que han comunicat l'establiment o la posada en marxa d'una política, estratègia o pla integrat que augmenti la seva capacitat per a adaptar-se als efectes adversos del canvi climàtic i que promouen la resiliència al clima i un desenvolupament amb baixes emissions de gasos d'efecte d'hivernacle sense comprometre per això la producció d'aliments (per exemple, un pla nacional d'adaptació, una contribució determinada a nivell nacional, una comunicació nacional o un informe biennal d'actualització)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-2-1",
@@ -1471,7 +1471,7 @@
         },
         {
           "id": "13-2-2",
-          "title": "Total greenhouse gas emissions per year",
+          "title": "global_indicators.13-2-2-title",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-2-2",
@@ -1479,7 +1479,7 @@
         },
         {
           "id": "13-3-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Nombre de països que han incorporat la mitigació del canvi climàtic, l'adaptació a ell, la reducció dels seus efectes i l'alerta primerenca en els plans d'estudis de l'ensenyament primari, secundària i terciària",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-3-1",
@@ -1487,7 +1487,7 @@
         },
         {
           "id": "13-a-1",
-          "title": "Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025",
+          "title": "Suma anual, en dòlars dels Estats Units, mobilitzada entre 2020 i 2025 com a part del compromís d'arribar a 100.000 milions de dòlars",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-a-1",
@@ -1495,7 +1495,7 @@
         },
         {
           "id": "13-b-1",
-          "title": "Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",
+          "title": "Nombre de països menys avançats i petits Estats insulars en desenvolupament que reben suport especialitzat, i quantitat de suport, en particular financer, tecnològic i de creació de capacitat, per als mecanismes de desenvolupament de la capacitat de planificació i gestió eficaces en relació amb el canvi climàtic, inclosos els centrats en les dones, els joves i les comunitats locals i marginades",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-b-1",
@@ -1506,12 +1506,12 @@
   {
     "goal": {
       "id": "14",
-      "title": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development",
+      "title": "Conservar i utilitzar de forma sostenible els oceans, els mars i els recursos marins per al desenvolupament sostenible",
       "indicators": [
         
         {
           "id": "14-1-1",
-          "title": "(a) Index of coastal eutrophication; and (b) plastic debris density",
+          "title": "Índex d'eutrofització costanera i densitat de detritus plàstics flotants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-1-1",
@@ -1519,7 +1519,7 @@
         },
         {
           "id": "14-2-1",
-          "title": "Number of countries using ecosystem-based approaches to managing marine areas",
+          "title": "Proporció de zones econòmiques exclusives nacionals gestionades mitjançant enfocaments basats en els ecosistemes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-2-1",
@@ -1527,7 +1527,7 @@
         },
         {
           "id": "14-3-1",
-          "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations",
+          "title": "Acidesa mitjana de la mar (pH) mesura en un conjunt convingut d'estacions de mostreig representatives",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-3-1",
@@ -1535,7 +1535,7 @@
         },
         {
           "id": "14-4-1",
-          "title": "Proportion of fish stocks within biologically sustainable levels",
+          "title": "Proporció de poblacions de peixos els nivells dels quals són biològicament sostenibles",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-4-1",
@@ -1543,7 +1543,7 @@
         },
         {
           "id": "14-5-1",
-          "title": "Coverage of protected areas in relation to marine areas",
+          "title": "Cobertura de les zones protegides en relació amb les zones marines",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-5-1",
@@ -1551,7 +1551,7 @@
         },
         {
           "id": "14-6-1",
-          "title": "Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",
+          "title": "Progressos realitzats pels països en el grau d'aplicació dels instruments internacionals l'objectiu dels quals és combatre la pesca il·legal, no declarada i no reglamentada",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-6-1",
@@ -1559,7 +1559,7 @@
         },
         {
           "id": "14-7-1",
-          "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
+          "title": "Proporció del PIB corresponent a la pesca sostenible en els petits Estats insulars en desenvolupament, als països menys avançats i en tots els països",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-7-1",
@@ -1567,7 +1567,7 @@
         },
         {
           "id": "14-a-1",
-          "title": "Proportion of total research budget allocated to research in the field of marine technology",
+          "title": "Proporció del pressupost total de recerca assignada a la recerca en el camp de la tecnologia marina",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-a-1",
@@ -1575,7 +1575,7 @@
         },
         {
           "id": "14-b-1",
-          "title": "Degree of application of a legal/regulatory/ policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
+          "title": "Progressos realitzats pels països en el grau d'aplicació d'un marc jurídic, reglamentari, normatiu o institucional que reconegui i protegeixi els drets d'accés per a la pesca en petita escala",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-b-1",
@@ -1583,7 +1583,7 @@
         },
         {
           "id": "14-c-1",
-          "title": "Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources",
+          "title": "Nombre de països que, mitjançant marcs jurídicos, normatius i institucionals, avancen en la ratificació, l'acceptació i la implementació dels instruments relacionats amb els oceans que apliquen el dret internacional reflectit en la Convenció de les Nacions Unides sobre el Dret de la Mar per a la conservació i l'ús sostenible dels oceans i els seus recursos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/14-c-1",
@@ -1594,12 +1594,12 @@
   {
     "goal": {
       "id": "15",
-      "title": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
+      "title": "Protegir, restaurar i promoure l’ús sostenible dels ecosistemes terrestres, gestionar els boscos de manera sostenible, combatre la desertificació, aturar i revertir la degradació del sòl, i aturar la pèrdua de la biodiversitat",
       "indicators": [
         
         {
           "id": "15-1-1",
-          "title": "Forest area as a proportion of total land area",
+          "title": "Superfície forestal en proporció a la superfície total",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-1-1",
@@ -1607,7 +1607,7 @@
         },
         {
           "id": "15-1-2",
-          "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
+          "title": "Proporció de llocs importants per a la biodiversitat terrestre i de l'aigua dolça inclosos en zones protegides, desglossada per tipus d'ecosistema",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-1-2",
@@ -1615,7 +1615,7 @@
         },
         {
           "id": "15-2-1",
-          "title": "Progress towards sustainable forest management",
+          "title": "Avanços cap a la gestió forestal sostenible",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-2-1",
@@ -1623,7 +1623,7 @@
         },
         {
           "id": "15-3-1",
-          "title": "Proportion of land that is degraded over total land area",
+          "title": "Proporció de terres degradades en comparació amb la superfície total",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-3-1",
@@ -1631,7 +1631,7 @@
         },
         {
           "id": "15-4-1",
-          "title": "Coverage by protected areas of important sites for mountain biodiversity",
+          "title": "Llocs importants per a la biodiversitat de les muntanyes inclosos en zones protegides",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-4-1",
@@ -1639,7 +1639,7 @@
         },
         {
           "id": "15-4-2",
-          "title": "Mountain Green Cover Index",
+          "title": "Índex de cobertura verda de les muntanyes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-4-2",
@@ -1647,7 +1647,7 @@
         },
         {
           "id": "15-5-1",
-          "title": "Red List Index",
+          "title": "Índex de la Llista Vermella",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-5-1",
@@ -1655,7 +1655,7 @@
         },
         {
           "id": "15-6-1",
-          "title": "Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
+          "title": "Nombre de països que han adoptat marcs legislatius, administratius i normatius per a assegurar una distribució justa i equitativa dels beneficis",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-6-1",
@@ -1663,7 +1663,7 @@
         },
         {
           "id": "15-7-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "Proporció d'espècimens de flora i fauna silvestre comercialitzats procedents de la caça furtiva o el tràfic il·lícit",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-7-1",
@@ -1671,7 +1671,7 @@
         },
         {
           "id": "15-8-1",
-          "title": "Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species",
+          "title": "Proporció de països que han aprovat la legislació nacional pertinent i han destinat recursos suficients per a la prevenció o el control de les espècies exòtiques invasores",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-8-1",
@@ -1679,7 +1679,7 @@
         },
         {
           "id": "15-9-1",
-          "title": "(a) Number of countries that have established national targets in accordance with or similar to Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020 in their national biodiversity strategy and action plans and the progress reported towards these targets; and (b) integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting",
+          "title": "Avanços en l'assoliment de les metes nacionals establertes de conformitat amb la segona Meta de Aichi per a la Diversitat Biològica del Pla Estratègic per a la Diversitat Biològica 2011‐2020",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-9-1",
@@ -1687,7 +1687,7 @@
         },
         {
           "id": "15-a-1",
-          "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
+          "title": "Assistència oficial per al desenvolupament i despesa pública destinats a la conservació i l'ús sostenible de la biodiversitat i els ecosistemes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-a-1",
@@ -1695,7 +1695,7 @@
         },
         {
           "id": "15-b-1",
-          "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
+          "title": "Assistència oficial per al desenvolupament i despesa pública destinats a la conservació i l'ús sostenible de la biodiversitat i els ecosistemes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-b-1",
@@ -1703,7 +1703,7 @@
         },
         {
           "id": "15-c-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "Proporció d'espècimens de flora i fauna silvestre comercialitzats procedents de la caça furtiva o el tràfic il·lícit",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-c-1",
@@ -1714,12 +1714,12 @@
   {
     "goal": {
       "id": "16",
-      "title": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
+      "title": "Promoure societats pacífiques i inclusives per tal d’aconseguir un desenvolupament sostenible, proporcionar accés a la justícia per a totes les persones i desenvolupar institucions eficaces, responsables i inclusives a tots els nivells",
       "indicators": [
         
         {
           "id": "16-1-1",
-          "title": "Number of victims of intentional homicide per 100,000 population, by sex and age",
+          "title": "Nombre de víctimes d'homicidis intencionals per cada 100.000 habitants, desglossat per sexe i edat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-1-1",
@@ -1727,7 +1727,7 @@
         },
         {
           "id": "16-1-2",
-          "title": "Conflict-related deaths per 100,000 population, by sex, age and cause",
+          "title": "Morts relacionades amb conflictes per cada 100.000 habitants, desglossades per sexe, edat i causa",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-1-2",
@@ -1735,7 +1735,7 @@
         },
         {
           "id": "16-1-3",
-          "title": "Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",
+          "title": "Proporció de la població que ha sofert a) violència física, b) violència psicològica i c) violència sexual en els últims 12 mesos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-1-3",
@@ -1743,7 +1743,7 @@
         },
         {
           "id": "16-1-4",
-          "title": "Proportion of population that feel safe walking alone around the area they live",
+          "title": "Proporció de la població que se sent segura en caminar sola en la seva zona de residència",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-1-4",
@@ -1751,7 +1751,7 @@
         },
         {
           "id": "16-2-1",
-          "title": "Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month",
+          "title": "Proporció de nens d'entre 1 i 17 anys que han sofert algun càstig físic o agressió psicològica a les mans dels seus cuidadors en l'últim mes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-2-1",
@@ -1759,7 +1759,7 @@
         },
         {
           "id": "16-2-2",
-          "title": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",
+          "title": "Nombre de víctimes del tràfic de persones per cada 100.000 habitants, desglossat per sexe, edat i tipus d'explotació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-2-2",
@@ -1767,7 +1767,7 @@
         },
         {
           "id": "16-2-3",
-          "title": "Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18",
+          "title": "Proporció de dones i homes joves d'entre 18 i 29 anys que van sofrir violència sexual abans de complir els 18 anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-2-3",
@@ -1775,7 +1775,7 @@
         },
         {
           "id": "16-3-1",
-          "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms",
+          "title": "Proporció de víctimes de violència en els últims 12 mesos que han notificat la seva victimització a les autoritats competents o altres mecanismes de resolució de conflictes reconeguts oficialment",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-3-1",
@@ -1783,7 +1783,7 @@
         },
         {
           "id": "16-3-2",
-          "title": "Unsentenced detainees as a proportion of overall prison population",
+          "title": "Proporció de detinguts que no han estat condemnats en el conjunt de la població reclusa total",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-3-2",
@@ -1791,7 +1791,7 @@
         },
         {
           "id": "16-3-3",
-          "title": "Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism",
+          "title": "global_indicators.16-3-3-title",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-3-3",
@@ -1799,7 +1799,7 @@
         },
         {
           "id": "16-4-1",
-          "title": "Total value of inward and outward illicit financial flows (in current United States dollars)",
+          "title": "Valor total dels corrents financers il·lícits entrants i sortints (en dòlars corrents dels Estats Units)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-4-1",
@@ -1807,7 +1807,7 @@
         },
         {
           "id": "16-4-2",
-          "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",
+          "title": "Proporció d'armes confiscades, trobades o lliurades l'origen o el context de les quals il·lícits han estat determinats o establerts per una autoritat competent, de conformitat amb els instruments internacionals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-4-2",
@@ -1815,7 +1815,7 @@
         },
         {
           "id": "16-5-1",
-          "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
+          "title": "Proporció de persones que han tingut almenys un contacte amb un funcionari públic i que han pagat un suborn a un funcionari públic, o a les quals un funcionari públic els ha demanat un suborn, durant els últims 12 mesos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-5-1",
@@ -1823,7 +1823,7 @@
         },
         {
           "id": "16-5-2",
-          "title": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months",
+          "title": "Proporció de negocis que han tingut almenys un contacte amb un funcionari públic i que han pagat un suborn a un funcionari públic, o als quals un funcionari públic els ha demanat un suborn, durant els últims 12 mesos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-5-2",
@@ -1831,7 +1831,7 @@
         },
         {
           "id": "16-6-1",
-          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
+          "title": "Despeses primàries del govern en proporció al pressupost aprovat originalment, desglossats per sector (o per codis pressupostaris o elements similars)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-6-1",
@@ -1839,7 +1839,7 @@
         },
         {
           "id": "16-6-2",
-          "title": "Proportion of population satisfied with their last experience of public services",
+          "title": "Proporció de la població que se sent satisfeta amb la seva última experiència dels serveis públics",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-6-2",
@@ -1847,7 +1847,7 @@
         },
         {
           "id": "16-7-1",
-          "title": "Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",
+          "title": "Proporcions de places (desglossades per sexe, edat, persones amb discapacitat i grups de població) en les institucions públiques (assemblees legislatives nacionals i locals, administració pública, poder judicial), en comparació amb la distribució nacional",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-7-1",
@@ -1855,7 +1855,7 @@
         },
         {
           "id": "16-7-2",
-          "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",
+          "title": "Proporció de la població que considera que l'adopció de decisions és inclusiva i respon a les seves necessitats, desglossada per sexe, edat, discapacitat i grup de població",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-7-2",
@@ -1863,7 +1863,7 @@
         },
         {
           "id": "16-8-1",
-          "title": "Proportion of members and voting rights of developing countries in international organizations",
+          "title": "Proporció de membres i drets de vot dels països en desenvolupament en organitzacions internacionals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-8-1",
@@ -1871,7 +1871,7 @@
         },
         {
           "id": "16-9-1",
-          "title": "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age",
+          "title": "Proporció de nens menors de 5 anys el naixement dels quals s'ha registrat davant una autoritat civil, desglossada per edat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-9-1",
@@ -1879,7 +1879,7 @@
         },
         {
           "id": "16-10-1",
-          "title": "Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",
+          "title": "Nombre de casos verificats d'assassinat, segrest, desaparició forçada, detenció arbitrària i tortura de periodistes, membres associats dels mitjans de comunicació, sindicalistes i defensors dels drets humans, en els últims 12 mesos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-10-1",
@@ -1887,7 +1887,7 @@
         },
         {
           "id": "16-10-2",
-          "title": "Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",
+          "title": "Nombre de països que adopten i apliquen garanties constitucionals, legals o normatives per a l'accés públic a la informació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-10-2",
@@ -1895,7 +1895,7 @@
         },
         {
           "id": "16-a-1",
-          "title": "Existence of independent national human rights institutions in compliance with the Paris Principles",
+          "title": "Existència d'institucions nacionals independents de drets humans, en compliment dels Principis de París",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-a-1",
@@ -1903,7 +1903,7 @@
         },
         {
           "id": "16-b-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "Proporció de la població que declara haver-se sentit personalment discriminada o assetjada en els últims 12 mesos per motius de discriminació prohibits pel dret internacional dels drets humans",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-b-1",
@@ -1914,12 +1914,12 @@
   {
     "goal": {
       "id": "17",
-      "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
+      "title": "Enfortir els mitjans per a implementar i revitalitzar l’Aliança Mundial per al Desenvolupament Sostenible",
       "indicators": [
         
         {
           "id": "17-1-1",
-          "title": "Total government revenue as a proportion of GDP, by source",
+          "title": "Total d'ingressos del govern en proporció al PIB, desglossat per font.",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-1-1",
@@ -1927,7 +1927,7 @@
         },
         {
           "id": "17-1-2",
-          "title": "Proportion of domestic budget funded by domestic taxes",
+          "title": "Proporció del pressupost nacional finançat per impostos interns",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-1-2",
@@ -1935,7 +1935,7 @@
         },
         {
           "id": "17-2-1",
-          "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",
+          "title": "Assistència oficial per al desenvolupament neta, total i per als països menys avançats en proporció a l'ingrés nacional brut (INB) dels donants del Comitè d'Assistència per al Desenvolupament de l'Organització de Cooperació i Desenvolupament Econòmics (OCDE)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-2-1",
@@ -1943,7 +1943,7 @@
         },
         {
           "id": "17-3-1",
-          "title": "Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income",
+          "title": "Inversió estrangera directa, assistència oficial per al desenvolupament i cooperació Sud-Sud en proporció al pressupost nacional total",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-3-1",
@@ -1951,7 +1951,7 @@
         },
         {
           "id": "17-3-2",
-          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
+          "title": "Volum de remeses (en dòlars dels Estats Units) en proporció al PIB total",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-3-2",
@@ -1959,7 +1959,7 @@
         },
         {
           "id": "17-4-1",
-          "title": "Debt service as a proportion of exports of goods and services",
+          "title": "Servei del deute en proporció a les exportacions de béns i serveis",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-4-1",
@@ -1967,7 +1967,7 @@
         },
         {
           "id": "17-5-1",
-          "title": "Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries",
+          "title": "Nombre de països que adopten i apliquen sistemes de promoció de les inversions en favor dels països menys avançats",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-5-1",
@@ -1975,7 +1975,7 @@
         },
         {
           "id": "17-6-1",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+          "title": "Nombre d'acords i programes de cooperació en matèria de ciència o tecnologia subscrits pels països, desglossat per tipus de cooperació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-6-1",
@@ -1983,7 +1983,7 @@
         },
         {
           "id": "17-7-1",
-          "title": "Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
+          "title": "Total dels fons aprovats per als països en desenvolupament a fi de promoure el desenvolupament, la transferència i la difusió de tecnologies ecològicament racionals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-7-1",
@@ -1991,7 +1991,7 @@
         },
         {
           "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
+          "title": "Proporció de persones que utilitzen Internet",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-8-1",
@@ -1999,7 +1999,7 @@
         },
         {
           "id": "17-9-1",
-          "title": "Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries",
+          "title": "Valor en dòlars de l'assistència financera i tècnica (fins i tot mitjançant la cooperació Nord-Sud, Sud‐Sud i triangular) promesa als països en desenvolupament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-9-1",
@@ -2007,7 +2007,7 @@
         },
         {
           "id": "17-10-1",
-          "title": "Worldwide weighted tariff-average",
+          "title": "Mitjana aranzelària mundial ponderada",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-10-1",
@@ -2015,7 +2015,7 @@
         },
         {
           "id": "17-11-1",
-          "title": "Developing countries’ and least developed countries’ share of global exports",
+          "title": "Participació dels països en desenvolupament i els països menys avançats en les exportacions mundials",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-11-1",
@@ -2023,7 +2023,7 @@
         },
         {
           "id": "17-12-1",
-          "title": "Weighted average tariffs faced by developing countries, least developed countries and small island developing States",
+          "title": "Mitjana dels aranzels que enfronten els països en desenvolupament, els països menys avançats i els petits Estats insulars en desenvolupament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-12-1",
@@ -2031,7 +2031,7 @@
         },
         {
           "id": "17-13-1",
-          "title": "Macroeconomic Dashboard",
+          "title": "Tauler macroeconòmic",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-13-1",
@@ -2039,7 +2039,7 @@
         },
         {
           "id": "17-14-1",
-          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
+          "title": "Nombre de països que compten amb mecanismes per a millorar la coherència de les polítiques de desenvolupament sostenible",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-14-1",
@@ -2047,7 +2047,7 @@
         },
         {
           "id": "17-15-1",
-          "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
+          "title": "Grau d'utilització dels marcs de resultats i les eines de planificació dels propis països pels proveïdors de cooperació per al desenvolupament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-15-1",
@@ -2055,7 +2055,7 @@
         },
         {
           "id": "17-16-1",
-          "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
+          "title": "Nombre de països que informen dels seus progressos en els marcs de múltiples interessats per al seguiment de l'eficàcia de les activitats de desenvolupament que donen suport a l'assoliment dels Objectius de Desenvolupament Sostenible",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-16-1",
@@ -2063,7 +2063,7 @@
         },
         {
           "id": "17-17-1",
-          "title": "Amount in United States dollars committed to public-private partnerships for infrastructure",
+          "title": "Suma en dòlars dels Estats Units promesa a les: a) aliances públic-privades i b) aliances amb la societat civil",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-17-1",
@@ -2071,7 +2071,7 @@
         },
         {
           "id": "17-18-1",
-          "title": "Statistical capacity indicator for Sustainable Development Goal monitoring",
+          "title": "Proporció d'indicadors de desenvolupament sostenible produïts a nivell nacional, amb ple desglossament quan sigui pertinent per a la meta, de conformitat amb els Principis Fonamentals de les Estadístiques Oficials",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-18-1",
@@ -2079,7 +2079,7 @@
         },
         {
           "id": "17-18-2",
-          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
+          "title": "Nombre de països la legislació nacional dels quals sobre estadístiques compleix els Principis Fonamentals de les Estadístiques Oficials",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-18-2",
@@ -2087,7 +2087,7 @@
         },
         {
           "id": "17-18-3",
-          "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
+          "title": "Nombre de països que compten amb un pla estadístic nacional plenament finançat i en procés d'aplicació, desglossat per font de finançament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-18-3",
@@ -2095,7 +2095,7 @@
         },
         {
           "id": "17-19-1",
-          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
+          "title": "Valor en dòlars de tots els recursos proporcionats per a enfortir la capacitat estadística dels països en desenvolupament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-19-1",
@@ -2103,7 +2103,7 @@
         },
         {
           "id": "17-19-2",
-          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
+          "title": "Proporció de països que a) han realitzat almenys un cens de població i habitatge en els últims deu anys; i b) han registrat el 100% dels naixements i el 80% de les defuncions",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-19-2",

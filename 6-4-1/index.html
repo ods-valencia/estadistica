@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ca" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ods-valencia.github.io/data/en',
+  remoteDataBaseUrl: 'https://ods-valencia.github.io/data/ca',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ca',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -105,9 +105,9 @@ var translations = {
         
     <title>
         
-        Indicator 6.4.1 -
+        Indicador 6.4.1 -
         
-        Change in water-use efficiency over time - Indicators For The Sustainable Development Goals
+        Canvi en l&#39;ús eficient dels recursos hídrics amb el pas del temps - Indicadors per als Objectius de Desenvolupament Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213073512">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213075416">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -152,21 +152,21 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-ca
 layout-indicator
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alfa</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:test@example.com">comentaris</a>.
   </div>
 </div>
 
@@ -177,15 +177,15 @@ layout-indicator
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/estadistica/" id="home">
-    <img src="/estadistica/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/estadistica/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -196,8 +196,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -214,8 +214,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/6-4-1/">
               Español
@@ -230,9 +230,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/estadistica/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -248,8 +248,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/6-4-1/">
               Español
@@ -263,8 +263,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -275,8 +275,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -295,19 +295,19 @@ data-event-label="high"
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/estadistica/goals">Goals</a>
+    <a href="/estadistica/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/reporting-status">Reporting Status</a>
+    <a href="/estadistica/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/about">About</a>
+    <a href="/estadistica/about">Informació</a>
 </li><li class="nav-link ">
     <a href="/estadistica/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/news">Updates</a>
+    <a href="/estadistica/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -319,8 +319,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/6-4-1/">
               Español
@@ -336,8 +336,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -348,8 +348,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -366,29 +366,29 @@ data-event-label="high"
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/estadistica/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/estadistica/goals">Goals</a>
+    <a href="/estadistica/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/reporting-status">Reporting Status</a>
+    <a href="/estadistica/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/about">About</a>
+    <a href="/estadistica/about">Informació</a>
 </li><li class="nav-link ">
     <a href="/estadistica/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/news">Updates</a>
+    <a href="/estadistica/news">Actualitzacions</a>
 </li>
 
 </ul>
@@ -421,15 +421,15 @@ data-event-label="high"
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Mostra subcategories: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Subcategoríes - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Select all</button>
-            <button data-type="clear">Clear all</button>
+            <button data-type="select">Seleccionar-ho tot</button>
+            <button data-type="clear">Netegeu-ho tot</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -440,10 +440,10 @@ data-event-label="high"
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Disponible quan es selecciona «<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>»
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          No options available because of filters above
+          No hi ha opcions disponibles a causa dels filtres anteriors
         </div>
       <% }%>
 
@@ -455,9 +455,9 @@ data-event-label="high"
   
   <% if(units.length > 1) { %>
   
-    <h4>Unit of Measurement</h4>
+    <h4>Unitat de mesura</h4>
     <fieldset>
-      <legend class="sr-only">Unit of Measurement</legend>
+      <legend class="sr-only">Unitat de mesura</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -472,9 +472,9 @@ data-event-label="high"
   
   <% if(serieses.length > 1) { %>
   
-    <h4>Series</h4>
+    <h4>Sèrie</h4>
     <fieldset>
-      <legend class="sr-only">Series</legend>
+      <legend class="sr-only">Sèrie</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -485,19 +485,19 @@ data-event-label="high"
   
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","annotation_series_break":"Series break","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"Fita 2030","announce_data_added":"Gràfic i taula actualitzats per incloure les dades.","announce_data_not_available":"El gràfic i la taula no mostren dades.","announce_data_removed":"Gràfic i taula actualitzats per excloure les dades.","chart":"Gràfic","chart_annotation":"Anotació en el gràfic","clear_all":"Netegeu-ho tot","clear_selections":"Elimineu seleccions","data_keyboard_navigation":"Premeu Intro per navegar pels punts de dades amb les tecles de fletxa esquerra i dreta.","data_not_available":"Aquesta informació no està disponible. Trieu dades alternatives a mostrar.","data_tabular_alternative":"Per l'alternativa de dades tabulars, vegeu la pestanya Taula.","dataset_size_warning":"Hi ha massa conjunts de dades a mostrar en el gràfic. No es mostrarà tot fins que elimineu algunes seleccions.","download_chart":"Descarregar CSV del gràfic","download_chart_image":"Descarregar imatge del gràfic","download_chart_image_title":"Descarregar gràfic com imatge","download_csv":"Descarregar CSV","download_csv_title":"Descarregar com CSV","download_geojson":"Descarregar GeoJSON","download_geojson_title":"Descarregar com a GeoJSON","download_headline":"Descarregar CSV global","download_headline_title":"Descarregar dades globals com CSV","download_source":"Descarregar CSV font","download_source_sdmx":"Descarregar SDMX font","download_source_sdmx_title":"Descarregar les dades font com SDMX","download_source_title":"Descarregar les dades font com CSV","download_table":"Descarregueu la taula CSV","edit":"Editar","edit_configuration":"Editar la configuració","edit_data":"Editar dades","edit_metadata":"Editar metadades","footnote":"Nota","geographical_area":"Àrea geogràfica","global_metadata":"Metadades globals","global_metadata_blurb":"Aquesta taula proporciona informació sobre les metadades dels indicadors ODS tal com els defineix la Comissió d'Estadística de la ONU. La <a href=\"https://unstats.un.org/sdgs/metadata/\">Divisió d'Estadística de les Nacions Unides proporciona</a> les metadades globals completes.","legend_help":"Feu clic a la llegenda per a eliminar línies individuals del gràfic.","loading":"Carregant","loading_map":"Carregant mapa","map":"Mapa","map_search":"Cercar","map_search_hide":"Ocultar cerca","map_search_show":"Mostrar cerca","map_year_slider":"Control lliscant de l'any","national_metadata":"Metadades nacionals","national_metadata_blurb":"Aquesta taula proporciona metadades de l'indicador real disponible a partir de les estadístiques de %country_name més properes al corresponent indicador global SDG. Recordeu que fins i tot quan l'indicador global d'ODS estigui totalment disponible a partir de les estadístiques de %country_adjective, s'ha de consultar aquesta taula per obtenir informació sobre la metodologia nacional i una altra informació de metadades específics de %country_adjective.","next":"Següent indicador","no_data_hint":"No hi ha opcions disponibles a causa dels filtres anteriors","plot_legend_description":"Llegenda del gràfic: llista de línies incloses en el gràfic","previous":"Indicador anterior","select_all":"Seleccionar-ho tot","series":"Sèrie","series_help":"Trieu categories de les llistes desplegables a continuació per veure diferents desglossaments de les dades. Alguns no estaran disponibles fins que es triï un nivell superior.","source":"Font","sources":"Fonts","status":"Estat de l'indicador","sub_categories":"Subcategoríes","sub_categories_show":"Mostra subcategories:","table":"Taula","table_column_sort":"Feu clic per a ordenar per aquesta columna","tags":"Etiquetes","unit":"Unitat","unit_of_measurement":"Unitat de mesura","units_type":"Tipus d'unitats","variable_hint":"Disponible quan es selecciona «%field»","view_indicator_list":"Veure la llista d'indicadors d'aquest objectiu"};</script>
 
-<script>translations['data'] = null;</script>
+<script>translations['data'] = {"0-10 scale":"Escala de 0 a 10","1000 tn CO2":"1000 tones de CO2","AOWDC":"Agregat de: aigua_desenvolupament local_sostenibilitat transversal","Age":"Edat","Air_Pollutants":"Contaminants de l'aire","Area":"Àrea","Average Ha":"Mitjana de Ha","Average days":"Mitjana de dies","Barcelona Metropolitan Area":"Àrea Metropolitana Barcelona","Barcelona(0-15 population)":"Barcelona(població 0-15 anys)","Basic_Skill":"Habilitats bàsiques","Catalan":"Català","Central position":"Posició central","City":"Ciutat","Commerce":"Comerç","Commerce_Consumption_Tourism":"Comerç_Consum_Turisme","Confidence_Interval_95%":"Interval de confiança 95%","Cultural activity":"Activitat cultural","Cumulated GDP Growth":"Creixement acumulat del PIB","Difference between positive and negative responses":"Diferència entre respostes positives i negatives","Differential higuest lowest rate":"Diferencial de la taxa més baixa","District":"Districte","Domestic":"Domèstic","Embarcacions Auxiliars":"Embarcacions Auxiliars","Embarcacions d'Arrossegament":"Embarcacions d'Arrossegament","Embarcacions d'Arts menors":"Embarcacions d'Arts menors","Embarcacions d'Encerclament":"Embarcacions d'Encerclament","Energy":"Energia","English":"Anglès","Entity":"Entitat","Entrepreneurial Activity Rate":"Taxa d'activitat empresarial","European Union":"Unió Europea","Euros per night":"Euros per nit","Euros per total stay":"Euros per estada total","Female":"Dona","Gender":"Sexe","Geographical_Area":"Àrea Geogràfica","Group_Age":"Edat del grup","High position":"Posició alta","Homeless":"Sense habitatge","Housing":"Habitatge","Inadequate housing":"Habitatge inadequat","Index":"Índex","Index (0-3)":"Índex (0-3)","Industrial":"Industrial","Kg per 1.000 euros of GVA":"Kg per 1.000 euros de VAB","Kg/inhabitant/day":"Kg/habitant/dia","Language":"Idioma","Litres":"Litres","Low position":"Posició baixa","Male":"Home","Mathematics":"Matemàtiques","Mean":"Mitjana","Men":"Homes","Milion cubic meter":"Milions de metres cúbics","Million euros":"Milions d'euros","Mobility and air quality":"Mobilitat i qualitat de l'aire","Month":"Mes","Neighbourhood":"Barri","Number of illegal settlements":"Nombre d'assentaments il·legals","Others":"Altres","Over 64 years":"Més de 64 anys","People living in illegal settlements":"Persones que viuen en assentaments il·legals","Percentage":"Percentatge","Percentage annual variation":"Variació percentual anual","Popular festival":"Festival popular","Port and Airport":"Port i Aeroport","Public library":"Biblioteca pública","Rate per 1.000":"Taxa per 1.000","Rate per 100.000":"Taxa per 100.000","Rate per mil":"Taxa per mil","Rating 0-10":"Puntuació 0-10","Ratio 80/20":"Ràtio 80/20","Roofless":"Sense sostre","Science and Technology":"Ciència i Tecnologia","Social emergencies":"Emergències socials","Spain":"Espanya","Spanish":"Castellà","Tonnes":"Tonelades","Total Emissions":"Emissions totals","Total Number":"Número Total","Total Number in Thousands":"Número total en milers","Total Number per 100.000 inhabitants":"Número total per 100.000 habitants","Transport":"Transport","Type":"Tipus","Type_Cultural_Service":"Tipus de servei cultural","Type_Housing":"Tipus Habitatge","Type_Public_Transport":"Tipus de transport públic","Type_assistance":"Tipus atenció","Type_of_boat":"Tipus d'embarcació","Unsafe housing":"Habitatge insegur","Urban green spaces":"Espais verds urbans","Urgent social situations":"Urgències socials","Value":"Valor","Waste":"Residus","Waste Treatment":"Tractament de residus","Women":"Dones","Year":"Any","m2 per habitant":"m2 per habitant","total":"Total","x1000 Mt of CO2":"x1000 Mt de CO2","x1000 tons of CO2":"x1000 tones de CO2"};</script>
 
 
 <div class="container">
   
 <ol class="breadcrumb">
   
-  <li><a href="/estadistica/">Home</a></li>
-  <li><a href="/estadistica/goals">Goals</a></li>
+  <li><a href="/estadistica/">Inici</a></li>
+  <li><a href="/estadistica/goals">Objectius</a></li>
   
-  <li><a href="/estadistica/6" title="Ensure availability and sustainable management of water and sanitation for all">Goal 6</a></li>
+  <li><a href="/estadistica/6" title="Garantir la disponibilitat i una gestió sostenible de l&#39;aigua i de les condicions de sanejament per a totes les persones">Objectiu 6</a></li>
   
 </ol>
 
@@ -508,13 +508,13 @@ data-event-label="high"
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/estadistica/6-3-2" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous indicator</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Indicador anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/estadistica/6-4-2" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next indicator</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Següent indicador</span>
         </a>
     </div>
 </div>
@@ -527,8 +527,8 @@ data-event-label="high"
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/estadistica/6" title="View this goal's indicator list">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" id="goal-6" class="goal-icon-image goal-icon-image-"/>
+        <a href="/estadistica/6" title="Veure la llista d'indicadors d'aquest objectiu">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/6.png" alt="Aigua Neta i Sanejament - Objectiu 6" id="goal-6" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -536,9 +536,9 @@ data-event-label="high"
         <div>
           <h1>
             
-            Indicator 6.4.1
+            Indicador 6.4.1
             
-            <span class="lead-copy">Change in water-use efficiency over time</span>
+            <span class="lead-copy">Canvi en l'ús eficient dels recursos hídrics amb el pas del temps</span>
           </h1>
         </div>
       </div>
@@ -565,7 +565,7 @@ data-event-label="high"
   data-indicatorid='indicator_6-4-1'
   data-id="6-4-1"
   data-country="València"
-  data-charttitle="Change in water-use efficiency over time"
+  data-charttitle="Canvi en l'ús eficient dels recursos hídrics amb el pas del temps"
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel=""
@@ -580,7 +580,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Any&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
 >
@@ -602,7 +602,7 @@ data-event-label="Change to National Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Global Metadata tab"
->Global Metadata</a>
+>Metadades globals</a>
 </li>
 
 <li role="presentation" class="nav-item">
@@ -610,13 +610,13 @@ data-event-label="Change to Global Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Sources tab"
->Sources</a>
+>Fonts</a>
 </li>
 
 
   
   <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Edit</a>
+    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Editar</a>
   </li>
   
 </ul>
@@ -630,7 +630,7 @@ data-event-label="Change to Sources tab"
       <p>
         
         
-        This table provides metadata for the actual indicator available from València statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from València statistics, this table should be consulted for information on national methodology and other València-specific metadata information.
+        Aquesta taula proporciona metadades de l'indicador real disponible a partir de les estadístiques de València més properes al corresponent indicador global SDG. Recordeu que fins i tot quan l'indicador global d'ODS estigui totalment disponible a partir de les estadístiques de València, s'ha de consultar aquesta taula per obtenir informació sobre la metodologia nacional i una altra informació de metadades específics de València.
       </p>
       <table class="table">
   
@@ -888,7 +888,7 @@ data-event-label="Change to Sources tab"
   <!-- Global Metadata -->
   <div>
     <article>
-      <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+      <p>Aquesta taula proporciona informació sobre les metadades dels indicadors ODS tal com els defineix la Comissió d'Estadística de la ONU. La <a href="https://unstats.un.org/sdgs/metadata/">Divisió d'Estadística de les Nacions Unides proporciona</a> les metadades globals completes.</p>
       <table class="table">
   
       
@@ -1161,15 +1161,15 @@ data-event-label="Change to Sources tab"
   
 
 
-  <a class="btn btn-primary" href="data">Edit Data</a>
+  <a class="btn btn-primary" href="data">Editar dades</a>
   
 
   
-  <a class="btn btn-primary" href="metadata">Edit Metadata</a>
+  <a class="btn btn-primary" href="metadata">Editar metadades</a>
   
 
   
-  <a class="btn btn-primary" href="config">Edit Configuration</a>
+  <a class="btn btn-primary" href="config">Editar la configuració</a>
   
 
 </div>
@@ -1190,10 +1190,10 @@ data-event-label="Change to Sources tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
-                <a href="/estadistica/contact-us">Contact us</a>
+                <a href="/estadistica/contact-us">Contacte</a>
                 
                 </li>
               <li>
@@ -1202,7 +1202,7 @@ data-event-label="Change to Sources tab"
                 
                 </li>
               <li>
-                <a href="/estadistica/about/cookies-and-privacy/">Cookies</a>
+                <a href="/estadistica/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -1239,17 +1239,17 @@ data-event-label="Change to Sources tab"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20211213073512'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20211213075416'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20211213073512"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20211213075416"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

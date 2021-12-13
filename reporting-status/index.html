@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ca" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ods-valencia.github.io/data/en',
+  remoteDataBaseUrl: 'https://ods-valencia.github.io/data/ca',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ca',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Indicators For The Sustainable Development Goals</title>
+    <title>Indicadors per als Objectius de Desenvolupament Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213073512">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213075416">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -147,21 +147,21 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-ca
 layout-reportingstatus
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alfa</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:test@example.com">comentaris</a>.
   </div>
 </div>
 
@@ -172,15 +172,15 @@ layout-reportingstatus
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/estadistica/" id="home">
-    <img src="/estadistica/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/estadistica/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -191,8 +191,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -209,8 +209,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/reporting-status/">
               Español
@@ -225,9 +225,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/estadistica/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -243,8 +243,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/reporting-status/">
               Español
@@ -258,8 +258,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -270,8 +270,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -290,19 +290,19 @@ data-event-label="high"
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/estadistica/goals">Goals</a>
+    <a href="/estadistica/goals">Objectius</a>
 </li><li class="nav-link active">
-    <a href="/estadistica/reporting-status">Reporting Status</a>
+    <a href="/estadistica/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/about">About</a>
+    <a href="/estadistica/about">Informació</a>
 </li><li class="nav-link ">
     <a href="/estadistica/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/news">Updates</a>
+    <a href="/estadistica/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -314,8 +314,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/reporting-status/">
               Español
@@ -331,8 +331,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -343,8 +343,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -361,29 +361,29 @@ data-event-label="high"
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/estadistica/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/estadistica/goals">Goals</a>
+    <a href="/estadistica/goals">Objectius</a>
 </li><li class="nav-link active">
-    <a href="/estadistica/reporting-status">Reporting Status</a>
+    <a href="/estadistica/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/about">About</a>
+    <a href="/estadistica/about">Informació</a>
 </li><li class="nav-link ">
     <a href="/estadistica/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/news">Updates</a>
+    <a href="/estadistica/news">Actualitzacions</a>
 </li>
 
 </ul>
@@ -409,13 +409,13 @@ data-event-label="high"
 
   <h1>
   
-    Reporting status
+    Estat dels indicadors
   
 </h1>
 
 
 <div class="reporting-status-description">
-  <p>Reporting status provides an overview of how much Sustainable Development Goal (SDG) data %name reports.</p>
+  <p>status.description</p>
 
 </div>
 
@@ -427,16 +427,16 @@ data-event-label="high"
   <div class="goal goal-overall">
     <div class="details">
         <h2 class="status-goal">
-            Overall reporting status
+            Estat general dels indicadors
         </h2>
-        <span class="total"><span>247</span> indicators</span>
+        <span class="total"><span>247</span> indicadors</span>
         <div class="summary">
             <div class="statuses">
             
             
             
             <div>
-                <span class="status notstarted"><span class="status-inner">247</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                <span class="status notstarted"><span class="status-inner">247</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
             </div>
             
             <br style="clear:both;">
@@ -449,30 +449,30 @@ data-event-label="high"
             
             
             
-            <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+            <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
             
             </div>
     </div>
     <br style="clear:both;">
 </div>
-  <h2>Status by goal</h2><div class="goal reporting-status-item">
+  <h2>Estat per objectius</h2><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/1">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/1.png" alt="No poverty - Goal 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/1.png" alt="Fi de la Pobresa - Objectiu 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/1">No poverty</a>
+            <a href="/estadistica/1">Fi de la Pobresa</a>
         </h3>
-        <span class="total">13 indicators</span>
+        <span class="total">13 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -485,7 +485,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -494,21 +494,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/2">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/2.png" alt="Zero hunger - Goal 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/2.png" alt="Posar fi a la fam - Objectiu 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/2">Zero hunger</a>
+            <a href="/estadistica/2">Posar fi a la fam</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -521,7 +521,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -530,21 +530,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/3">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" alt="Salut i Benestar - Objectiu 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/3">Good health and well-being</a>
+            <a href="/estadistica/3">Salut i Benestar</a>
         </h3>
-        <span class="total">28 indicators</span>
+        <span class="total">28 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">28</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">28</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -557,7 +557,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -566,21 +566,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/4">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png" alt="Quality education - Goal 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/4.png" alt="Educació de Qualitat - Objectiu 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/4">Quality education</a>
+            <a href="/estadistica/4">Educació de Qualitat</a>
         </h3>
-        <span class="total">12 indicators</span>
+        <span class="total">12 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -593,7 +593,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -602,21 +602,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/5">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/5.png" alt="Gender equality - Goal 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/5.png" alt="Igualtat de Gènere - Objectiu 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/5">Gender equality</a>
+            <a href="/estadistica/5">Igualtat de Gènere</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -629,7 +629,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -638,21 +638,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/6">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/6.png" alt="Aigua Neta i Sanejament - Objectiu 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/6">Clean water and sanitation</a>
+            <a href="/estadistica/6">Aigua Neta i Sanejament</a>
         </h3>
-        <span class="total">11 indicators</span>
+        <span class="total">11 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -665,7 +665,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -674,21 +674,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/7">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/7.png" alt="Affordable and clean energy - Goal 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/7.png" alt="Energia neta i assequible - Objectiu 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/7">Affordable and clean energy</a>
+            <a href="/estadistica/7">Energia neta i assequible</a>
         </h3>
-        <span class="total">6 indicators</span>
+        <span class="total">6 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">6</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">6</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -701,7 +701,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -710,21 +710,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/8">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/8.png" alt="Decent jobs and economic growth - Goal 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/8.png" alt="Treball Decent i Creixement Econòmic - Objectiu 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/8">Decent jobs and economic growth</a>
+            <a href="/estadistica/8">Treball Decent i Creixement Econòmic</a>
         </h3>
-        <span class="total">16 indicators</span>
+        <span class="total">16 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">16</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">16</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -737,7 +737,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -746,21 +746,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/9">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/9.png" alt="Indústria, Innovació i Infraestructures - Objectiu 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/9">Industry, innovation and infrastructure</a>
+            <a href="/estadistica/9">Indústria, Innovació i Infraestructures</a>
         </h3>
-        <span class="total">12 indicators</span>
+        <span class="total">12 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -773,7 +773,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -782,21 +782,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/10">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/10.png" alt="Reducció de les Desigualtats - Objectiu 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/10">Reduced inequalities</a>
+            <a href="/estadistica/10">Reducció de les Desigualtats</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -809,7 +809,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -818,21 +818,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/11">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/11.png" alt="Ciutats i Comunitats Sostenibles - Objectiu 11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/11">Sustainable cities & communities</a>
+            <a href="/estadistica/11">Ciutats i Comunitats Sostenibles</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -845,7 +845,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -854,21 +854,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/12">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/12.png" alt="Responsible consumption and production - Goal 12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/12.png" alt="Producció i Consum Responsables - Objectiu 12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/12">Responsible consumption and production</a>
+            <a href="/estadistica/12">Producció i Consum Responsables</a>
         </h3>
-        <span class="total">13 indicators</span>
+        <span class="total">13 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -881,7 +881,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -890,21 +890,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/13">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/13.png" alt="Climate action - Goal 13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/13.png" alt="Acció Climàtica - Objectiu 13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/13">Climate action</a>
+            <a href="/estadistica/13">Acció Climàtica</a>
         </h3>
-        <span class="total">8 indicators</span>
+        <span class="total">8 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">8</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">8</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -917,7 +917,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -926,21 +926,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/14">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/14.png" alt="Life below water - Goal 14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/14.png" alt="Vida Submarina - Objectiu 14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/14">Life below water</a>
+            <a href="/estadistica/14">Vida Submarina</a>
         </h3>
-        <span class="total">10 indicators</span>
+        <span class="total">10 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">10</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">10</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -953,7 +953,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -962,21 +962,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/15">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/15.png" alt="Vida d&#39;Ecosistemes Terrestres - Objectiu 15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/15">Life on land</a>
+            <a href="/estadistica/15">Vida d'Ecosistemes Terrestres</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -989,7 +989,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -998,21 +998,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/16">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/16.png" alt="Pau, Justícia i Institucions sòlides - Objectiu 16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/16">Peace and justice - strong institutions</a>
+            <a href="/estadistica/16">Pau, Justícia i Institucions sòlides</a>
         </h3>
-        <span class="total">24 indicators</span>
+        <span class="total">24 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">24</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">24</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -1025,7 +1025,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -1034,21 +1034,21 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/estadistica/17">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/17.png" alt="Aliança per a Assolir els Objectius - Objectiu 17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/estadistica/17">Partnerships for the goals</a>
+            <a href="/estadistica/17">Aliança per a Assolir els Objectius</a>
         </h3>
-        <span class="total">24 indicators</span>
+        <span class="total">24 indicadors</span>
         <div class="summary">
             <div class="statuses">
                 
                 
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">24</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">24</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -1061,7 +1061,7 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -1085,10 +1085,10 @@ data-event-label="high"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
-                <a href="/estadistica/contact-us">Contact us</a>
+                <a href="/estadistica/contact-us">Contacte</a>
                 
                 </li>
               <li>
@@ -1097,7 +1097,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/estadistica/about/cookies-and-privacy/">Cookies</a>
+                <a href="/estadistica/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -1132,17 +1132,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20211213073512'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20211213075416'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20211213073512"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20211213075416"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

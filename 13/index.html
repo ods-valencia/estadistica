@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ca" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ods-valencia.github.io/data/en',
+  remoteDataBaseUrl: 'https://ods-valencia.github.io/data/ca',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ca',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 13 - Climate action - Indicators For The Sustainable Development Goals</title>
+    <title>Objectiu 13 - Acció Climàtica - Indicadors per als Objectius de Desenvolupament Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213073512">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213075416">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -147,21 +147,21 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-ca
 layout-goal-by-target-vertical
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alfa</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:test@example.com">comentaris</a>.
   </div>
 </div>
 
@@ -172,15 +172,15 @@ layout-goal-by-target-vertical
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/estadistica/" id="home">
-    <img src="/estadistica/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/estadistica/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -191,8 +191,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -209,8 +209,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/13/">
               Español
@@ -225,9 +225,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/estadistica/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -243,8 +243,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/13/">
               Español
@@ -258,8 +258,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -270,8 +270,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -290,19 +290,19 @@ data-event-label="high"
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/estadistica/goals">Goals</a>
+    <a href="/estadistica/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/reporting-status">Reporting Status</a>
+    <a href="/estadistica/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/about">About</a>
+    <a href="/estadistica/about">Informació</a>
 </li><li class="nav-link ">
     <a href="/estadistica/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/news">Updates</a>
+    <a href="/estadistica/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -314,8 +314,8 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Valencià</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-es">
             <a href="/estadistica/es/13/">
               Español
@@ -331,8 +331,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Desactivar alt contrast"
+           aria-label="Desactivar alt contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -343,8 +343,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Habilitar alt contrast"
+           aria-label="Habilitar alt contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -361,29 +361,29 @@ data-event-label="high"
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/estadistica/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/estadistica/goals">Goals</a>
+    <a href="/estadistica/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/reporting-status">Reporting Status</a>
+    <a href="/estadistica/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/about">About</a>
+    <a href="/estadistica/about">Informació</a>
 </li><li class="nav-link ">
     <a href="/estadistica/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/estadistica/news">Updates</a>
+    <a href="/estadistica/news">Actualitzacions</a>
 </li>
 
 </ul>
@@ -401,8 +401,8 @@ data-event-label="high"
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/estadistica/">Home</a></li>
-  <li><a href="/estadistica/goals">Goals</a></li>
+  <li><a href="/estadistica/">Inici</a></li>
+  <li><a href="/estadistica/goals">Objectius</a></li>
   
   
 </ol>
@@ -413,13 +413,13 @@ data-event-label="high"
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/estadistica/12" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Objectiu anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/estadistica/14" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Següent objectiu</span>
         </a>
     </div>
 </div>
@@ -432,11 +432,11 @@ data-event-label="high"
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/13.png" alt="Climate action - Goal 13" id="goal-13" class="goal-icon-image goal-icon-image-" />
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/13.png" alt="Acció Climàtica - Objectiu 13" id="goal-13" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 13: </span>Take urgent action to combat climate change and its impacts
+          <span class="hidden-sm hidden-md hidden-lg">Objectiu 13: </span>Adoptar mesures urgents per a combatre el canvi climàtic i els efectes que se'n deriven
         </h1>
       </div>
     </div>
@@ -451,16 +451,16 @@ data-event-label="high"
 
 
   <div class="container">
-    <h2>Targets and indicators</h2>
+    <h2>Fites i indicadors</h2>
 
     
     
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.1</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 13.1</span>
         </h3>
-        <span class="target-name">Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries</span>
+        <span class="target-name">Enfortir la resiliència i la capacitat d’adaptació als riscos relacionats amb el clima i els desastres naturals a tots els països.</span>
         
 
           
@@ -469,17 +469,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.1.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 13.1.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/13-1-1">Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/13-1-1">Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -499,17 +499,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.1.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 13.1.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/13-1-2">Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/13-1-2">Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -529,17 +529,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.1.3</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 13.1.3</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/13-1-3">Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/13-1-3">Proporció de governs locals que adopten i apliquen estratègies locals de reducció del risc de desastres d'acord amb les estratègies nacionals de reducció del risc de desastres</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -557,9 +557,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.2</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 13.2</span>
         </h3>
-        <span class="target-name">Integrate climate change measures into national policies, strategies and planning</span>
+        <span class="target-name">Incorporar mesures relatives al canvi climàtic en les polítiques, les estratègies i els plans nacionals.</span>
         
 
           
@@ -568,17 +568,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.2.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 13.2.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/13-2-1">Number of countries with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/13-2-1">Nombre de països que han comunicat l'establiment o la posada en marxa d'una política, estratègia o pla integrat que augmenti la seva capacitat per a adaptar-se als efectes adversos del canvi climàtic i que promouen la resiliència al clima i un desenvolupament amb baixes emissions de gasos d'efecte d'hivernacle sense comprometre per això la producció d'aliments (per exemple, un pla nacional d'adaptació, una contribució determinada a nivell nacional, una comunicació nacional o un informe biennal d'actualització)</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -598,56 +598,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.2.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 13.2.2</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/13-2-2">Total greenhouse gas emissions per year</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/13-2-2">global_indicators.13-2-2-title</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
-</span>
-
-
-            
-
-
-
-
-
-            
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.3</span>
-        </h3>
-        <span class="target-name">Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning</span>
-        
-
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.3.1</span>
-            </h4>
-            
-            <span class="indicator-name"><a href="/estadistica/13-3-1">Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment</a></span>
-            <span class="sr-only">Indicator status</span>
-            
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -665,9 +626,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.a</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 13.3</span>
         </h3>
-        <span class="target-name">Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible</span>
+        <span class="target-name">Millorar l’educació, la conscienciació i la capacitat humana i institucional en relació amb la mitigació del canvi climàtic, l’adaptació a aquest, la reducció dels efectes i l’alerta primerenca.</span>
         
 
           
@@ -676,17 +637,17 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.a.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 13.3.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/13-a-1">Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/13-3-1">Nombre de països que han incorporat la mitigació del canvi climàtic, l'adaptació a ell, la reducció dels seus efectes i l'alerta primerenca en els plans d'estudis de l'ensenyament primari, secundària i terciària</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -704,9 +665,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.b</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 13.a</span>
         </h3>
-        <span class="target-name">Promote mechanisms for raising capacity for effective climate change-related planning and management in least developed countries and small island developing States, including focusing on women, youth and local and marginalized communities</span>
+        <span class="target-name">Complir el compromís dels països desenvolupats que són part de la Convenció marc de les Nacions Uni­des sobre el canvi climàtic d’assolir, l’any 2020, l’objectiu de mobilitzar conjuntament 100.000 milions de dòlars anuals, procedents del conjunt de les fonts, a fi d’atendre les necessitats dels països en desenvolupament respecte de l’adopció de mesures concretes de mitigació i la transparència en l’aplicació, i posar en ple funcionament el Fons verd per al clima capitalitzant-lo com més aviat millor.</span>
         
 
           
@@ -715,17 +676,56 @@ data-event-label="high"
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.b.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 13.a.1</span>
             </h4>
             
-            <span class="indicator-name"><a href="/estadistica/13-b-1">Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/estadistica/13-a-1">Suma anual, en dòlars dels Estats Units, mobilitzada entre 2020 i 2025 com a part del compromís d'arribar a 100.000 milions de dòlars</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorant fonts de dades</span>
+</span>
+
+
+            
+
+
+
+
+
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Fita</span> 13.b</span>
+        </h3>
+        <span class="target-name">Promoure mecanismes per a augmentar la capacitat de planificació i gestió eficaces en relació amb el canvi climàtic als països menys avançats i als petits estats insulars en desenvolupament, centrats concretament en les dones, persones joves i comunitats locals i marginades.</span>
+        
+
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 13.b.1</span>
+            </h4>
+            
+            <span class="indicator-name"><a href="/estadistica/13-b-1">Nombre de països menys avançats i petits Estats insulars en desenvolupament que reben suport especialitzat, i quantitat de suport, en particular financer, tecnològic i de creació de capacitat, per als mecanismes de desenvolupament de la capacitat de planificació i gestió eficaces en relació amb el canvi climàtic, inclosos els centrats en les dones, els joves i les comunitats locals i marginades</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
+            
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Explorant fonts de dades</span>
 </span>
 
 
@@ -749,10 +749,10 @@ data-event-label="high"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
-                <a href="/estadistica/contact-us">Contact us</a>
+                <a href="/estadistica/contact-us">Contacte</a>
                 
                 </li>
               <li>
@@ -761,7 +761,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/estadistica/about/cookies-and-privacy/">Cookies</a>
+                <a href="/estadistica/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -796,17 +796,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20211213073512'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20211213075416'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20211213073512"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20211213075416"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
