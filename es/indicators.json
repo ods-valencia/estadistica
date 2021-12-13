@@ -6,14 +6,6 @@
       "indicators": [
         
         {
-          "id": "1-1-1",
-          "title": "Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/1-1-1",
-          "status": "notstarted"
-        },
-        {
           "id": "1-2-1",
           "title": "Población en riesgo de pobreza relativa considerando el umbral autonómico de pobreza",
           "description": "",
@@ -151,11 +143,11 @@
         
         {
           "id": "2-1-1",
-          "title": "Prevalencia de la subalimentación",
+          "title": "Proporción del gasto anual de las personas destinada a alimentación",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-2",
@@ -167,43 +159,75 @@
         },
         {
           "id": "2-2-1",
-          "title": "Prevalencia del retraso del crecimiento (estatura para la edad, desviación típica < -2 de la mediana de los patrones de crecimiento infantil de la Organización Mundial de la Salud (OMS)) entre los niños menores de 5 años",
+          "title": "Población de 5 a 14 años con retraso del crecimiento",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2",
-          "title": "Prevalencia de la malnutrición (peso para la estatura, desviación típica > +2 o < -2 de la mediana de los patrones de crecimiento infantil de la OMS) entre los niños menores de 5 años, desglosada por tipo (emaciación y sobrepeso)",
+          "title": "Población de 5 a 14 años con pes insuficiente",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-3",
-          "title": "Prevalencia de la anemia en las mujeres de entre 15 y 49 años, desglosada por embarazo (porcentaje)",
+          "title": "Población de 5 a 14 años con obesidad o sobrepeso",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-2-3",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "2-2-4",
+          "title": "global_indicators.2-2-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/2-2-4",
+          "status": "complete"
         },
         {
           "id": "2-3-1",
-          "title": "Volumen de producción por unidad de trabajo desglosado por tamaño y tipo de explotación (agropecuaria/ganadera/forestal)",
+          "title": "Porcentaje de superficie destinada a tierras cultivadas",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-2",
-          "title": "Media de ingresos de los productores de alimentos en pequeña escala, desglosada por sexo y condición indígena",
+          "title": "Porcentaje de población ocupada en la agricultura",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-3-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "2-3-3",
+          "title": "global_indicators.2-3-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/2-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "2-3-4",
+          "title": "global_indicators.2-3-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/2-3-4",
+          "status": "complete"
+        },
+        {
+          "id": "2-3-5",
+          "title": "global_indicators.2-3-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/2-3-5",
+          "status": "complete"
         },
         {
           "id": "2-4-1",
@@ -231,19 +255,35 @@
         },
         {
           "id": "2-a-1",
-          "title": "Índice de orientación agrícola para el gasto público",
+          "title": "Presupuesto municipal destinado a Cooperación ODS2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-2",
-          "title": "Total de corrientes oficiales de recursos (asistencia oficial para el desarrollo más otras corrientes oficiales) destinado al sector agrícola",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-a-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "2-a-3",
+          "title": "global_indicators.2-a-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/2-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "2-a-4",
+          "title": "global_indicators.2-a-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/2-a-4",
+          "status": "complete"
         },
         {
           "id": "2-b-1",

@@ -6,14 +6,6 @@
       "indicators": [
         
         {
-          "id": "1-1-1",
-          "title": "Proporció de la població que viu per sota del llindar internacional de pobresa, desglossada per sexe, edat, situació laboral i ubicació geogràfica (urbana o rural)",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/1-1-1",
-          "status": "notstarted"
-        },
-        {
           "id": "1-2-1",
           "title": "Població en risc de pobresa relativa considerant el llindar autonòmic de pobresa",
           "description": "",
@@ -151,11 +143,11 @@
         
         {
           "id": "2-1-1",
-          "title": "Prevalença de la subalimentació",
+          "title": "Proporció de la despesa anual de les persones destinada a alimentació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-2",
@@ -167,43 +159,75 @@
         },
         {
           "id": "2-2-1",
-          "title": "Prevalença del retard del creixement (alçada per a l'edat, desviació típica < -2 de la mitjana dels patrons de creixement infantil de l'Organització Mundial de la Salut (OMS)) entre els nens menors de 5 anys",
+          "title": "Població de 5 a 14 anys amb retard del creixement",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2",
-          "title": "Prevalença de la malnutrició (pes per a l'alçada, desviació típica >+2 o <-2 de la mitjana dels patrons de creixement infantil de l'OMS) entre els nens menors de 5 anys, desglossada per tipus (emaciació i sobrepès)",
+          "title": "Població de 5 a 14 anys amb pes insuficient",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-3",
-          "title": "global_indicators.2-2-3-title",
+          "title": "Població de 5 a 14 anys amb obesitat o sobrepés",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-2-3",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "2-2-4",
+          "title": "global_indicators.2-2-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/2-2-4",
+          "status": "complete"
         },
         {
           "id": "2-3-1",
-          "title": "Volum de producció per unitat de treball desglossat per grandària i tipus d'explotació (agropecuària/ramadera/forestal)",
+          "title": "Percentatge de superfície destinada a terres cultivades",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-2",
-          "title": "Mitjana d'ingressos dels productors d'aliments en petita escala, desglossada per sexe i condició indígena",
+          "title": "Percentatge de població ocupada en l'agricultura",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-3-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "2-3-3",
+          "title": "global_indicators.2-3-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/2-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "2-3-4",
+          "title": "global_indicators.2-3-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/2-3-4",
+          "status": "complete"
+        },
+        {
+          "id": "2-3-5",
+          "title": "global_indicators.2-3-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/2-3-5",
+          "status": "complete"
         },
         {
           "id": "2-4-1",
@@ -231,19 +255,35 @@
         },
         {
           "id": "2-a-1",
-          "title": "Índex d'orientació agrícola per a la despesa pública",
+          "title": "Pressupost municipal destinat a Cooperació ODS2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-2",
-          "title": "Total de corrents oficials de recursos (assistència oficial per al desenvolupament més altres corrents oficials) destinat al sector agrícola",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-a-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "2-a-3",
+          "title": "global_indicators.2-a-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/2-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "2-a-4",
+          "title": "global_indicators.2-a-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/2-a-4",
+          "status": "complete"
         },
         {
           "id": "2-b-1",

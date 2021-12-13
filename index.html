@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ca" class="no-js">
     <head>
@@ -134,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213081529">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213090738">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -149,7 +148,7 @@ var translations = {
 
     </head>
 <body class="language-ca
-layout-frontpage-alt
+layout-frontpage
 ">
 <!-- <div class="container"> -->
 
@@ -401,185 +400,178 @@ data-event-label="high"
 <div id="main-content" class="container" role="main">
 
     
-    <div class="site-intro">
+    <div class="site-intro spacer medium">
         <h1>17 objetius per a transformar el nostre món</h1>
-        <div class="lead-copy"><p>Els <a href="https://www.un.org/sustainabledevelopment/es">Objectius de Desenvolupament Sostenible (SDG)</a> són una crida universal a l’acció per acabar amb la pobresa, protegir el planeta i millorar les vides i perspectives de tots, a tot arreu. Els 17 Objectius van ser adoptats per tots els estats membres de les Nacions Unides el 2015, com a part de l’ <a href="https://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&amp;Lang=S">Agenda 2030 per al Desenvolupament Sostenible</a>.</p>
-</div>
+        <p class="lead-copy">Els <a href="https://www.un.org/sustainabledevelopment/es">Objectius de Desenvolupament Sostenible (SDG)</a> són una crida universal a l'acció per acabar amb la pobresa, protegir el planeta i millorar les vides i perspectives de tots, a tot arreu. Els 17 Objectius van ser adoptats per tots els estats membres de les Nacions Unides el 2015, com a part de l' <a href="https://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&Lang=S">Agenda 2030 per al Desenvolupament Sostenible</a>.</p>
     </div>
     
 
     
-    <div class="frontpage-goals-grid">
+    
+    <h2 class="spacer medium">Dades de València per als indicadors dels Objectius de Desenvolupament Sostenible</h2>
 
-        
-        <h2 class="frontpage-goals-grid-title">Dades de València per als indicadors dels Objectius de Desenvolupament Sostenible</h2>
-        
+    
+    <p class="spacer medium">Feu clic a un objectiu per accedir als indicadors globals de València dels Objectius de Desenvolupament Sostenible.</p>
 
+    <div class="goal-tiles">
+    
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/1">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/1.png" id="goal-1" alt="Fi de la Pobresa - Objectiu 1" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
         
-        <div class="frontpage-goals-grid-description"><p>Feu clic a un objectiu per accedir als indicadors globals de València dels Objectius de Desenvolupament Sostenible.</p>
-</div>
+    
         
-
-        <div class="goal-tiles">
-            <div class="row no-gutters">
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/1">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/1.png" id="goal-1" alt="Fi de la Pobresa - Objectiu 1" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/2">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/2.png" id="goal-2" alt="Posar fi a la fam - Objectiu 2" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/3">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" id="goal-3" alt="Salut i Benestar - Objectiu 3" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/4">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/4.png" id="goal-4" alt="Educació de Qualitat - Objectiu 4" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/5">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/5.png" id="goal-5" alt="Igualtat de Gènere - Objectiu 5" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/6">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/6.png" id="goal-6" alt="Aigua Neta i Sanejament - Objectiu 6" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/7">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/7.png" id="goal-7" alt="Energia neta i assequible - Objectiu 7" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/8">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/8.png" id="goal-8" alt="Treball Decent i Creixement Econòmic - Objectiu 8" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/9">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/9.png" id="goal-9" alt="Indústria, Innovació i Infraestructures - Objectiu 9" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/10">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/10.png" id="goal-10" alt="Reducció de les Desigualtats - Objectiu 10" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/11">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/11.png" id="goal-11" alt="Ciutats i Comunitats Sostenibles - Objectiu 11" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/12">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/12.png" id="goal-12" alt="Producció i Consum Responsables - Objectiu 12" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/13">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/13.png" id="goal-13" alt="Acció Climàtica - Objectiu 13" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/14">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/14.png" id="goal-14" alt="Vida Submarina - Objectiu 14" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/15">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/15.png" id="goal-15" alt="Vida d&#39;Ecosistemes Terrestres - Objectiu 15" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/16">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/16.png" id="goal-16" alt="Pau, Justícia i Institucions sòlides - Objectiu 16" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/estadistica/17">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/17.png" id="goal-17" alt="Aliança per a Assolir els Objectius - Objectiu 17" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/2">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/2.png" id="goal-2" alt="Posar fi a la fam - Objectiu 2" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/3">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" id="goal-3" alt="Salut i Benestar - Objectiu 3" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/4">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/4.png" id="goal-4" alt="Educació de Qualitat - Objectiu 4" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/5">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/5.png" id="goal-5" alt="Igualtat de Gènere - Objectiu 5" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/6">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/6.png" id="goal-6" alt="Aigua Neta i Sanejament - Objectiu 6" class="goal-icon-image goal-icon-image-" />
+              </a>
             </div>
         </div>
+    
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/7">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/7.png" id="goal-7" alt="Energia neta i assequible - Objectiu 7" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/8">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/8.png" id="goal-8" alt="Treball Decent i Creixement Econòmic - Objectiu 8" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/9">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/9.png" id="goal-9" alt="Indústria, Innovació i Infraestructures - Objectiu 9" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/10">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/10.png" id="goal-10" alt="Reducció de les Desigualtats - Objectiu 10" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/11">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/11.png" id="goal-11" alt="Ciutats i Comunitats Sostenibles - Objectiu 11" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/12">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/12.png" id="goal-12" alt="Producció i Consum Responsables - Objectiu 12" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        </div>
+    
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/13">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/13.png" id="goal-13" alt="Acció Climàtica - Objectiu 13" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/14">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/14.png" id="goal-14" alt="Vida Submarina - Objectiu 14" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/15">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/15.png" id="goal-15" alt="Vida d&#39;Ecosistemes Terrestres - Objectiu 15" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/16">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/16.png" id="goal-16" alt="Pau, Justícia i Institucions sòlides - Objectiu 16" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/estadistica/17">
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/17.png" id="goal-17" alt="Aliança per a Assolir els Objectius - Objectiu 17" class="goal-icon-image goal-icon-image-" />
+              </a>
+            </div>
+        
+    
+    
+    
+        <div class="col-xs-4 col-md-2">
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/18.png" id="goal-18" alt="The Global Goals for Sustainable Development" class="goal-icon-image goal-icon-image-" />
+        </div>
+    
     </div>
-    
-
-    
-    <div class="frontpage-cards">
-    
-        
-
-        
-        <div class="row">
-        
-
-        <div class="card col-xs-12 col-sm-6 col-md-4">
-
-  
-  <h2 class="card-title"
-      
-      style="border-color: ;"
-      
-  >Descarregar totes les dades</h2>
-  
-
-  
-
-  
+    </div>
     <div class="zip-download-container">
     <a href="https://ods-valencia.github.io/data/ca/zip/all_indicators.zip"
        class="btn btn-primary btn-download" aria-describedby="zip-download-info">
         Descarregar totes les dades
     </a>
     <div id="zip-download-info">
-        Arxiu zip - 26.1 kB
+        Arxiu zip - 27.5 kB
         
             <br>
             Dades actualitzades per última vegada - Dec 13, 2021
         
     </div>
 </div>
-
-  
-
-  
-
-</div>
-
-
-        
-        </div>
-        
-
-    
-    </div>
-    
 
 </div>
 <footer role="contentinfo">
@@ -640,12 +632,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20211213081529'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20211213090738'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20211213081529"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20211213090738"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
