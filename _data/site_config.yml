@@ -37,7 +37,7 @@ create_indicators:
 create_pages:
   - filename: ''
     folder: /
-    layout: frontpage-alt
+    layout: frontpage
     title: ''
   - filename: ''
     folder: /goals
@@ -199,6 +199,19 @@ reporting_status:
   title: status.reporting_status
   description: status.description
   disaggregation_tabs: false
+  status_types:
+    - value: complete
+      label: status.reported
+      hide_on_goal_pages: false
+    - value: inprogress
+      label: status.statistics_in_progress
+      hide_on_goal_pages: false
+    - value: notstarted
+      label: status.exploring_data_sources
+      hide_on_goal_pages: false
+    - value: notapplicable
+      label: status.not_applicable
+      hide_on_goal_pages: false
 repository_url_data: 'https://github.com/ods-valencia/data'
 repository_url_site: 'https://github.com/ods-valencia/estadistica'
 search_index_boost: []
