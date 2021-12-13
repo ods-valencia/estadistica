@@ -15,99 +15,131 @@
         },
         {
           "id": "1-2-1",
-          "title": "Proporció de la població que viu per sota del llindar nacional de pobresa, desglossada per sexe i edat",
+          "title": "Població en risc de pobresa relativa considerant el llindar autonòmic de pobresa",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
-          "title": "Proporció d'homes, dones i nens de totes les edats que viuen en la pobresa, en totes les seves dimensions, conformement a les definicions nacionals",
+          "title": "Població en risc de pobresa relativa considerant el llindar nacional de pobresa segons ingressos recollits en fonts tributàries",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "1-3-1",
-          "title": "Proporció de la població coberta per sistemes o nivells mínims de protecció social, desglossada per sexe, distingint entre els nens, els aturats, els ancians, les persones amb discapacitat, les dones embarassades, els nounats, les víctimes d'accidents de treball, els pobres i els vulnerables",
+          "id": "1-2-3",
+          "title": "Població en risc de pobresa i/o exclusió social considerant el llindar autonòmic de pobresa: indicador AROPE",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/1-3-1",
-          "status": "notstarted"
+          "href": "/estadistica/1-2-3",
+          "status": "complete"
         },
         {
-          "id": "1-4-1",
-          "title": "Proporció de la població que viu en llars amb accés als serveis bàsics",
+          "id": "1-2-4",
+          "title": "Població amb manca material severa",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/1-4-1",
-          "status": "notstarted"
+          "href": "/estadistica/1-2-4",
+          "status": "complete"
         },
         {
-          "id": "1-4-2",
-          "title": "Proporció del total de la població adulta amb drets segurs de tinença de la terra: a) que posseeix documentació reconeguda legalment sobre aquest tema i b) considera segurs els seus drets, desglossada per sexe i tipus de tinença",
+          "id": "1-2-5",
+          "title": "Ràtio P80/P20 en desigualtat d'ingressos recollits en fonts tributàries",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/1-4-2",
-          "status": "notstarted"
+          "href": "/estadistica/1-2-5",
+          "status": "complete"
         },
         {
-          "id": "1-5-1",
-          "title": "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 habitants",
+          "id": "1-2-6",
+          "title": "Índex de Gini d'ingressos recollits en fonts tributàries",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/1-5-1",
-          "status": "notstarted"
+          "href": "/estadistica/1-2-6",
+          "status": "complete"
         },
         {
-          "id": "1-5-2",
-          "title": "Pèrdues econòmiques directes atribuïdes als desastres en relació amb el producte interor brut (PIB) mundial",
+          "id": "1-2-7",
+          "title": "Població en nivells de pobresa alta considerant el llindar nacional de pobresa segons ingressos recollits en fonts tributàries",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/1-5-2",
-          "status": "notstarted"
+          "href": "/estadistica/1-2-7",
+          "status": "complete"
         },
         {
-          "id": "1-5-3",
-          "title": "Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030",
+          "id": "1-2-8",
+          "title": "Llars familiars monoparentals",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/1-5-3",
-          "status": "notstarted"
+          "href": "/estadistica/1-2-8",
+          "status": "complete"
         },
         {
-          "id": "1-5-4",
-          "title": "Proporció de governs locals que adopten i apliquen estratègies locals de reducció del risc de desastres d'acord amb les estratègies nacionals de reducció del risc de desastres",
+          "id": "1-2-9",
+          "title": "Població de 65 o més anys que viuen solos",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/1-5-4",
-          "status": "notstarted"
+          "href": "/estadistica/1-2-9",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-10",
+          "title": "Població de 80 o més anys que viuen solos",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/1-2-10",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-11",
+          "title": "Llars familiars formades exclusivament per persones de 65 o més anys",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/1-2-11",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-12",
+          "title": "Percentatge de població que viu en seccions censals vulnerables a nivell socioeconòmic",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/1-2-12",
+          "status": "complete"
         },
         {
           "id": "1-a-1",
-          "title": "Proporció dels recursos generats a nivell intern que el govern assigna directament a programes de reducció de la pobresa",
+          "title": "Pressupost municipal destinat a Cooperació ODS1",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-2",
-          "title": "Proporció de la despesa pública total que es dedica a serveis essencials (educació, salut i protecció social)",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS1",
           "description": "",
           "keywords": "",
           "href": "/estadistica/1-a-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "1-b-1",
-          "title": "Proporció de les despeses públiques periòdiques i de capital que es dedica a sectors que beneficien de manera desproporcionada a les dones, els pobres i els grups vulnerables",
+          "id": "1-a-3",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS1",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/1-b-1",
-          "status": "notstarted"
+          "href": "/estadistica/1-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "1-a-4",
+          "title": "Pressupost municipal destinat a Ajuda a Països en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/1-a-4",
+          "status": "complete"
         }]
     }
   },

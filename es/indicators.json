@@ -15,99 +15,131 @@
         },
         {
           "id": "1-2-1",
-          "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad",
+          "title": "Población en riesgo de pobreza relativa considerando el umbral autonómico de pobreza",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
-          "title": "Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza, en todas sus dimensiones, con arreglo a las definiciones nacionales",
+          "title": "Población en riesgo de pobreza relativa considerando el umbral nacional de pobreza según ingresos recogidos en fuentes tributarias",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/1-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "1-3-1",
-          "title": "Proporción de la población cubierta por sistemas o niveles mínimos de protección social, desglosada por sexo, distinguiendo entre los niños, los desempleados, los ancianos, las personas con discapacidad, las mujeres embarazadas, los recién nacidos, las víctimas de accidentes de trabajo, los pobres y los vulnerables",
+          "id": "1-2-3",
+          "title": "Población en riesgo de pobreza y/o exclusión social considerando el umbral autonómico de pobreza: indicador AROPE",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/es/1-3-1",
-          "status": "notstarted"
+          "href": "/estadistica/es/1-2-3",
+          "status": "complete"
         },
         {
-          "id": "1-4-1",
-          "title": "Proporción de la población que vive en hogares con acceso a los servicios básicos",
+          "id": "1-2-4",
+          "title": "Población con carencia material severa",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/es/1-4-1",
-          "status": "notstarted"
+          "href": "/estadistica/es/1-2-4",
+          "status": "complete"
         },
         {
-          "id": "1-4-2",
-          "title": "Proporción del total de la población adulta con derechos seguros de tenencia de la tierra: a) que posee documentación reconocida legalmente al respecto y b) considera seguros sus derechos, desglosada por sexo y tipo de tenencia",
+          "id": "1-2-5",
+          "title": "Ratio P80/P20 en desigualdad de ingresos recogidos en fuentes tributarias",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/es/1-4-2",
-          "status": "notstarted"
+          "href": "/estadistica/es/1-2-5",
+          "status": "complete"
         },
         {
-          "id": "1-5-1",
-          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes",
+          "id": "1-2-6",
+          "title": "Índice de Gini de ingresos recogidos en fuentes tributarias",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/es/1-5-1",
-          "status": "notstarted"
+          "href": "/estadistica/es/1-2-6",
+          "status": "complete"
         },
         {
-          "id": "1-5-2",
-          "title": "Pérdidas económicas directas atribuidas a los desastres en relación con el producto interno bruto (PIB) mundial",
+          "id": "1-2-7",
+          "title": "Población en niveles de pobreza alta considerando el umbral nacional de pobreza según ingresos recogidos en fuentes tributarias",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/es/1-5-2",
-          "status": "notstarted"
+          "href": "/estadistica/es/1-2-7",
+          "status": "complete"
         },
         {
-          "id": "1-5-3",
-          "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030",
+          "id": "1-2-8",
+          "title": "Hogares familiares monoparentales",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/es/1-5-3",
-          "status": "notstarted"
+          "href": "/estadistica/es/1-2-8",
+          "status": "complete"
         },
         {
-          "id": "1-5-4",
-          "title": "Proporción de gobiernos locales que adoptan y aplican estrategias locales de reducción del riesgo de desastres en consonancia con las estrategias nacionales de reducción del riesgo de desastres",
+          "id": "1-2-9",
+          "title": "Población de 65 o más años que viven solos",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/es/1-5-4",
-          "status": "notstarted"
+          "href": "/estadistica/es/1-2-9",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-10",
+          "title": "Población de 80 o más años que viven solos",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/1-2-10",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-11",
+          "title": "Hogares familiares formados exclusivamente por personas de 65 o más años",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/1-2-11",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-12",
+          "title": "Porcentaje de población que vive en secciones censales vulnerables a nivel socioeconómico",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/1-2-12",
+          "status": "complete"
         },
         {
           "id": "1-a-1",
-          "title": "Total de las subvenciones de asistencia oficial para el desarrollo de todos los donantes que se centran en la reducción de la pobreza como porcentaje del ingreso nacional bruto del país receptor",
+          "title": "Presupuesto municipal destinado a Cooperación ODS1",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/1-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-2",
-          "title": "Proporción del gasto público total que se dedica a servicios esenciales (educación, salud y protección social)",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS1",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/1-a-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "1-b-1",
-          "title": "Gasto público social en favor de los pobres",
+          "id": "1-a-3",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS1",
           "description": "",
           "keywords": "",
-          "href": "/estadistica/es/1-b-1",
-          "status": "notstarted"
+          "href": "/estadistica/es/1-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "1-a-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Países en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/1-a-4",
+          "status": "complete"
         }]
     }
   },

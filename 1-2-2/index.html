@@ -107,7 +107,7 @@ var translations = {
         
         Indicador 1.2.2 -
         
-        Proporció d&#39;homes, dones i nens de totes les edats que viuen en la pobresa, en totes les seves dimensions, conformement a les definicions nacionals - Indicadors per als Objectius de Desenvolupament Sostenible
+        Població en risc de pobresa relativa considerant el llindar nacional de pobresa segons ingressos recollits en fonts tributàries - Indicadors per als Objectius de Desenvolupament Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213075416">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213081529">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -512,7 +512,7 @@ data-event-label="high"
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
-        <a class="btn btn-primary" href="/estadistica/1-3-1" aria-labelledby="next-link">
+        <a class="btn btn-primary" href="/estadistica/1-2-3" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
             <span id="next-link" class="hidden-sm hidden-xs">Següent indicador</span>
         </a>
@@ -538,7 +538,7 @@ data-event-label="high"
             
             Indicador 1.2.2
             
-            <span class="lead-copy">Proporció d'homes, dones i nens de totes les edats que viuen en la pobresa, en totes les seves dimensions, conformement a les definicions nacionals</span>
+            <span class="lead-copy">Població en risc de pobresa relativa considerant el llindar nacional de pobresa segons ingressos recollits en fonts tributàries</span>
           </h1>
         </div>
       </div>
@@ -552,6 +552,19 @@ data-event-label="high"
   
 
   
+<div class="row indicator-progress">
+  <div class="col-xs-12">
+    <div class="progress-status-heading">
+      
+    </div>
+    
+    
+    
+
+
+  </div>
+</div>
+
 
   
 
@@ -565,11 +578,11 @@ data-event-label="high"
   data-indicatorid='indicator_1-2-2'
   data-id="1-2-2"
   data-country="València"
-  data-charttitle="Proporció d'homes, dones i nens de totes les edats que viuen en la pobresa, en totes les seves dimensions, conformement a les definicions nacionals"
+  data-charttitle="Població en risc de pobresa relativa considerant el llindar nacional de pobresa segons ingressos recollits en fonts tributàries"
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
   data-showmap="false"
@@ -580,12 +593,1724 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Any&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Age&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;18 a 64&quot;,&quot;&lt;18&quot;,&quot;&gt;=65&quot;]},&quot;title&quot;:&quot;Edat&quot;},{&quot;name&quot;:&quot;Gender&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Homes&quot;,&quot;Dones&quot;]},&quot;title&quot;:&quot;Sexe&quot;},{&quot;name&quot;:&quot;GeoCode&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;GeoCode&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Any&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="sr-only" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategoríes</h4>
+    <p>Trieu categories de les llistes desplegables a continuació per veure diferents desglossaments de les dades. Alguns no estaran disponibles fins que es triï un nivell superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/estadistica/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://ods-valencia.github.io/data/ca/headline/1-2-2.csv" class="btn btn-primary btn-download" download="indicator_1-2-2.csv" tabindex="0" role="button">Descarregar CSV global</a>
+
+    <a href="https://ods-valencia.github.io/data/ca/data/1-2-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_1-2-2.csv' tabindex='0' role='button'>Descarregar CSV font</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Població en risc de pobresa relativa considerant el llindar nacional de pobresa segons ingressos recollits en fonts tributàries</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col" class="table-value">GeoCode</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>22.8</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>21.8</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>21.6</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>20.8</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>18.9</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>17.5</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>16.6</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>16.1</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>15.1</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>14.3</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>13.8</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>12.8</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>17.3</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>16.9</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>16.6</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>15.6</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>17.9</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>17.7</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>17.0</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>16.9</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>24.3</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>23.6</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>23.3</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>22.4</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>12.3</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>12.0</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>11.7</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>11.2</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>27.5</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>26.7</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>27.4</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>27.0</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>19.5</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>18.2</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>18.3</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>17.6</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>25.0</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>24.1</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>24.3</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>23.3</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>26.1</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>25.1</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>25.1</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>24.0</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>29.3</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>27.4</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>27.6</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>26.6</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>22.8</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>21.6</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>21.5</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>20.5</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>18.4</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>17.9</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>18.0</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>17.6</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>20.1</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>19.5</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>19.2</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>17.8</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>28.8</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>27.5</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>27.2</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>26.3</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>26.6</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>25.1</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>25.1</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>24.7</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>18.2</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>17.1</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>16.9</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>15.8</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>30.0</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>28.1</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>26.9</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>27.1</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>24.0</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>22.5</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>21.5</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>20.3</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    
+    <p>Àrea geogràfica: València</p>
+    
+    
+    <p>Unitat de mesura: </p>
+    
+    
+    <p>Nota: </p>
+    
+  </div>
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/estadistica/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded spacer medium" style="display:none;">
+
+    <div style="display: none;">
+  <span id="table-alternative">Per l'alternativa de dades tabulars, vegeu la pestanya Taula.</span>
+</div>
+<ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+  <li role="presentation" class="nav-item active">
+    <a class="nav-link" data-toggle="tab" id="tab-chartview" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+ aria-describedby="table-alternative">Gràfic</a>
+  </li>
+  <li role="presentation" class="nav-item">
+    <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Taula</a>
+  </li></ul>
+
+    <div class="tab-content data-view">
+  <div role="tabpanel" class="tab-pane active" id="chartview">
+    
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Avís:</span></i>
+      Hi ha massa conjunts de dades a mostrar en el gràfic. No es mostrarà tot fins que elimineu algunes seleccions.
+    </div>
+
+    
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">Població en risc de pobresa relativa considerant el llindar nacional de pobresa segons ingressos recollits en fonts tributàries</h4>
+          <div id="chart" class="plot-container">
+            
+<canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+<script>
+// Add a chart alteration to support the chart_graph_limits metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+  if (info.graphLimits && Object.keys(info.graphLimits).length > 0) {
+    var overrides = {
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: info.graphLimits.minimum,
+              max: info.graphLimits.maximum,
+            }
+          }]
+        }
+      }
+    }
+    // Add these overrides onto the normal config.
+    $.extend(true, config, overrides);
+  }
+});
+</script>
+
+<span style="display: none;" id="chart-annotations" role="status"></span>
+<script>
+opensdg.annotationPresets = {
+    common: {
+        // This "common" preset is applied to all annotations automatically.
+        borderColor: '#949494',
+        type: 'line',
+        borderDash: [10, 5],
+        borderWidth: 1,
+        label: {
+            backgroundColor: 'white',
+            fontColor: 'black',
+        },
+        // This "highContrast" overrides colors when in high-contrast mode.
+        highContrast: {
+            label: {
+                backgroundColor: 'black',
+                fontColor: 'white'
+            }
+        },
+        // This callback is used to generate a generic description for screenreaders.
+        // This can be overridden to be a more specific string, eg:
+        //
+        //     description: 'Chart annotation showing a 2030 target of 15%'
+        //
+        description: function() {
+            var descriptionParts = [translations.indicator.chart_annotation];
+            if (this.label && this.label.content) {
+                descriptionParts.push(translations.t(this.label.content));
+            }
+            else {
+                // If there is no label, just specify whether it is a box or line.
+                if (this.type == 'line') {
+                    descriptionParts.push(this.mode + ' line');
+                }
+                if (this.type == 'box') {
+                    descriptionParts.push('box');
+                }
+            }
+            if (typeof this.value !== 'undefined') {
+                descriptionParts.push(this.value);
+            }
+            return descriptionParts.join(': ');
+        },
+    },
+    target_line: {
+        mode: 'horizontal',
+        borderWidth: 2,
+        borderDash: [15, 10],
+        borderColor: '#757575',
+        label: {
+            position: 'right',
+            content: translations.indicator.annotation_2030_target,
+        },
+    },
+    series_break: {
+        mode: 'vertical',
+        borderDash: [2, 2],
+        label: {
+            position: 'top',
+            content: translations.indicator.annotation_series_break,
+        },
+    },
+};
+
+// Add a chart alteration to support the chart_annotations metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+    if (info.graphAnnotations && info.graphAnnotations.length > 0) {
+        // Apply some helpers/fixes to the annotations.
+        var annotations = info.graphAnnotations.map(function(annotationOverrides) {
+            var annotation = {};
+            // Apply the "common" preset.
+            if (opensdg.annotationPresets.common) {
+                $.extend(true, annotation, opensdg.annotationPresets.common);
+            }
+            // Apply any specified presets.
+            if (annotationOverrides.preset) {
+                var preset = annotationOverrides.preset;
+                if (opensdg.annotationPresets[preset]) {
+                    $.extend(true, annotation, opensdg.annotationPresets[preset]);
+                }
+            }
+            // Now add any more annotation config.
+            $.extend(true, annotation, annotationOverrides);
+            // Default to horizontal lines.
+            if (!annotation.mode && annotation.type === 'line') {
+                annotation.mode = 'horizontal';
+            }
+            // Provide the obscure scaleID properties on user's behalf.
+            if (!annotation.scaleID && annotation.type === 'line') {
+                if (annotation.mode === 'horizontal') {
+                    annotation.scaleID = 'y-axis-0';
+                }
+                if (annotation.mode === 'vertical') {
+                    annotation.scaleID = 'x-axis-0';
+                }
+            }
+            if (!annotation.xScaleID && annotation.type === 'box') {
+                annotation.xScaleID = 'x-axis-0';
+            }
+            if (!annotation.yScaleID && annotation.type === 'box') {
+                annotation.yScaleID = 'y-axis-0';
+            }
+            // Provide the "enabled" label property on the user's behalf.
+            if (annotation.label && annotation.label.content) {
+                annotation.label.enabled = true;
+            }
+            // Translate any label content.
+            if (annotation.label && annotation.label.content) {
+                annotation.label.content = translations.t(annotation.label.content);
+            }
+            // Save some original values for later used when contrast mode is switched.
+            if (typeof annotation.defaultContrast === 'undefined') {
+                annotation.defaultContrast = {};
+                if (annotation.borderColor) {
+                    annotation.defaultContrast.borderColor = annotation.borderColor;
+                }
+                if (annotation.backgroundColor) {
+                    annotation.defaultContrast.backgroundColor = annotation.backgroundColor;
+                }
+                if (annotation.label) {
+                    annotation.defaultContrast.label = {};
+                    if (annotation.label.fontColor) {
+                        annotation.defaultContrast.label.fontColor = annotation.label.fontColor;
+                    }
+                    if (annotation.label.backgroundColor) {
+                        annotation.defaultContrast.label.backgroundColor = annotation.label.backgroundColor;
+                    }
+                }
+            }
+            return annotation;
+        });
+        if (annotations.length > 0) {
+            var overrides = {
+                options: {
+                    annotation: {
+                        drawTime: 'beforeDatasetsDraw',
+                        annotations: annotations
+                    }
+                }
+            };
+            // Add these overrides onto the normal config.
+            $.extend(true, config, overrides);
+
+            // Update the chart annotations element.
+            var descriptions = annotations.map(function(annotation) {
+                var description = '';
+                if (annotation.description) {
+                    if (typeof annotation.description === 'function') {
+                        description = annotation.description.call(annotation);
+                    }
+                    else {
+                        description = translations.t(annotation.description);
+                    }
+                }
+                return description;
+            }).filter(function(description) { return description != ''; });
+
+            var currentDescription = $('#chart-annotations').text();
+            var newDescription = descriptions.join('. ');
+            if (currentDescription != newDescription) {
+                $('#chart-annotations').text(newDescription);
+            }
+        }
+    }
+    else if (config.options && config.options.annotation) {
+        delete config.options.annotation;
+    }
+});
+</script>
+
+<script>
+// For line charts, add the vertical line hover functionality.
+opensdg.chartConfigAlter(function(config, info) {
+    var overrides = {
+        options: {
+            tooltips: {
+                intersect: false,
+                axis: 'x'
+            },
+        },
+        plugins: [{
+            beforeDatasetsDraw: function(chart) {
+                if (chart.tooltip._active && chart.tooltip._active.length) {
+                    var activePoint = chart.tooltip._active[0],
+                        ctx = chart.ctx,
+                        x = activePoint.tooltipPosition().x,
+                        topY = chart.scales['y-axis-0'].top,
+                        bottomY = chart.scales['y-axis-0'].bottom;
+
+                    // draw line
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.moveTo(x, topY);
+                    ctx.lineTo(x, bottomY);
+                    ctx.lineWidth = 2;
+                    ctx.strokeStyle = '#757575';
+                    ctx.stroke();
+                    ctx.restore();
+                }
+            }
+        }],
+    };
+    // Add these overrides onto the normal config, and return it.
+    $.extend(true, config, overrides);
+});
+</script>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Àrea geogràfica:</dt>
+        <dd>València</dd>
+        
+
+        
+
+        
+
+        
+    <dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button id="btnSave" title="Descarregar gràfic com imatge" class='btn btn-primary btn-download'>
+          Descarregar imatge del gràfic
+        </button>
+      </div>
+    </div>
+
+
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="tableview">
+    <div style="display: none;">
+      <span id="column-sort-info">Feu clic per a ordenar per aquesta columna</span>
+    </div>
+    <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Àrea geogràfica:</dt>
+        <dd>València</dd>
+        
+
+        
+
+        
+
+        
+    <dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="embeddedmapview" class="embedded-map">
+    <div class="row">
+  <div class="col-xs-12">
+    
+    
+    
+    <div class="embedded-map" id="embeddedmapframe">
+    
+  </div>
+</div>
+
+  </div>
+  
+</div>
+
+
+  </div>
+
+</section>
+
   
   <ul class="nav nav-tabs spacer medium" role="tablist">
 
@@ -682,7 +2407,52 @@ data-event-label="Change to Sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Objectiu </th>
+        <td>
           
+            <p>Erradicar la pobresa a tot el món en totes les seues formes</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Destí </th>
+        <td>
+          
+            <p>Reduir com a mínim a la meitat la proporció d’homes, dones, nens i nenes de totes les edats que viuen en la pobresa en totes les seves dimensions d’acord amb les definicions de cada estat.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Indicador </th>
+        <td>
+          
+            <p>Població en risc de pobresa relativa considerant el llindar nacional de pobresa segons ingressos recollits en fonts tributàries</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -721,7 +2491,58 @@ data-event-label="Change to Sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Definició i conceptes </th>
+        <td>
           
+            <p>Percentatge de persones amb ingressos per unitat de consum per davall del 60% de la mediana nacional d’ingressos per unitat de consum (escala OCDE modificada), on els ingressos s’han obtingut a partir de registres tributaris.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Unitat de mesura </th>
+        <td>
+          
+            <p>Percentatge</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fonts de dades </th>
+        <td>
+          
+            <p>9907-Datos estadísticos de la ciudad de València. Pla Valencià d’Estadística 2019-2022. Explotació estadística Atles de Distribució de Renda de les Llars de l’Institut Nacional d’Estadística.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -748,7 +2569,41 @@ data-event-label="Change to Sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Comentaris i limitacions </th>
+        <td>
           
+            <p>Aquest indicador forma part del Panell ODS de l’Institut Nacional d’Estadística (https://www.ine.es/dyngs/ODS/es/index.htm) i del Panell ODS del Portal Estadístic de la Generalitat Valenciana (http://pegv.gva.es/es/ods), que ofereixen aquesta informació per a àmbits territorials superiors.També forma part del Panell ODS de la Xarxa Espanyola per al Desenvolupament Sostenible (https://spanish-cities.sdgindex.org/).</p>
+
+<p>Documentació metodològica sobre l’Atles de Distribució de Renda de les Llars de l’INE: <a href="https://www.ine.es/experimental/atlas/exp_atlas_proyecto.pdf">Atles Renda</a>.</p>
+
+<p>Les dades de renda percebuda que s’utilitzen en el càlcul d’aquest indicador corresponen a l’any de referència i s’obtenen a partir de l’enllaç d’informació de l’INE amb dades tributàries, fonamentalment de la AEAT i de les Hisendes Forals. La població utilitzada per als càlculs està referida a 1 de gener de l’any següent al de referència.  El nombre d’unitats de consum d’una llar es calcula utilitzant l’escala OCDE modificada, que assigna un pes d’1 a la primera persona de 14 o més anys, un pes de 0,5 a la resta de persones de 14 o més anys i un pes de 0,3 a les persones de menys de 14 anys. Per exemple, una llar formada per dos adults i dos xiquets menors de 14 anys estaria formada per 2,1 unitats de consum.   Els ingressos per unitat de consum de la llar s’obtenen dividint els ingressos totals de la llar entre el nombre d’unitats de consum que la componen. A continuació s’adjudica aquest valor a cadascun dels membres que componen la llar. Els conceptes tributaris inclosos en la renda neta de la llar es descriuen en el document metodològic de l’operació estadística. La informació de l’Atles de Distribució de Renda de les Llars de l’INE està disponible per a altres característiques demogràfiques i àmbits territorials menors (barris i seccions).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Mètode de càlcul </th>
+        <td>
+          
+            <p>Quocient de la població en risc de pobresa relativa considerant el llindar nacional de pobresa l’any de referència associat a ingressos recollits en fonts tributàries respecte a la població resident.
+L’ingrés de cadascuna de les persones que resideixen en una determinada llar es calcula com l’ingrés del total de la llar a la qual pertanyen entre el seu nombre d’unitats de consum. A continuació s’obté la mediana (percentil 50) de la distribució d’ingressos de totes les persones residents, sent el 60% d’aquest valor el llindar de pobresa considerat per a mesurar la pobresa relativa.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -775,37 +2630,66 @@ data-event-label="Change to Sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Dades actualitzades per última vegada </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/ods-valencia/data/commit/b7466d3ba5dbed6d256395e46a74b2108507f7d5" target="_blank">
+                2021-12-13: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
-          
+      
+      
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Metadades actualitzades per última vegada </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/ods-valencia/data/commit/1e34dbfe608c27f6ae25ed4f5da49ac569b145d6" target="_blank">
+                2021-12-13: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
-          
       
-        
-          
       
-        
-          
       
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
+  
   
   
   
@@ -1244,12 +3128,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20211213075416'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20211213081529'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20211213075416"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20211213081529"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
