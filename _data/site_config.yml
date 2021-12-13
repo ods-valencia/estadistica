@@ -25,15 +25,15 @@ contrast_type: default
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: València
+  adjective: València
 create_goals:
   layout: goal-by-target-vertical
-  previous_next_links: false
+  previous_next_links: true
   goals: []
 create_indicators:
   layout: indicator
-  previous_next_links: false
+  previous_next_links: true
 create_pages:
   - filename: ''
     folder: /
@@ -76,10 +76,8 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: 'https://twitter.com/EstadisticaVLC'
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
@@ -89,27 +87,17 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
+  #- title: Lorem ipsum
+  #  content: |
+  #    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
+  #    cursus est sed dapibus.
+  #  include: ''
+  #  button_label: Read more
+  #  button_link: 'https://example.com'
+  #  rule_color: ''
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
-  description: >-
-    Click on each goal for our Sustainable Development Goal global indicator
-    data.
+  title: frontpage.title
+  description: frontpage.instructions
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
@@ -205,14 +193,14 @@ metadata_edit_url: metadata
 metadata_tabs: []
 news:
   category_links: false
-non_global_metadata: indicator.national_metadata
-remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
+non_global_metadata: indicator.local_metadata
+remote_data_prefix: 'https://ods-valencia.github.io/data/'
 reporting_status:
   title: status.reporting_status
   description: status.description
   disaggregation_tabs: false
-repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
-repository_url_site: ''
+repository_url_data: 'https://github.com/ods-valencia/data'
+repository_url_site: 'https://github.com/ods-valencia/estadistica'
 search_index_boost: []
 search_index_extra_fields: []
 series_toggle: true
