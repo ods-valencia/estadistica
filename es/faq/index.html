@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Frequently Asked Questions (FAQ) - Indicadores para los Objetivos de Desarrollo Sostenible</title>
+    <title>Preguntas frecuentes (FAQ) - Indicadores para los Objetivos de Desarrollo Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213072807">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211213073512">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -401,9 +401,39 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
     <div>
-        <h1>Frequently Asked Questions (FAQ)</h1>
+        <h1>Preguntas frecuentes (FAQ)</h1>
         
-            <p>Translation needed.</p>
+            <h2 id="puedo-hacer-llegar-sugerencias-en-relación-a-fuentes-de-datos-nuevas-o-diferentes">¿Puedo hacer llegar sugerencias en relación a fuentes de datos nuevas o diferentes?</h2>
+<p>Si tiene cualquier comentario en relación a las fuentes de datos utilizadas o alguna sugerencia en cuanto a la utilización de nuevas fuentes de datos, puede comunicárnoslo en <a href="mailto:test@example.com">test@example.com</a>.</p>
+
+<h2 id="qué-significa-estado-de-los-indicadores">¿Qué significa “Estado de los indicadores”?</h2>
+<p>Para cada indicador se define su estado en una de las cuatro categorías siguientes:</p>
+
+<ul>
+  <li><strong>Informado en línea</strong> – La meta ODS operativa ha sido definida y el correspondiente indicador o indicadores están disponibles a escala local, pese a que los datos puedan no estar completamente desagregados o pendientes de actualizar.</li>
+  <li><strong>Estadísticas en desarrollo</strong> – Se ha definido la meta operativa y se ha identificado la fuente de datos del indicador, pero todavía no se dispone de los datos.</li>
+  <li><strong>Explorando fuentes de datos</strong> – O bien no se ha definido la meta operativa, o sí se ha definido, pero no se ha podido identificar una fuente de datos para elaborar el correspondiente indicador.</li>
+  <li><strong>No aplicable</strong> – Los 17 ODS de la Agenda 2030 se despliegan en 169 metas, pero no todas ellas tienen una traslación al ámbito local. En estos casos se utiliza la etiqueta “No aplicable”.</li>
+</ul>
+
+<p>La publicación de nueva información sobre el estado de un indicador se anunciará en la cabecera de la correspondiente página.</p>
+
+<h2 id="con-qué-periodicidad-se-actualizarán-los-datos-en-la-web">¿Con qué periodicidad se actualizarán los datos en la web?</h2>
+<p>Hay que tener en cuenta que las fuentes de datos que nutren los indicadores tienen orígenes, calendarios y periodicidades muy diversas. Los indicadores se actualizan individualmente a medida que se dispone de nueva información.</p>
+
+<h2 id="qué-se-puede-hacer-para-evitar-la-falta-de-datos-o-de-la-escasa-desagregación-proporcionada">¿Qué se puede hacer para evitar la falta de datos o de la escasa desagregación proporcionada?</h2>
+<p>Hay indicadores que están disponibles a nivel estatal, nacional, provincial o metropolitano, pero no a nivel de ciudad.</p>
+
+<p>Esto implica seguir trabajando en la búsqueda o creación de nuevas fuentes de datos que permitan solucionar este problema.</p>
+
+<h2 id="qué-nivel-de-accesibilidad-tiene-este-sitio-web">¿Qué nivel de accesibilidad tiene este sitio web?</h2>
+<p>La intención es que este sitio web sea lo más accesible para todos los usuarios. Se está trabajando para poder superar el test de accesibilidad de las <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20">Web Content Accessibility Guidelines (WCAG 2.0)</a>.</p>
+
+<h2 id="qué-navegadores-puedo-utilizar-para-visitar-este-sitio-web">¿Qué navegadores puedo utilizar para visitar este sitio web?</h2>
+<p>Cualquiera de las últimas versiones de los navegadores comúnmente utilizados.</p>
+
+<h2 id="pueden-copiar-este-sitio-otras-ciudades">¿Pueden copiar este sitio otras ciudades?</h2>
+<p>Sí. Este sitio web se ha construido y alojado utilizando un 100% de software libre. Por lo tanto, otras ciudades pueden libremente reutilizar su código. Puede consultar los aspectos más destacados de la plataforma <em>OpenSDG</em> en la siguiente <a href="https://open-sdg.readthedocs.io">Guía</a>.El <a href="http://www.opendataenterprise.org/">Center for Open Data Enterprise (CODE)</a> también ofrece herramientas de apoyo para el desarrollo y promoción de las aplicaciones de datos abiertos.</p>
 
         
     </div>
@@ -467,12 +497,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20211213072807'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20211213073512'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20211213072807"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20211213073512"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
