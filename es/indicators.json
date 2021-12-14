@@ -159,7 +159,7 @@
         },
         {
           "id": "2-2-2",
-          "title": "Población de 5 a 14 años con pes insuficiente",
+          "title": "Población de 5 a 14 años con peso insuficiente",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-2-2",
@@ -294,6 +294,14 @@
           "status": "complete"
         },
         {
+          "id": "3-2-3",
+          "title": "global_indicators.3-2-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-2-3",
+          "status": "complete"
+        },
+        {
           "id": "3-3-1",
           "title": "Incidencia del VIH/SIDA por cada 100.000 habitantes",
           "description": "",
@@ -334,6 +342,30 @@
           "status": "complete"
         },
         {
+          "id": "3-3-6",
+          "title": "global_indicators.3-3-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-3-6",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-7",
+          "title": "global_indicators.3-3-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-3-7",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-8",
+          "title": "global_indicators.3-3-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-3-8",
+          "status": "complete"
+        },
+        {
           "id": "3-4-1",
           "title": "Tasa de mortalidad atribuida a las enfermedades cardiovasculares",
           "description": "",
@@ -350,6 +382,54 @@
           "status": "complete"
         },
         {
+          "id": "3-4-3",
+          "title": "global_indicators.3-4-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-4-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-4",
+          "title": "global_indicators.3-4-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-4-4",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-5",
+          "title": "global_indicators.3-4-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-4-5",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-6",
+          "title": "global_indicators.3-4-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-4-6",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-7",
+          "title": "global_indicators.3-4-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-4-7",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-8",
+          "title": "global_indicators.3-4-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-4-8",
+          "status": "complete"
+        },
+        {
           "id": "3-5-1",
           "title": "Tasa de personas en tratamiento por consumo de drogas ilegales",
           "description": "",
@@ -363,6 +443,22 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-5-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-5-3",
+          "title": "global_indicators.3-5-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-5-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-5-4",
+          "title": "global_indicators.3-5-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-5-4",
           "status": "complete"
         },
         {
@@ -390,6 +486,14 @@
           "status": "complete"
         },
         {
+          "id": "3-7-3",
+          "title": "global_indicators.3-7-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-7-3",
+          "status": "complete"
+        },
+        {
           "id": "3-8-1",
           "title": "Porcentaje de población con necesidad de atención médica insatisfecha",
           "description": "",
@@ -403,6 +507,30 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-8-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-8-3",
+          "title": "global_indicators.3-8-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-8-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-8-4",
+          "title": "global_indicators.3-8-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-8-4",
+          "status": "complete"
+        },
+        {
+          "id": "3-8-5",
+          "title": "global_indicators.3-8-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-8-5",
           "status": "complete"
         },
         {
@@ -428,6 +556,30 @@
           "keywords": "",
           "href": "/estadistica/es/3-c-1",
           "status": "complete"
+        },
+        {
+          "id": "3-c-2",
+          "title": "global_indicators.3-c-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-c-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-c-3",
+          "title": "global_indicators.3-c-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-c-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-c-4",
+          "title": "global_indicators.3-c-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/3-c-4",
+          "status": "complete"
         }]
     }
   },
@@ -439,27 +591,27 @@
         
         {
           "id": "4-1-1",
-          "title": "Proporción de niños, niñas y adolescentes que, a) en los cursos segundo y tercero, b) al final de la enseñanza primaria y c) al final de la enseñanza secundaria inferior, han alcanzado al menos un nivel mínimo de competencia en i) lectura y ii) matemáticas, desglosada por sexo",
+          "title": "Tasa de promoción en ESO",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-1-2",
-          "title": "Índice de finalización (enseñanza primaria, primer ciclo de enseñanza secundaria y segundo ciclo de enseñanza secundaria)",
+          "title": "Tasa de promoción en la educación secundaria postobligatoria",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-1",
-          "title": "Proporción de niños de 24 a 59 meses cuyo desarrollo es adecuado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, desglosada por sexo",
+          "title": "Tasa de escolarización en edad infantil",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-2",
@@ -471,35 +623,51 @@
         },
         {
           "id": "4-3-1",
-          "title": "Tasa de participación de los jóvenes y adultos en la enseñanza y formación académica y no académica en los últimos 12 meses, desglosada por sexo",
+          "title": "Porcentaje de personas que en el último año han realizado algún curso, taller o actividad formativa",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-3-2",
+          "title": "global_indicators.4-3-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/4-3-2",
+          "status": "complete"
         },
         {
           "id": "4-4-1",
-          "title": "Proporción de jóvenes y adultos con competencias en tecnología de la información y las comunicaciones (TIC), desglosada por tipo de competencia técnica",
+          "title": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-1",
-          "title": "Índices de paridad (entre mujeres y hombres, zonas rurales y urbanas, quintiles de riqueza superior e inferior y grupos como los discapacitados, los pueblos indígenas y los afectados por los conflictos, a medida que se disponga de datos) para todos los indicadores educativos de esta lista que puedan desglosarse",
+          "title": "Índice de paridad entre mujeres y hombres de la población entre 18 y 64 años que han realizado actividades educativas en los últimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-6-1",
-          "title": "Proporción de la población en un grupo de edad determinado que ha alcanzado al menos un nivel fijo de competencia funcional en a) alfabetización y b) nociones elementales de aritmética, desglosada por sexo",
+          "title": "Población entre 25 y 64 años con estudios secundarios o inferiores",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-6-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-6-2",
+          "title": "global_indicators.4-6-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/4-6-2",
+          "status": "complete"
         },
         {
           "id": "4-7-1",
@@ -519,19 +687,51 @@
         },
         {
           "id": "4-b-1",
-          "title": "Volumen de la asistencia oficial para el desarrollo destinada a becas, desglosado por sector y tipo de estudio",
+          "title": "Asistencia oficial destinada a cheque escolar",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-b-2",
+          "title": "global_indicators.4-b-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/4-b-2",
+          "status": "complete"
         },
         {
           "id": "4-c-1",
-          "title": "Proporción de docentes con las calificaciones mínimas requeridas, por nivel educativo",
+          "title": "Presupuesto municipal destinado a Cooperación ODS4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-c-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-c-2",
+          "title": "global_indicators.4-c-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/4-c-2",
+          "status": "complete"
+        },
+        {
+          "id": "4-c-3",
+          "title": "global_indicators.4-c-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/4-c-3",
+          "status": "complete"
+        },
+        {
+          "id": "4-c-4",
+          "title": "global_indicators.4-c-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/4-c-4",
+          "status": "complete"
         }]
     }
   },

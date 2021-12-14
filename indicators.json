@@ -294,6 +294,14 @@
           "status": "complete"
         },
         {
+          "id": "3-2-3",
+          "title": "global_indicators.3-2-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-2-3",
+          "status": "complete"
+        },
+        {
           "id": "3-3-1",
           "title": "Incidència del VIH/SIDA per cada 100.000 habitants",
           "description": "",
@@ -334,6 +342,30 @@
           "status": "complete"
         },
         {
+          "id": "3-3-6",
+          "title": "global_indicators.3-3-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-3-6",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-7",
+          "title": "global_indicators.3-3-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-3-7",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-8",
+          "title": "global_indicators.3-3-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-3-8",
+          "status": "complete"
+        },
+        {
           "id": "3-4-1",
           "title": "Taxa de mortalitat atribuïda a les malalties cardiovasculars",
           "description": "",
@@ -350,6 +382,54 @@
           "status": "complete"
         },
         {
+          "id": "3-4-3",
+          "title": "global_indicators.3-4-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-4-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-4",
+          "title": "global_indicators.3-4-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-4-4",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-5",
+          "title": "global_indicators.3-4-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-4-5",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-6",
+          "title": "global_indicators.3-4-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-4-6",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-7",
+          "title": "global_indicators.3-4-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-4-7",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-8",
+          "title": "global_indicators.3-4-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-4-8",
+          "status": "complete"
+        },
+        {
           "id": "3-5-1",
           "title": "Taxa de persones en tractament per consum de drogues il·legals",
           "description": "",
@@ -363,6 +443,22 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-5-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-5-3",
+          "title": "global_indicators.3-5-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-5-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-5-4",
+          "title": "global_indicators.3-5-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-5-4",
           "status": "complete"
         },
         {
@@ -390,6 +486,14 @@
           "status": "complete"
         },
         {
+          "id": "3-7-3",
+          "title": "global_indicators.3-7-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-7-3",
+          "status": "complete"
+        },
+        {
           "id": "3-8-1",
           "title": "Percentatge de població amb necessitat d'atenció mèdica insatisfeta",
           "description": "",
@@ -403,6 +507,30 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-8-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-8-3",
+          "title": "global_indicators.3-8-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-8-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-8-4",
+          "title": "global_indicators.3-8-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-8-4",
+          "status": "complete"
+        },
+        {
+          "id": "3-8-5",
+          "title": "global_indicators.3-8-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-8-5",
           "status": "complete"
         },
         {
@@ -428,6 +556,30 @@
           "keywords": "",
           "href": "/estadistica/3-c-1",
           "status": "complete"
+        },
+        {
+          "id": "3-c-2",
+          "title": "global_indicators.3-c-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-c-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-c-3",
+          "title": "global_indicators.3-c-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-c-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-c-4",
+          "title": "global_indicators.3-c-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/3-c-4",
+          "status": "complete"
         }]
     }
   },
@@ -439,27 +591,27 @@
         
         {
           "id": "4-1-1",
-          "title": "Proporció de nens, nenes i adolescents que, a) en els cursos segon i tercer, b) al final de l'ensenyament primari i c) al final de l'ensenyament secundari inferior, han aconseguit almenys un nivell mínim de competència en i) lectura i ii) matemàtiques, desglossada per sexe",
+          "title": "Taxa de promoció en ESO",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-1-2",
-          "title": "global_indicators.4-1-2-title",
+          "title": "Taxa de promoció en l'educació secundària postobligatòria",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-1",
-          "title": "Proporció de nens menors de 5 anys el desenvolupament dels quals és adequat quant a la salut, l'aprenentatge i el benestar psicosocial, desglossada per sexe.",
+          "title": "Taxa d'escolarització en edat infantil",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-2",
@@ -471,35 +623,51 @@
         },
         {
           "id": "4-3-1",
-          "title": "Taxa de participació dels joves i adults en l'ensenyament i formació acadèmica i no acadèmica en els últims 12 mesos, desglossada per sexe",
+          "title": "Percentatge de persones que en l'últim any han realitzat algun curs, taller o activitat formativa",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-3-2",
+          "title": "global_indicators.4-3-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/4-3-2",
+          "status": "complete"
         },
         {
           "id": "4-4-1",
-          "title": "Proporció de joves i adults amb competències en tecnologia de la informació i les comunicacions (TIC), desglossada per tipus de competència tècnica",
+          "title": "Proporció de persones entre 16 i 74 anys que han utilitzat alguna habilitat informàtica en els últims 12 mesos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-1",
-          "title": "Índexs de paritat (entre dones i homes, zones rurals i urbanes, quintils de riquesa superior i inferior i grups com els discapacitats, els pobles indígenes i els afectats pels conflictes, a mesura que es disposi de dades) per a tots els indicadors educatius d'aquesta llista que puguin desglossar-se",
+          "title": "Índex de paritat entre dones i homes de la població entre 18 i 64 anys que han realitzat activitats educatives en els últims 12 mesos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-6-1",
-          "title": "Proporció de la població en un grup d'edat determinat que ha aconseguit almenys un nivell fix de competència funcional en a) alfabetització i b) nocions elementals d'aritmètica, desglossada per sexe",
+          "title": "Població entre 25 i 64 anys amb estudis secundaris o inferiors",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-6-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-6-2",
+          "title": "global_indicators.4-6-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/4-6-2",
+          "status": "complete"
         },
         {
           "id": "4-7-1",
@@ -519,19 +687,51 @@
         },
         {
           "id": "4-b-1",
-          "title": "Volum de l'assistència oficial per al desenvolupament destinada a beques, desglossat per sector i tipus d'estudi",
+          "title": "Assistència oficial destinada a xec escolar",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-b-2",
+          "title": "global_indicators.4-b-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/4-b-2",
+          "status": "complete"
         },
         {
           "id": "4-c-1",
-          "title": "Proporció del professorat d'educació a) preescolar, b) primària, c) secundària inferior i d) secundària superior que ha rebut almenys la mínima formació docent organitzada prèvia a l'ocupació o en l'ocupació (per exemple, formació pedagògica) exigida per a impartir ensenyament a cada nivell en un país determinat",
+          "title": "Pressupost municipal destinat a Cooperació ODS4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-c-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-c-2",
+          "title": "global_indicators.4-c-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/4-c-2",
+          "status": "complete"
+        },
+        {
+          "id": "4-c-3",
+          "title": "global_indicators.4-c-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/4-c-3",
+          "status": "complete"
+        },
+        {
+          "id": "4-c-4",
+          "title": "global_indicators.4-c-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/4-c-4",
+          "status": "complete"
         }]
     }
   },
