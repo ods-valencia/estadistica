@@ -267,7 +267,7 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
@@ -275,15 +275,15 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-1",
-          "title": "Taxa de mortalitat de nens menors de 5 anys",
+          "title": "Taxa de mortalitat de menors de 5 anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-2",
@@ -291,15 +291,15 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-1",
-          "title": "Nombre de noves infeccions pel VIH per cada 1.000 habitants no infectats, desglossat per sexe, edat i poblacions clau",
+          "title": "Incidència del VIH/SIDA per cada 100.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-2",
@@ -307,15 +307,15 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-3",
-          "title": "Incidència de la malària per cada 1.000 habitants",
+          "title": "Incidència de la malària per cada 100.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-4",
@@ -323,95 +323,95 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-5",
-          "title": "Nombre de persones que requereixen intervencions contra malalties tropicals desateses",
+          "title": "Taxa de mortalitat atribuïda al VIH",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-5",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-1",
-          "title": "Taxa de mortalitat atribuïda a les malalties cardiovasculars, el càncer, la diabetis o les malalties respiratòries cròniques",
+          "title": "Taxa de mortalitat atribuïda a les malalties cardiovasculars",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-2",
-          "title": "Taxa de mortalitat per suïcidi",
+          "title": "Taxa de mortalitat atribuïda a les malalties respiratòries",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-5-1",
-          "title": "Cobertura dels tractaments(farmacològics i psicosocials i serveis de rehabilitació i posttractament) de trastorns per abús de substàncies addictives",
+          "title": "Taxa de persones en tractament per consum de drogues il·legals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-5-2",
-          "title": "Consum nociu d'alcohol, definit segons el context nacional com el consum d'alcohol per càpita (a partir dels 15 anys d'edat) durant un any civil en litres d'alcohol pur",
+          "title": "Taxa de persones en tractament per consum d'alcohol",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-6-1",
-          "title": "Taxa de mortalitat per lesions degudes a accidents de trànsit",
+          "title": "Taxa de mortalitat per lesions degudes a accident de trànsit",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-1",
-          "title": "Proporció de dones en edat de procrear (entre 15 i 49 anys) que cobreixen les seves necessitats de planificació familiar amb mètodes moderns",
+          "title": "Taxa de fecunditat de les adolescents de 10 a 14 anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2",
-          "title": "Taxa de fecunditat de les adolescents (entre 10 i 14 anys i entre 15 i 19 anys) per cada 1.000 dones d'aquest grup d'edat",
+          "title": "Taxa de fecunditat de les adolescents de 15 a 19 anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-1",
-          "title": "Cobertura dels serveis de salut essencials (definida com la cobertura mitjana dels serveis essencials entre la població general i els més desfavorits, calculada a partir d'intervencions traçadores com les relacionades amb la salut reproductiva, materna, neonatal i infantil, les malalties infeccioses, les malalties no transmissibles i la capacitat dels serveis i l'accés a ells)",
+          "title": "Percentatge de població amb necessitat d'atenció mèdica insatisfeta",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-2",
-          "title": "Proporció de la població amb grans despeses sanitàries per llar com a percentatge del total de despeses o ingressos de les llars",
+          "title": "Proporció de la despesa anual de les persones destinada a despeses relacionades amb la salut",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-8-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-1",
-          "title": "Taxa de mortalitat atribuïda a la contaminació de les llars i de l'aire ambient",
+          "title": "Taxa de mortalitat atribuïda a intoxicacions involuntàries",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-2",
@@ -431,11 +431,11 @@
         },
         {
           "id": "3-a-1",
-          "title": "Prevalença del consum actual de tabac a partir dels 15 anys d'edat (edats ajustades)",
+          "title": "Percentatge de població de 15 i més anys que són fumadors diaris",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-1",
@@ -463,11 +463,11 @@
         },
         {
           "id": "3-c-1",
-          "title": "Densitat i distribució del personal sanitari",
+          "title": "Pressupost municipal destinat a Cooperació ODS3",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-c-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-d-1",
@@ -1099,358 +1099,6 @@
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-c-1",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "10",
-      "title": "Reduir les desigualtats dins els països i entre els països",
-      "indicators": [
-        
-        {
-          "id": "10-1-1",
-          "title": "Taxes de creixement per càpita de les despeses o ingressos de les llars del 40% més pobre de la població i la població total",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-2-1",
-          "title": "Proporció de persones que viuen per sota del 50% de la mitjana dels ingressos, desglossada per sexe, edat i persones amb discapacitat",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-3-1",
-          "title": "Proporció de la població que declara haver-se sentit personalment discriminada o assetjada en els últims 12 mesos per motius de discriminació prohibits pel dret internacional dels drets humans",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-4-1",
-          "title": "Proporció del PIB generada pel treball, que comprèn els salaris i les transferències de protecció social",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-4-2",
-          "title": "global_indicators.10-4-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-5-1",
-          "title": "Indicadors de solidesa financera",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-6-1",
-          "title": "Proporció de membres i drets de vot dels països en desenvolupament en organitzacions internacionals",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-1",
-          "title": "Cost de la contractació sufragat per l'empleat en proporció als ingressos anuals percebuts al país de destinació",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-2",
-          "title": "Nombre de països que han aplicat polítiques migratòries ben gestionades",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-3",
-          "title": "global_indicators.10-7-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-7-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-4",
-          "title": "global_indicators.10-7-4-title",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-7-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-a-1",
-          "title": "Proporció de línies aranzelàries que s'apliquen a les importacions dels països menys avançats i els països en desenvolupament amb aranzel zero",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-b-1",
-          "title": "Corrents totals de recursos per al desenvolupament, desglossades per país receptor i país donant i per tipus de corrent (per exemple, assistència oficial per al desenvolupament, inversió estrangera directa i altres corrents)",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-c-1",
-          "title": "Cost de les remeses en proporció a les sumes remeses",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/10-c-1",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "11",
-      "title": "Aconseguir que les ciutats i els assentaments humans siguen inclusius, segurs, resilients i sostenibles",
-      "indicators": [
-        
-        {
-          "id": "11-1-1",
-          "title": "Proporció de la població urbana que viu en barris marginals, assentaments informals o habitatges inadequats",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-2-1",
-          "title": "Proporció de la població que té fàcil accés al transport públic, desglossada per sexe, edat i persones amb discapacitat",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-3-1",
-          "title": "Relació entre la taxa de consum de terres i la taxa de creixement de la població",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-3-2",
-          "title": "Proporció de ciutats que compten amb una estructura de participació directa de la societat civil en la planificació i la gestió urbanes i funcionen amb regularitat i democràticament",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-4-1",
-          "title": "Total de despeses (públiques i privades) per càpita destinades a la preservació, protecció i conservació de tot el patrimoni cultural i natural, desglossat per tipus de patrimoni (cultural, natural, mixt i reconegut pel Centre del Patrimoni Mundial), nivell de govern (nacional, regional i local o municipal), tipus de despeses (despeses de funcionament o inversions) i tipus de finançament privat (donacions en espècie, finançament procedent del sector privat sense fins de lucre i patrocini)",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-5-1",
-          "title": "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-5-2",
-          "title": "Pèrdues econòmiques directes en relació amb el PIB mundial, danys en la infraestructura essencial i nombre d'interrupcions dels serveis bàsics atribuïts a desastres",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-6-1",
-          "title": "Proporció de deixalles sòlides urbanes recollides periòdicament i amb una descàrrega final adequada respecte del total de deixalles sòlides urbanes generades, desglossada per ciutat",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-6-2",
-          "title": "Nivells mitjans anuals de partícules fines en suspensió (per exemple, PM2.5 i PM10) a les ciutats (ponderats segons la població)",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-1",
-          "title": "Proporció mitjana de la superfície edificada de les ciutats que es dedica a espais oberts per a ús públic de tots, desglossada per sexe, edat i persones amb discapacitat",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-2",
-          "title": "Proporció de persones que han estat víctimes d'assetjament físic o sexual en els últims 12 mesos, desglossada per sexe, edat, grau de discapacitat i lloc del fet",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-a-1",
-          "title": "Proporció de la població resident en ciutats que apliquen plans de desenvolupament urbà i regional que tenen en compte les previsions demogràfiques i les necessitats de recursos, desglossada per grandària de ciutat",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-1",
-          "title": "Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-2",
-          "title": "Proporció de governs locals que adopten i apliquen estratègies locals de reducció del risc de desastres d'acord amb les estratègies nacionals de reducció del risc de desastres",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/11-b-2",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "12",
-      "title": "Garantir modalitats de consum i producció sostenibles",
-      "indicators": [
-        
-        {
-          "id": "12-1-1",
-          "title": "Nombre de països que inclouen com a prioritat o fita en les polítiques nacionals plans d'acció nacionals sobre el consum i la producció sostenibles",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-2-1",
-          "title": "Empremta material en termes absoluts, empremta material per càpita i empremta material per PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-2-2",
-          "title": "Consum material intern en termes absoluts, consum material intern per càpita i consum material intern per PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-2-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-3-1",
-          "title": "Índex mundial de pèrdues d'aliments",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-4-1",
-          "title": "Nombre de parts en els acords ambientals multilaterals internacionals sobre deixalles perilloses i altres productes químics que compleixen els seus compromisos i obligacions de transmetre informació com s'exigeix en cadascun d'aquests acords",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-4-2",
-          "title": "Deixalles perilloses generades per càpita i proporció de deixalles perilloses tractades, desglossats per tipus de tractament",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-5-1",
-          "title": "Taxa nacional de reciclatge, en tones de material reciclat",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-6-1",
-          "title": "Nombre d'empreses que publiquen informes sobre sostenibilitat",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-7-1",
-          "title": "Nombre de països que apliquen polítiques i plans d'acció sostenibles en matèria d'adquisicions públiques",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-8-1",
-          "title": "Grau en què i) l'educació per a la ciutadania mundial i ii) l'educació per al desenvolupament sostenible (inclosa l'educació sobre el canvi climàtic) s'incorporen en a) les polítiques nacionals d'educació, b) els plans d'estudi, c) la formació del professorat i d) l'avaluació dels estudiants",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-a-1",
-          "title": "Quantitat de suport en matèria de recerca i desenvolupament prestat als països en desenvolupament per al consum i la producció sostenibles i les tecnologies ecològicament racionals",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-b-1",
-          "title": "Nombre d'estratègies o polítiques de turisme sostenible i de plans d'acció aplicats que inclouen instruments de seguiment i avaluació convinguts",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-c-1",
-          "title": "Quantia dels subsidis als combustibles fòssils per unitat de PIB (producció i consum) i en proporció al total de les despeses nacionals en combustibles fòssils",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/12-c-1",
           "status": "notstarted"
         }]
     }
