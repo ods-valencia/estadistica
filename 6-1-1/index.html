@@ -107,7 +107,7 @@ var translations = {
         
         Indicador 6.1.1 -
         
-        Proporció de la població que utilitza serveis de subministrament d&#39;aigua potable gestionats sense riscos - Indicadors per als Objectius de Desenvolupament Sostenible
+        Consum de litres d&#39;aigua per habitant i dia - Indicadors per als Objectius de Desenvolupament Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211214090838">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20211214102047">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -506,13 +506,13 @@ data-event-label="high"
     
 <div class="previous-next-links row">
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
-        <a class="btn btn-primary" href="/estadistica/5-c-1" aria-labelledby="previous-link">
+        <a class="btn btn-primary" href="/estadistica/5-c-9" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
             <span id="previous-link" class="hidden-sm hidden-xs">Indicador anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
-        <a class="btn btn-primary" href="/estadistica/6-2-1" aria-labelledby="next-link">
+        <a class="btn btn-primary" href="/estadistica/6-1-2" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
             <span id="next-link" class="hidden-sm hidden-xs">Següent indicador</span>
         </a>
@@ -538,7 +538,7 @@ data-event-label="high"
             
             Indicador 6.1.1
             
-            <span class="lead-copy">Proporció de la població que utilitza serveis de subministrament d'aigua potable gestionats sense riscos</span>
+            <span class="lead-copy">Consum de litres d'aigua per habitant i dia</span>
           </h1>
         </div>
       </div>
@@ -552,6 +552,19 @@ data-event-label="high"
   
 
   
+<div class="row indicator-progress">
+  <div class="col-xs-12">
+    <div class="progress-status-heading">
+      
+    </div>
+    
+    
+    
+
+
+  </div>
+</div>
+
 
   
 
@@ -565,11 +578,11 @@ data-event-label="high"
   data-indicatorid='indicator_6-1-1'
   data-id="6-1-1"
   data-country="València"
-  data-charttitle="Proporció de la població que utilitza serveis de subministrament d'aigua potable gestionats sense riscos"
+  data-charttitle="Consum de litres d'aigua per habitant i dia"
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
   data-showmap="false"
@@ -580,12 +593,4284 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Any&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;GeoCode&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;GeoCode&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Any&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="sr-only" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategoríes</h4>
+    <p>Trieu categories de les llistes desplegables a continuació per veure diferents desglossaments de les dades. Alguns no estaran disponibles fins que es triï un nivell superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/estadistica/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://ods-valencia.github.io/data/ca/headline/6-1-1.csv" class="btn btn-primary btn-download" download="indicator_6-1-1.csv" tabindex="0" role="button">Descarregar CSV global</a>
+
+    <a href="https://ods-valencia.github.io/data/ca/data/6-1-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_6-1-1.csv' tabindex='0' role='button'>Descarregar CSV font</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Consum de litres d'aigua per habitant i dia</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col" class="table-value">GeoCode</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>157.27</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>152.14</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>152.3</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>147.61</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>145.37</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>148.37</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>144.92</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>147.2</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>146.87</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>147.6</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>149.71</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>143.77</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>294.7</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>274.94</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>279.03</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>264.85</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>254.41</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>258.81</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>250.88</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>262.84</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>254.5</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>251.33</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>257.83</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>211.69</td>
+          
+          
+          
+          <td class="table-value">1.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>168.9</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>158.85</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>163.52</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>159.96</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>153.97</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>158.46</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>155.22</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>158.7</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>158.0</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>158.22</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>159.89</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>147.8</td>
+          
+          
+          
+          <td class="table-value">2.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>166.33</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>156.65</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>159.27</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>154.13</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>154.43</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>159.34</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>156.1</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>158.3</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>160.7</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>159.19</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>162.15</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>154.17</td>
+          
+          
+          
+          <td class="table-value">3.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>254.81</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>259.75</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>220.15</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>208.2</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>213.22</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>215.61</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>209.28</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>199.19</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>196.5</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>196.56</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>188.69</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>171.69</td>
+          
+          
+          
+          <td class="table-value">4.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>147.52</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>140.36</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>144.26</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>139.48</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>135.45</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>142.99</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>140.13</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>141.56</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>123.9</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>123.12</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>126.42</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>124.4</td>
+          
+          
+          
+          <td class="table-value">5.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>219.15</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>209.17</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>222.64</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>210.41</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>201.15</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>208.32</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>205.11</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>205.54</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>172.8</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>169.68</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>172.84</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>159.28</td>
+          
+          
+          
+          <td class="table-value">6.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>123.09</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>114.49</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>118.21</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>116.91</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>113.64</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>116.65</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>114.21</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>113.78</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>116.6</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>118.88</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>118.05</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>118.09</td>
+          
+          
+          
+          <td class="table-value">7.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>158.62</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>155.37</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>153.1</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>150.53</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>150.0</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>153.14</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>149.71</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>150.48</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>128.8</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>129.01</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>131.69</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>131.76</td>
+          
+          
+          
+          <td class="table-value">8.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>109.85</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>104.12</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>107.21</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>103.52</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>99.52</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>101.93</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>99.61</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>102.41</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>104.6</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>104.79</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>107.45</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>106.98</td>
+          
+          
+          
+          <td class="table-value">9.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>141.54</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>136.19</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>143.07</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>139.89</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>137.12</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>139.6</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>136.04</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>138.73</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>136.0</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>141.04</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>141.33</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>137.01</td>
+          
+          
+          
+          <td class="table-value">10.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>172.39</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>164.02</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>162.22</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>160.72</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>158.41</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>163.01</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>160.09</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>158.28</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>147.3</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>149.23</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>155.47</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>148.84</td>
+          
+          
+          
+          <td class="table-value">11.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>157.61</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>153.85</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>154.96</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>151.04</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>147.89</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>151.1</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>147.0</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>153.37</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>146.6</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>146.72</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>149.3</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>143.41</td>
+          
+          
+          
+          <td class="table-value">12.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>95.34</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>92.15</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>99.66</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>94.78</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>91.42</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>94.34</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>92.57</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>92.8</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>182.8</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>181.45</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>187.9</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>178.72</td>
+          
+          
+          
+          <td class="table-value">13.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>226.14</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>218.46</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>231.54</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>226.63</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>221.13</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>225.86</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>220.57</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>220.48</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>150.2</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>150.45</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>152.76</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>150.4</td>
+          
+          
+          
+          <td class="table-value">14.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>99.1</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>95.37</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>97.32</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>93.95</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>93.04</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>95.52</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>92.89</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>94.8</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>114.5</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>114.02</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>115.82</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>117.22</td>
+          
+          
+          
+          <td class="table-value">15.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>115.42</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>112.09</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>114.36</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>110.94</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>106.94</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>108.89</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>105.69</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>109.69</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>120.6</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>119.42</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>120.48</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>119.97</td>
+          
+          
+          
+          <td class="table-value">16.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>16.76</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>15.47</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>15.08</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>18.17</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>15.01</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>15.29</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>14.87</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>71.68</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>211.1</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>206.95</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>209.71</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>213.65</td>
+          
+          
+          
+          <td class="table-value">17.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>174.39</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>168.33</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>172.87</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>160.96</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>155.94</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>160.63</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>157.49</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>160.99</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>150.4</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>150.73</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>156.08</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>145.75</td>
+          
+          
+          
+          <td class="table-value">18.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>193.86</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>187.78</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>173.89</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>164.31</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>159.91</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>165.9</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>162.35</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>168.44</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>215.0</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>210.38</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>211.3</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>214.42</td>
+          
+          
+          
+          <td class="table-value">19.0</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    
+    <p>Àrea geogràfica: València</p>
+    
+    
+    <p>Unitat de mesura: </p>
+    
+    
+    <p>Nota: </p>
+    
+  </div>
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/estadistica/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded spacer medium" style="display:none;">
+
+    <div style="display: none;">
+  <span id="table-alternative">Per l'alternativa de dades tabulars, vegeu la pestanya Taula.</span>
+</div>
+<ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+  <li role="presentation" class="nav-item active">
+    <a class="nav-link" data-toggle="tab" id="tab-chartview" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+ aria-describedby="table-alternative">Gràfic</a>
+  </li>
+  <li role="presentation" class="nav-item">
+    <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Taula</a>
+  </li></ul>
+
+    <div class="tab-content data-view">
+  <div role="tabpanel" class="tab-pane active" id="chartview">
+    
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Avís:</span></i>
+      Hi ha massa conjunts de dades a mostrar en el gràfic. No es mostrarà tot fins que elimineu algunes seleccions.
+    </div>
+
+    
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">Consum de litres d'aigua per habitant i dia</h4>
+          <div id="chart" class="plot-container">
+            
+<canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+<script>
+// Add a chart alteration to support the chart_graph_limits metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+  if (info.graphLimits && Object.keys(info.graphLimits).length > 0) {
+    var overrides = {
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: info.graphLimits.minimum,
+              max: info.graphLimits.maximum,
+            }
+          }]
+        }
+      }
+    }
+    // Add these overrides onto the normal config.
+    $.extend(true, config, overrides);
+  }
+});
+</script>
+
+<span style="display: none;" id="chart-annotations" role="status"></span>
+<script>
+opensdg.annotationPresets = {
+    common: {
+        // This "common" preset is applied to all annotations automatically.
+        borderColor: '#949494',
+        type: 'line',
+        borderDash: [10, 5],
+        borderWidth: 1,
+        label: {
+            backgroundColor: 'white',
+            fontColor: 'black',
+        },
+        // This "highContrast" overrides colors when in high-contrast mode.
+        highContrast: {
+            label: {
+                backgroundColor: 'black',
+                fontColor: 'white'
+            }
+        },
+        // This callback is used to generate a generic description for screenreaders.
+        // This can be overridden to be a more specific string, eg:
+        //
+        //     description: 'Chart annotation showing a 2030 target of 15%'
+        //
+        description: function() {
+            var descriptionParts = [translations.indicator.chart_annotation];
+            if (this.label && this.label.content) {
+                descriptionParts.push(translations.t(this.label.content));
+            }
+            else {
+                // If there is no label, just specify whether it is a box or line.
+                if (this.type == 'line') {
+                    descriptionParts.push(this.mode + ' line');
+                }
+                if (this.type == 'box') {
+                    descriptionParts.push('box');
+                }
+            }
+            if (typeof this.value !== 'undefined') {
+                descriptionParts.push(this.value);
+            }
+            return descriptionParts.join(': ');
+        },
+    },
+    target_line: {
+        mode: 'horizontal',
+        borderWidth: 2,
+        borderDash: [15, 10],
+        borderColor: '#757575',
+        label: {
+            position: 'right',
+            content: translations.indicator.annotation_2030_target,
+        },
+    },
+    series_break: {
+        mode: 'vertical',
+        borderDash: [2, 2],
+        label: {
+            position: 'top',
+            content: translations.indicator.annotation_series_break,
+        },
+    },
+};
+
+// Add a chart alteration to support the chart_annotations metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+    if (info.graphAnnotations && info.graphAnnotations.length > 0) {
+        // Apply some helpers/fixes to the annotations.
+        var annotations = info.graphAnnotations.map(function(annotationOverrides) {
+            var annotation = {};
+            // Apply the "common" preset.
+            if (opensdg.annotationPresets.common) {
+                $.extend(true, annotation, opensdg.annotationPresets.common);
+            }
+            // Apply any specified presets.
+            if (annotationOverrides.preset) {
+                var preset = annotationOverrides.preset;
+                if (opensdg.annotationPresets[preset]) {
+                    $.extend(true, annotation, opensdg.annotationPresets[preset]);
+                }
+            }
+            // Now add any more annotation config.
+            $.extend(true, annotation, annotationOverrides);
+            // Default to horizontal lines.
+            if (!annotation.mode && annotation.type === 'line') {
+                annotation.mode = 'horizontal';
+            }
+            // Provide the obscure scaleID properties on user's behalf.
+            if (!annotation.scaleID && annotation.type === 'line') {
+                if (annotation.mode === 'horizontal') {
+                    annotation.scaleID = 'y-axis-0';
+                }
+                if (annotation.mode === 'vertical') {
+                    annotation.scaleID = 'x-axis-0';
+                }
+            }
+            if (!annotation.xScaleID && annotation.type === 'box') {
+                annotation.xScaleID = 'x-axis-0';
+            }
+            if (!annotation.yScaleID && annotation.type === 'box') {
+                annotation.yScaleID = 'y-axis-0';
+            }
+            // Provide the "enabled" label property on the user's behalf.
+            if (annotation.label && annotation.label.content) {
+                annotation.label.enabled = true;
+            }
+            // Translate any label content.
+            if (annotation.label && annotation.label.content) {
+                annotation.label.content = translations.t(annotation.label.content);
+            }
+            // Save some original values for later used when contrast mode is switched.
+            if (typeof annotation.defaultContrast === 'undefined') {
+                annotation.defaultContrast = {};
+                if (annotation.borderColor) {
+                    annotation.defaultContrast.borderColor = annotation.borderColor;
+                }
+                if (annotation.backgroundColor) {
+                    annotation.defaultContrast.backgroundColor = annotation.backgroundColor;
+                }
+                if (annotation.label) {
+                    annotation.defaultContrast.label = {};
+                    if (annotation.label.fontColor) {
+                        annotation.defaultContrast.label.fontColor = annotation.label.fontColor;
+                    }
+                    if (annotation.label.backgroundColor) {
+                        annotation.defaultContrast.label.backgroundColor = annotation.label.backgroundColor;
+                    }
+                }
+            }
+            return annotation;
+        });
+        if (annotations.length > 0) {
+            var overrides = {
+                options: {
+                    annotation: {
+                        drawTime: 'beforeDatasetsDraw',
+                        annotations: annotations
+                    }
+                }
+            };
+            // Add these overrides onto the normal config.
+            $.extend(true, config, overrides);
+
+            // Update the chart annotations element.
+            var descriptions = annotations.map(function(annotation) {
+                var description = '';
+                if (annotation.description) {
+                    if (typeof annotation.description === 'function') {
+                        description = annotation.description.call(annotation);
+                    }
+                    else {
+                        description = translations.t(annotation.description);
+                    }
+                }
+                return description;
+            }).filter(function(description) { return description != ''; });
+
+            var currentDescription = $('#chart-annotations').text();
+            var newDescription = descriptions.join('. ');
+            if (currentDescription != newDescription) {
+                $('#chart-annotations').text(newDescription);
+            }
+        }
+    }
+    else if (config.options && config.options.annotation) {
+        delete config.options.annotation;
+    }
+});
+</script>
+
+<script>
+// For line charts, add the vertical line hover functionality.
+opensdg.chartConfigAlter(function(config, info) {
+    var overrides = {
+        options: {
+            tooltips: {
+                intersect: false,
+                axis: 'x'
+            },
+        },
+        plugins: [{
+            beforeDatasetsDraw: function(chart) {
+                if (chart.tooltip._active && chart.tooltip._active.length) {
+                    var activePoint = chart.tooltip._active[0],
+                        ctx = chart.ctx,
+                        x = activePoint.tooltipPosition().x,
+                        topY = chart.scales['y-axis-0'].top,
+                        bottomY = chart.scales['y-axis-0'].bottom;
+
+                    // draw line
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.moveTo(x, topY);
+                    ctx.lineTo(x, bottomY);
+                    ctx.lineWidth = 2;
+                    ctx.strokeStyle = '#757575';
+                    ctx.stroke();
+                    ctx.restore();
+                }
+            }
+        }],
+    };
+    // Add these overrides onto the normal config, and return it.
+    $.extend(true, config, overrides);
+});
+</script>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Àrea geogràfica:</dt>
+        <dd>València</dd>
+        
+
+        
+
+        
+
+        
+    <dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button id="btnSave" title="Descarregar gràfic com imatge" class='btn btn-primary btn-download'>
+          Descarregar imatge del gràfic
+        </button>
+      </div>
+    </div>
+
+
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="tableview">
+    <div style="display: none;">
+      <span id="column-sort-info">Feu clic per a ordenar per aquesta columna</span>
+    </div>
+    <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Àrea geogràfica:</dt>
+        <dd>València</dd>
+        
+
+        
+
+        
+
+        
+    <dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="embeddedmapview" class="embedded-map">
+    <div class="row">
+  <div class="col-xs-12">
+    
+    
+    
+    <div class="embedded-map" id="embeddedmapframe">
+    
+  </div>
+</div>
+
+  </div>
+  
+</div>
+
+
+  </div>
+
+</section>
+
   
   <ul class="nav nav-tabs spacer medium" role="tablist">
 
@@ -679,7 +4964,52 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Objectiu </th>
+        <td>
           
+            <p>Garantir la disponibilitat i una gestió sostenible de l’aigua i de les condicions de sanejament per a totes les persones</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Destí </th>
+        <td>
+          
+            <p>Per a 2030, aconseguir l’accés universal i equitatiu a l’aigua potable, a un preu asse­quible per a totes les persones.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Indicador </th>
+        <td>
+          
+            <p>Consum de litres d’aigua per habitant i dia</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -718,7 +5048,58 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Definició i conceptes </th>
+        <td>
           
+            <p>Consum d’aigua per habitant i dia.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Unitat de mesura </th>
+        <td>
+          
+            <p>Litres per habitant i dia</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Fonts de dades </th>
+        <td>
+          
+            <p>9906-Anuario estadístico de la ciudad de València. Pla Valencià d’Estadística 2019-2022. 0211-Características de la población de València. Padrón municipal de València a 1 de enero de cada año. Pla Valencià d’Estadística 2019-2022.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -745,7 +5126,40 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Observacions </th>
+        <td>
           
+            <p>Aquest indicador forma part del Panell ODS de la Xarxa Espanyola per al Desenvolupament Sostenible (https://spanish-cities.sdgindex.org/). També forma part del Panell ODS definit en European Handbook for SDG Voluntary Local Reviews.</p>
+
+<p>La informació d’aquest indicador inclou de manera conjunta l’aigua d’ús domèstic, industrial i municipal.</p>
+
+<p>Documentació relativa al consum d’aigua: <a href="https://www.valencia.es/val/estadistica/anuari-estadistica?capitulo=8">Aigua</a>.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Mètode de càlcul </th>
+        <td>
+          
+            <p>Quocient entre l’aigua facturada a les persones abonades al llarg de l’any de referència i la població a 1 de juliol de l’any de referència, dividit al seu torn entre el nombre de dies de l’any de referència (365, o 366).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -772,37 +5186,66 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Dades actualitzades per última vegada </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/ods-valencia/data/commit/58dd078e068fb1050d7535e27faa9473c03bbe40" target="_blank">
+                2021-12-14: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
-          
+      
+      
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Metadades actualitzades per última vegada </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/ods-valencia/data/commit/9d1e58cfc5047e476f68f92e0b952effb07dcb12" target="_blank">
+                2021-12-14: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
-          
       
-        
-          
       
-        
-          
       
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
+  
   
   
   
@@ -975,12 +5418,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20211214090838'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20211214102047'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20211214090838"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20211214102047"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
