@@ -175,7 +175,7 @@
         },
         {
           "id": "2-2-4",
-          "title": "global_indicators.2-2-4-title",
+          "title": "Población de 18 o más años con sobrepeso u obesidad",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-2-4",
@@ -199,7 +199,7 @@
         },
         {
           "id": "2-3-3",
-          "title": "global_indicators.2-3-3-title",
+          "title": "Proporción de agricultura ecológica",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-3-3",
@@ -207,7 +207,7 @@
         },
         {
           "id": "2-3-4",
-          "title": "global_indicators.2-3-4-title",
+          "title": "Unidades de trabajo-año en explotaciones agrícolas",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-3-4",
@@ -215,7 +215,7 @@
         },
         {
           "id": "2-3-5",
-          "title": "global_indicators.2-3-5-title",
+          "title": "Producción de las explotaciones agrícolas",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-3-5",
@@ -239,7 +239,7 @@
         },
         {
           "id": "2-a-3",
-          "title": "global_indicators.2-a-3-title",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-a-3",
@@ -247,7 +247,7 @@
         },
         {
           "id": "2-a-4",
-          "title": "global_indicators.2-a-4-title",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-a-4",
@@ -414,22 +414,6 @@
           "status": "complete"
         },
         {
-          "id": "3-9-2",
-          "title": "Tasa de mortalidad atribuida al agua insalubre, el saneamiento deficiente y la falta de higiene (exposición a servicios insalubres de agua, saneamiento e higiene para todos (WASH))",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/3-9-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-9-3",
-          "title": "Tasa de mortalidad atribuida a intoxicaciones involuntarias",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/3-9-3",
-          "status": "notstarted"
-        },
-        {
           "id": "3-a-1",
           "title": "Porcentaje de población de 15 y más años que son fumadores diarios",
           "description": "",
@@ -438,52 +422,12 @@
           "status": "complete"
         },
         {
-          "id": "3-b-1",
-          "title": "Proporción de la población inmunizada con todas las vacunas incluidas en cada programa nacional",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/3-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-2",
-          "title": "Total neto de asistencia oficial para el desarrollo destinado a los sectores de la investigación médica y la atención sanitaria básica",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/3-b-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-3",
-          "title": "Proporción de centros de salud que disponen de un conjunto básico de medicamentos esenciales asequibles de manera sostenible",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/3-b-3",
-          "status": "notstarted"
-        },
-        {
           "id": "3-c-1",
           "title": "Presupuesto municipal destinado a Cooperación ODS3",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-c-1",
           "status": "complete"
-        },
-        {
-          "id": "3-d-1",
-          "title": "Capacidad prevista en el Reglamento Sanitario Internacional (RSI) y preparación para emergencias de salud",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/3-d-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-d-2",
-          "title": "Porcentaje de infecciones del torrente sanguíneo debidas a determinados organismos resistentes a los antimicrobianos seleccionados",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/3-d-2",
-          "status": "notstarted"
         }]
     }
   },

@@ -175,7 +175,7 @@
         },
         {
           "id": "2-2-4",
-          "title": "global_indicators.2-2-4-title",
+          "title": "Població de 18 o més anys amb sobrepés o obesitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-2-4",
@@ -199,7 +199,7 @@
         },
         {
           "id": "2-3-3",
-          "title": "global_indicators.2-3-3-title",
+          "title": "Proporció d'agricultura ecològica",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-3-3",
@@ -207,7 +207,7 @@
         },
         {
           "id": "2-3-4",
-          "title": "global_indicators.2-3-4-title",
+          "title": "Unitats de treball-any en explotacions agrícoles",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-3-4",
@@ -215,7 +215,7 @@
         },
         {
           "id": "2-3-5",
-          "title": "global_indicators.2-3-5-title",
+          "title": "Producció de les explotacions agrícoles",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-3-5",
@@ -239,7 +239,7 @@
         },
         {
           "id": "2-a-3",
-          "title": "global_indicators.2-a-3-title",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-a-3",
@@ -247,7 +247,7 @@
         },
         {
           "id": "2-a-4",
-          "title": "global_indicators.2-a-4-title",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/2-a-4",
@@ -414,22 +414,6 @@
           "status": "complete"
         },
         {
-          "id": "3-9-2",
-          "title": "Taxa de mortalitat atribuïda a l'aigua insalubre, el sanejament deficient i la falta d'higiene (exposició a serveis insalubres d'aigua, sanejament i higiene per a tots (WASH))",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/3-9-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-9-3",
-          "title": "Taxa de mortalitat atribuïda a intoxicacions involuntàries",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/3-9-3",
-          "status": "notstarted"
-        },
-        {
           "id": "3-a-1",
           "title": "Percentatge de població de 15 i més anys que són fumadors diaris",
           "description": "",
@@ -438,52 +422,12 @@
           "status": "complete"
         },
         {
-          "id": "3-b-1",
-          "title": "Proporció de la població immunitzada amb totes les vacunes incloses en cada programa nacional",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/3-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-2",
-          "title": "Total net d'assistència oficial per al desenvolupament destinat als sectors de la recerca mèdica i l'atenció sanitària bàsica",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/3-b-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-3",
-          "title": "Proporció de centres de salut que disposen d'un conjunt bàsic de medicaments essencials assequibles de manera sostenible",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/3-b-3",
-          "status": "notstarted"
-        },
-        {
           "id": "3-c-1",
           "title": "Pressupost municipal destinat a Cooperació ODS3",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-c-1",
           "status": "complete"
-        },
-        {
-          "id": "3-d-1",
-          "title": "Capacitat prevista en el Reglament Sanitari Internacional (RSI) i preparació per a emergències de salut",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/3-d-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-d-2",
-          "title": "global_indicators.3-d-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/3-d-2",
-          "status": "notstarted"
         }]
     }
   },
