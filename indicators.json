@@ -1110,14 +1110,6 @@
           "status": "complete"
         },
         {
-          "id": "7-a-1",
-          "title": "Corrents financers internacionals cap als països en desenvolupament per a donar suport a la recerca i el desenvolupament d'energies netes i la producció d'energia renovable, inclosos els sistemes híbrids",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/7-a-1",
-          "status": "notstarted"
-        },
-        {
           "id": "7-b-1",
           "title": "Pressupost municipal destinat a Cooperació ODS7",
           "description": "",
@@ -1158,22 +1150,6 @@
       "indicators": [
         
         {
-          "id": "8-1-1",
-          "title": "Taxa de creixement anual del PIB real per càpita",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/8-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-2-1",
-          "title": "Taxa de creixement anual del PIB real per persona ocupada",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/8-2-1",
-          "status": "notstarted"
-        },
-        {
           "id": "8-3-1",
           "title": "Població amb contracte laboral temporal",
           "description": "",
@@ -1188,22 +1164,6 @@
           "keywords": "",
           "href": "/estadistica/8-3-2",
           "status": "complete"
-        },
-        {
-          "id": "8-4-1",
-          "title": "Empremta material en termes absoluts, Empremta material per càpita i Empremta material per PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/8-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-4-2",
-          "title": "Consum material intern en termes absoluts, consum material intern per càpita i consum material intern per PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/8-4-2",
-          "status": "notstarted"
         },
         {
           "id": "8-5-1",
@@ -1260,14 +1220,6 @@
           "keywords": "",
           "href": "/estadistica/8-6-1",
           "status": "complete"
-        },
-        {
-          "id": "8-7-1",
-          "title": "Proporció i nombre de nens d'entre 5 i 17 anys que fan treball infantil, desglossats per sexe i edat",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/8-7-1",
-          "status": "notstarted"
         },
         {
           "id": "8-8-1",
@@ -1380,14 +1332,6 @@
           "keywords": "",
           "href": "/estadistica/8-a-4",
           "status": "complete"
-        },
-        {
-          "id": "8-b-1",
-          "title": "Existència d'una estratègia nacional organitzada i en marxa per a l'ús dels joves, com a estratègia independent o com a part d'una estratègia nacional d'ocupació",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/8-b-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -1510,30 +1454,6 @@
           "status": "complete"
         },
         {
-          "id": "9-3-1",
-          "title": "Proporció del valor afegit total del sector industrial corresponent a les petites indústries",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/9-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-3-2",
-          "title": "Proporció de les petites indústries que han obtingut un préstec o una línia de crèdit",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/9-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-4-1",
-          "title": "Emissions de CO2 per unitat de valor afegit",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/9-4-1",
-          "status": "notstarted"
-        },
-        {
           "id": "9-5-1",
           "title": "Patents sol·licitades per residents a València",
           "description": "",
@@ -1596,14 +1516,6 @@
           "keywords": "",
           "href": "/estadistica/9-a-4",
           "status": "complete"
-        },
-        {
-          "id": "9-b-1",
-          "title": "Proporció del valor afegit per la indústria de tecnologia mitjana i alta en el valor afegit total",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/9-b-1",
-          "status": "notstarted"
         },
         {
           "id": "9-c-1",
