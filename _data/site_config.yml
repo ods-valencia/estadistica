@@ -62,7 +62,17 @@ data_edit_url: data
 data_fields:
   units: ''
   series: ''
-date_formats: []
+decimal_separator: ','
+date_formats: 
+  - type: standard
+    language: en
+    format: '%B %d, %Y'
+  - type: standard
+    language: es
+    format: '%d de %B de %Y'
+  - type: standard
+    language: ca
+    format: '%d de %B de %Y'
 disclaimer:
   phase: ''
   message: ''
