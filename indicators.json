@@ -662,22 +662,6 @@
           "status": "complete"
         },
         {
-          "id": "4-7-1",
-          "title": "Grau en què i) l'educació per a la ciutadania mundial i ii) l'educació per al desenvolupament sostenible, inclosa la igualtat de gènere i els drets humans, s'incorporen en tots els nivells de a) les polítiques nacionals d'educació, b) els plans d'estudi, c) la formació del professorat i d) l'avaluació dels estudiants",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/4-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-a-1",
-          "title": "Proporció d'escoles amb accés a a) electricitat, b) Internet amb finalitats pedagògics, c) computadores amb finalitats pedagògics, d) infraestructura i materials adaptats als estudiants amb discapacitat, e) subministrament bàsic d'aigua potable, f) instal·lacions de sanejament bàsiques separades per sexe i g) instal·lacions bàsiques per a la rentada de mans (segons les definicions dels indicadors WASH)",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/4-a-1",
-          "status": "notstarted"
-        },
-        {
           "id": "4-b-1",
           "title": "Assistència oficial destinada a xec escolar",
           "description": "",
@@ -1006,14 +990,6 @@
           "status": "complete"
         },
         {
-          "id": "6-2-1",
-          "title": "Proporció de la població que utilitza: a) serveis de sanejament gestionats sense riscos i b) instal·lacions per a la rentada de mans amb aigua i sabó",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/6-2-1",
-          "status": "notstarted"
-        },
-        {
           "id": "6-3-1",
           "title": "Cabal diari de les aigües residuals",
           "description": "",
@@ -1132,22 +1108,6 @@
           "keywords": "",
           "href": "/estadistica/7-1-5",
           "status": "complete"
-        },
-        {
-          "id": "7-2-1",
-          "title": "Proporció d'energia renovable en el consum final total d'energia",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/7-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-3-1",
-          "title": "Intensitat energètica mesurada en funció de l'energia primària i el PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/7-3-1",
-          "status": "notstarted"
         },
         {
           "id": "7-a-1",

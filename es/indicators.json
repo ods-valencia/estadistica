@@ -662,22 +662,6 @@
           "status": "complete"
         },
         {
-          "id": "4-7-1",
-          "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación del profesorado y d) la evaluación de los estudiantes",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/4-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-a-1",
-          "title": "Proporción de escuelas que ofrecen servicios básicos, desglosada por tipo de servicio",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/4-a-1",
-          "status": "notstarted"
-        },
-        {
           "id": "4-b-1",
           "title": "Asistencia oficial destinada a cheque escolar",
           "description": "",
@@ -1006,14 +990,6 @@
           "status": "complete"
         },
         {
-          "id": "6-2-1",
-          "title": "Proporción de la población que utiliza: a) servicios de saneamiento gestionados sin riesgos y b) instalaciones para el lavado de manos con agua y jabón",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/6-2-1",
-          "status": "notstarted"
-        },
-        {
           "id": "6-3-1",
           "title": "Caudal diario de las aguas residuales",
           "description": "",
@@ -1132,22 +1108,6 @@
           "keywords": "",
           "href": "/estadistica/es/7-1-5",
           "status": "complete"
-        },
-        {
-          "id": "7-2-1",
-          "title": "Proporción de energía renovable en el consumo final total de energía",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/7-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-3-1",
-          "title": "Intensidad energética medida en función de la energía primaria y el PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/7-3-1",
-          "status": "notstarted"
         },
         {
           "id": "7-a-1",
