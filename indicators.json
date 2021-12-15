@@ -614,14 +614,6 @@
           "status": "complete"
         },
         {
-          "id": "4-2-2",
-          "title": "Taxa de participació en l'aprenentatge organitzat (un any abans de l'edat oficial d'ingrés en l'ensenyament primari), desglossada per sexe",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/4-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "4-3-1",
           "title": "Percentatge de persones que en l'últim any han realitzat algun curs, taller o activitat formativa",
           "description": "",
@@ -631,7 +623,7 @@
         },
         {
           "id": "4-3-2",
-          "title": "global_indicators.4-3-2-title",
+          "title": "Percentatge de dones entre els estudiants universitaris",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-3-2",
@@ -663,7 +655,7 @@
         },
         {
           "id": "4-6-2",
-          "title": "global_indicators.4-6-2-title",
+          "title": "Població entre 25 i 64 anys amb estudis postobligatoris",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-6-2",
@@ -695,7 +687,7 @@
         },
         {
           "id": "4-b-2",
-          "title": "global_indicators.4-b-2-title",
+          "title": "Cobertura del xec escolar",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-b-2",
@@ -711,7 +703,7 @@
         },
         {
           "id": "4-c-2",
-          "title": "global_indicators.4-c-2-title",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-c-2",
@@ -719,7 +711,7 @@
         },
         {
           "id": "4-c-3",
-          "title": "global_indicators.4-c-3-title",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-c-3",
@@ -727,7 +719,7 @@
         },
         {
           "id": "4-c-4",
-          "title": "global_indicators.4-c-4-title",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/4-c-4",
@@ -814,22 +806,6 @@
           "status": "complete"
         },
         {
-          "id": "5-3-1",
-          "title": "Proporció de dones d'entre 20 i 24 anys que estaven casades o mantenien una unió estable abans de complir els 15 anys i abans de complir els 18 anys",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/5-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-3-2",
-          "title": "Proporció de nenes i dones d'entre 15 i 49 anys que han sofert mutilació o ablació genital femenina, desglossada per edat",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/5-3-2",
-          "status": "notstarted"
-        },
-        {
           "id": "5-4-1",
           "title": "Temps que dedica la població a l'atenció i cura dels fills convivents",
           "description": "",
@@ -884,22 +860,6 @@
           "keywords": "",
           "href": "/estadistica/5-5-4",
           "status": "complete"
-        },
-        {
-          "id": "5-6-1",
-          "title": "Proporció de dones d'entre 15 i 49 anys que prenen les seves pròpies decisions informades sobre les relacions sexuals, l'ús d'anticonceptius i l'atenció de la salut reproductiva",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/5-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-6-2",
-          "title": "Nombre de països amb lleis i reglaments que garanteixen als homes i les dones a partir dels 15 anys d'edat un accés ple i igualitari als serveis de salut sexual i reproductiva i a la informació i educació sobre aquest tema",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/5-6-2",
-          "status": "notstarted"
         },
         {
           "id": "5-a-1",
@@ -1086,38 +1046,6 @@
           "status": "complete"
         },
         {
-          "id": "6-4-1",
-          "title": "Canvi en l'ús eficient dels recursos hídrics amb el pas del temps",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/6-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-4-2",
-          "title": "Nivell d'estrès hídric: extracció d'aigua dolça en proporció als recursos d'aigua dolça disponibles",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/6-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-1",
-          "title": "Grau d'implementació de la gestió integrada dels recursos hídrics (0‐100)",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/6-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-2",
-          "title": "Proporció de la superfície de conques transfrontereres subjectes a arranjaments operacionals per a la cooperació en matèria d'aigües",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/6-5-2",
-          "status": "notstarted"
-        },
-        {
           "id": "6-6-1",
           "title": "Percentatge de platges amb qualificació excel·lent",
           "description": "",
@@ -1156,14 +1084,6 @@
           "keywords": "",
           "href": "/estadistica/6-a-4",
           "status": "complete"
-        },
-        {
-          "id": "6-b-1",
-          "title": "Proporció de dependències administratives locals que han establert polítiques i procediments operacionals per a la participació de les comunitats locals en la gestió de l'aigua i el sanejament",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/6-b-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -1175,19 +1095,43 @@
         
         {
           "id": "7-1-1",
-          "title": "Proporció de la població que té accés a l'electricitat",
+          "title": "Consum d'energia elèctrica total per habitant i dia (kWh)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-1-2",
-          "title": "Proporció de la població la font primària de la qual d'energia són els combustibles i tecnologies nets",
+          "title": "Consum d'energia elèctrica domèstica per habitant i dia (kWh)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "7-1-3",
+          "title": "Consum de gas per habitant i dia (kWh)",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/7-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "7-1-4",
+          "title": "Percentatge de nous habitatges",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/7-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "7-1-5",
+          "title": "Punts d'enllumenat públic",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/7-1-5",
+          "status": "complete"
         },
         {
           "id": "7-2-1",
@@ -1215,11 +1159,35 @@
         },
         {
           "id": "7-b-1",
-          "title": "Inversions en eficiència energètica en proporció al PIB i a la quantia de la inversió estrangera directa en transferències financeres destinades a infraestructura i tecnologia per a serveis de desenvolupament sostenible",
+          "title": "Pressupost municipal destinat a Cooperació ODS7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "7-b-2",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS7",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/7-b-2",
+          "status": "complete"
+        },
+        {
+          "id": "7-b-3",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS7",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/7-b-3",
+          "status": "complete"
+        },
+        {
+          "id": "7-b-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/7-b-4",
+          "status": "complete"
         }]
     }
   },
@@ -1247,11 +1215,19 @@
         },
         {
           "id": "8-3-1",
-          "title": "Proporció d'ocupació informal en el sector no agrícola, desglossada per sexe",
+          "title": "Població amb contracte laboral temporal",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-3-2",
+          "title": "Població afiliada en règim autònom",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-3-2",
+          "status": "complete"
         },
         {
           "id": "8-4-1",
@@ -1271,27 +1247,59 @@
         },
         {
           "id": "8-5-1",
-          "title": "Ingrés mitjà per hora d'empleades i empleats, desglossat per ocupació, edat i persones amb discapacitat",
+          "title": "Taxa de desocupació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-2",
-          "title": "Taxa de desocupació, desglossada per sexe, edat i persones amb discapacitat",
+          "title": "Atur registrat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-5-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-5-3",
+          "title": "Atur registrat en persones amb discapacitat",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-5-3",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-4",
+          "title": "Percentatge de població amb discapacitat entre els desocupats",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-5-4",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-5",
+          "title": "Població parada de llarga duració",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-5-5",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-6",
+          "title": "Percentatge de població desocupada parada de llarga duració",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-5-6",
+          "status": "complete"
         },
         {
           "id": "8-6-1",
-          "title": "Proporció de joves (entre 15 i 24 anys) que no cursen estudis, no estan ocupats ni reben capacitació",
+          "title": "Atur registrat en població jove amb baix nivell d'estudis",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-7-1",
@@ -1303,51 +1311,115 @@
         },
         {
           "id": "8-8-1",
-          "title": "Taxes de freqüència de les lesions ocupacionals mortals i no mortals, desglossades per sexe i estatus migratori",
+          "title": "Nombre d'accidents laborals amb baixa",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-8-2",
-          "title": "Nivell de compliment nacional dels drets laborals (llibertat d'associació i negociació col·lectiva) conformement a les fonts textuals de l'Organització Internacional del Treball (OIT) i la legislació interna, desglossat per sexe i estatus migratori",
+          "title": "Accidents laborals per cada 1.000 treballadors actius",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-8-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-8-3",
+          "title": "Població amb malalties professionals",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-8-3",
+          "status": "complete"
+        },
+        {
+          "id": "8-8-4",
+          "title": "Malalties professionals per cada 10.000 treballadors actius",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-8-4",
+          "status": "complete"
         },
         {
           "id": "8-9-1",
-          "title": "PIB generat directament pel turisme en proporció al PIB total i a la taxa de creixement",
+          "title": "Nombre de places hoteleres",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-9-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-9-2",
+          "title": "Places hoteleres per cada 1.000 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-9-2",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-3",
+          "title": "Nombre d'apartaments turístics",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-9-3",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-4",
+          "title": "Apartaments turístics per cada 1.000 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-9-4",
+          "status": "complete"
         },
         {
           "id": "8-10-1",
-          "title": "a) Nombre de sucursals de bancs comercials per cada 100.000 adults i b) nombre de caixers automàtics per cada 100.000 adults",
+          "title": "Sucursals bancàries",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-10-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-10-2",
-          "title": "Proporció d'adults (a partir de 15 anys d'edat) que tenen un compte en un banc o una altra institució financera o un proveïdor de serveis de diners mòbils",
+          "title": "Sucursals bancàries per cada 1.000 habitants > 15 anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-10-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-a-1",
-          "title": "Compromisos i desemborsaments en relació amb la iniciativa Ajuda per al Comerç",
+          "title": "Pressupost municipal destinat a Cooperació ODS8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-a-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-a-2",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS8",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-a-2",
+          "status": "complete"
+        },
+        {
+          "id": "8-a-3",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS8",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "8-a-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/8-a-4",
+          "status": "complete"
         },
         {
           "id": "8-b-1",
@@ -1367,35 +1439,115 @@
         
         {
           "id": "9-1-1",
-          "title": "Proporció de la població rural que viu a menys de 2 km d'una carretera transitable tot l'any",
+          "title": "Mercancíes transportades en el Port de València (tones)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-1-2",
-          "title": "Volum de transport de passatgers i càrrega, desglossat per mitjà de transport",
+          "title": "Passatgers que han passat pel Port de València",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-1-3",
+          "title": "Mercancíes transportades en l'Aeroport de València (tones)",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-4",
+          "title": "Passatgers que han passat per l'Aeroport de València",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-5",
+          "title": "Població que utilitza MetroValencia com a principal mitjà per a desplaçar-se",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-5",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-6",
+          "title": "Població que utilitza EMT com a principal mitjà per a desplaçar-se",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-6",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-7",
+          "title": "Valoració de la facilitat per a desplaçar-se amb MetroValencia",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-7",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-8",
+          "title": "Valoració de la facilitat per a desplaçar-se amb EMT",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-8",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-9",
+          "title": "Temps mitjà a la parada de MetroValencia més pròxima",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-9",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-10",
+          "title": "Temps mitjà a la parada d'EMT més pròxima",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-10",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-11",
+          "title": "Població amb una parada de MetroValencia a menys de 10 min",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-11",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-12",
+          "title": "Població amb una parada d'EMT a menys de 10 min",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-1-12",
+          "status": "complete"
         },
         {
           "id": "9-2-1",
-          "title": "Valor afegit del sector manufacturo en proporció al PIB i per càpita",
+          "title": "Percentatge d'empreses en el Sector Industrial",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
-          "title": "Ús del sector manufacturer en proporció a l'ocupació total",
+          "title": "Percentatge de població ocupada en el Sector Industrial",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
@@ -1423,27 +1575,67 @@
         },
         {
           "id": "9-5-1",
-          "title": "Despeses en recerca i desenvolupament en proporció al PIB",
+          "title": "Patents sol·licitades per residents a València",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
-          "title": "Nombre d'investigadors (en equivalent a temps complet) per cada milió d'habitants",
+          "title": "Patents presentades per la Universitat de València (UV)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-5-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-5-3",
+          "title": "Patents presentades per la Universitat Politècnica de València (UPV)",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-5-3",
+          "status": "complete"
+        },
+        {
+          "id": "9-5-4",
+          "title": "Taxa de Patents per 100.000 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-5-4",
+          "status": "complete"
         },
         {
           "id": "9-a-1",
-          "title": "Total de suport internacional oficial (assistència oficial per al desenvolupament més altres corrents oficials de recursos) destinat a la infraestructura",
+          "title": "Pressupost municipal destinat a Cooperació ODS9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-a-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-a-2",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS9",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-a-2",
+          "status": "complete"
+        },
+        {
+          "id": "9-a-3",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS9",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "9-a-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-a-4",
+          "status": "complete"
         },
         {
           "id": "9-b-1",
@@ -1455,11 +1647,667 @@
         },
         {
           "id": "9-c-1",
-          "title": "Proporció de la població amb cobertura de xarxa mòbil, desglossada per tecnologia",
+          "title": "Percentatge d'habitatges amb telèfon fix",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-c-2",
+          "title": "Percentatge d'habitatges amb telèfon mòbil",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-c-2",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-3",
+          "title": "Percentatge d'habitatges amb alguna mena de telèfon",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-c-3",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-4",
+          "title": "Percentatge d'habitatges amb alguna mena d'ordinador",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-c-4",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-5",
+          "title": "Percentatge d'habitatges amb accés a Internet",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-c-5",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-6",
+          "title": "Percentatge d'habitatges amb connexió de banda ampla",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/9-c-6",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "10",
+      "title": "Reduir les desigualtats dins els països i entre els països",
+      "indicators": [
+        
+        {
+          "id": "10-1-1",
+          "title": "Població amb ingressos per unitat de consum per davall de 5000 euros",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-2",
+          "title": "Població amb ingressos per unitat de consum per davall de 7500 euros",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-3",
+          "title": "Població amb ingressos per unitat de consum per davall de 10000 euros",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-4",
+          "title": "Índex de Gini",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-1",
+          "title": "Població amb ingressos per unitat de consum per davall del 40% de la mediana",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-2",
+          "title": "Població amb ingressos per unitat de consum per davall del 50% de la mediana",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-3",
+          "title": "Població amb ingressos per unitat de consum per davall del 60% de la mediana",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-4",
+          "title": "Índex de Dependència Demogràfica",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-4",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-5",
+          "title": "Percentatge de renda que controla el 20% més ric",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-5",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-6",
+          "title": "Percentatge de renda que controla el 20% més pobre",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-6",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-7",
+          "title": "Atur registrat en persones amb discapacitat",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-7",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-8",
+          "title": "Percentatge de població amb discapacitat entre els desocupats",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-8",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-9",
+          "title": "Percentatge de població de nacionalitat estrangera",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-9",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-10",
+          "title": "Percentatge de població parada de nacionalitat estrangera",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-10",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-11",
+          "title": "Percentatge de població afiliada a la SS de nacionalitat estrangera",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-2-11",
+          "status": "complete"
+        },
+        {
+          "id": "10-3-1",
+          "title": "Percentatge de persones que s'han sentit discriminades per alguna causa en els últims 12 mesos",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-3-2",
+          "title": "Percentatge de persones que s'han sentit discriminades per motius de discapacitat en els últims 12 mesos",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-1",
+          "title": "Percentatge de rendes procedents del salari",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-2",
+          "title": "Percentatge de rendes procedents de pensions",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-4-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-3",
+          "title": "Percentatge de rendes procedents de prestacions per incapacitat o dependència",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-4-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-b-1",
+          "title": "Pressupost municipal destinat a Cooperació ODS10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-b-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-b-2",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-b-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-b-3",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-b-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-b-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/10-b-4",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11",
+      "title": "Aconseguir que les ciutats i els assentaments humans siguen inclusius, segurs, resilients i sostenibles",
+      "indicators": [
+        
+        {
+          "id": "11-1-1",
+          "title": "Renda mitjana de la població",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-2",
+          "title": "Percentatge de població que viu en seccions censals vulnerables",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-3",
+          "title": "Percentatge de població que viu en seccions censals vulnerables a nivell d'equipament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-4",
+          "title": "Percentatge de població que viu en seccions censals vulnerables a nivell demogràfic",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-5",
+          "title": "Percentatge de població que viu en seccions censals vulnerables a nivell socioeconòmic",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-1-5",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-6",
+          "title": "Preu mitjà m² habitatge en lloguer",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-1-6",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-7",
+          "title": "Taxa de sobrecàrrega preu de l'habitatge",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-1-7",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-1",
+          "title": "Temps mitjà a la parada de MetroValència més pròxima",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-2",
+          "title": "Temps mitjà a la parada d'EMT més pròxima",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-3",
+          "title": "Població amb una parada de MetroValència a menys de 10 min",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-4",
+          "title": "Població amb una parada d'EMT a menys de 10 min",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-4",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-5",
+          "title": "Viatges en MetroValència per habitant",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-5",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-6",
+          "title": "Viatges en EMT per habitant",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-6",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-7",
+          "title": "Parades de MetroValència per cada 100.000 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-7",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-8",
+          "title": "Parades d'EMT per cada 10.000 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-8",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-9",
+          "title": "Usuaris abonats a Valenbisi",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-9",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-10",
+          "title": "Preu del bitllet senzill d'EMT",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-10",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-11",
+          "title": "Accidents de circulació",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-11",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-12",
+          "title": "Víctimes en accidents de circulació",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-12",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-13",
+          "title": "Víctimes mortals en accidents de circulació",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-2-13",
+          "status": "complete"
+        },
+        {
+          "id": "11-3-1",
+          "title": "Densitat de la població",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-3-2",
+          "title": "Superfície construïda per cápita.",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-1",
+          "title": "Proporció de residus tractats",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-6-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-2",
+          "title": "Concentració mitjana anual de PM2.5",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-6-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-3",
+          "title": "Concentració mitjana anual de PM10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-6-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-4",
+          "title": "Nombre de superacions diàries de partícules en suspensió PM10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-6-4",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-5",
+          "title": "Concentració mitjana anual de NO2",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-6-5",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-6",
+          "title": "Concentració mitjana anual d'O3",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-6-6",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-7",
+          "title": "Concentració mitjana anual de SO2",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-6-7",
+          "status": "complete"
+        },
+        {
+          "id": "11-b-1",
+          "title": "Romanent de tresoreria per a despeses generals",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-b-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-c-1",
+          "title": "Pressupost municipal destinat a Cooperació ODS11",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-c-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-c-2",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS11",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-c-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-c-3",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS11",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-c-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-c-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/11-c-4",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12",
+      "title": "Garantir modalitats de consum i producció sostenibles",
+      "indicators": [
+        
+        {
+          "id": "12-5-1",
+          "title": "Proporció de residus tractats",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-5-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-2",
+          "title": "Contenidors de vidre per cada 1.000 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-5-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-3",
+          "title": "Contenidors de paper i cartó per cada 1.000 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-5-3",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-4",
+          "title": "Contenidors de plàstic per cada 1.000 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-5-4",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-5",
+          "title": "Recollida anual de vidre per habitant",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-5-5",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-6",
+          "title": "Recollida anual de paper i cartó per habitant",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-5-6",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-7",
+          "title": "Recollida anual de plàstic per habitant",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-5-7",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-8",
+          "title": "Percentatge de residus que són reciclats",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-5-8",
+          "status": "complete"
+        },
+        {
+          "id": "12-8-1",
+          "title": "Població que considera el canvi climàtic com un dels tres temes mediambientals de la ciutat que més el preocupa",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-8-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-8-2",
+          "title": "Població que considera que l'afecta el calfament global",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-8-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-a-1",
+          "title": "Pressupost municipal destinat a Cooperació ODS12",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-a-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-a-2",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS12",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-a-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-a-3",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS12",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "12-a-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-a-4",
+          "status": "complete"
+        },
+        {
+          "id": "12-b-1",
+          "title": "Turistes (viatgers) per càpita",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-b-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-b-2",
+          "title": "Estada mitjana apartaments turístics",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/12-b-2",
+          "status": "complete"
         }]
     }
   },
@@ -1471,19 +2319,19 @@
         
         {
           "id": "13-1-1",
-          "title": "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones",
+          "title": "Percentatge de superfície municipal amb el risc d'inundació",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-2",
-          "title": "Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030",
+          "title": "Romanent de tresoreria per a despeses generals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-3",
@@ -1495,27 +2343,91 @@
         },
         {
           "id": "13-2-1",
-          "title": "Nombre de països que han comunicat l'establiment o la posada en marxa d'una política, estratègia o pla integrat que augmenti la seva capacitat per a adaptar-se als efectes adversos del canvi climàtic i que promouen la resiliència al clima i un desenvolupament amb baixes emissions de gasos d'efecte d'hivernacle sense comprometre per això la producció d'aliments (per exemple, un pla nacional d'adaptació, una contribució determinada a nivell nacional, una comunicació nacional o un informe biennal d'actualització)",
+          "title": "Emisions tonelades CO2 per cada 100 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-2-2",
-          "title": "global_indicators.13-2-2-title",
+          "title": "Emisions tonelades CO2 sector residencial per cada 100 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-2-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "13-2-3",
+          "title": "Emisions tonelades CO2 sector servicis per cada 100 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-2-3",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-4",
+          "title": "Emisions tonelades CO2 sector industrial per cada 100 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-2-4",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-5",
+          "title": "Emisions tonelades CO2 transport privat i comercial per cada 100 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-2-5",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-6",
+          "title": "Emisions tonelades CO2 en residus per cada 100 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-2-6",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-7",
+          "title": "Emisions tonelades CO2 en àmbits de l'Ajuntament per cada 100 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-2-7",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-8",
+          "title": "Energia (MWh) procedent de fonts renovables per cada 100 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-2-8",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-9",
+          "title": "Compra d'energia verd certificada (MW) per cada 100 habitants",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-2-9",
+          "status": "complete"
         },
         {
           "id": "13-3-1",
-          "title": "Nombre de països que han incorporat la mitigació del canvi climàtic, l'adaptació a ell, la reducció dels seus efectes i l'alerta primerenca en els plans d'estudis de l'ensenyament primari, secundària i terciària",
+          "title": "Població que considera el canvi climàtic com un dels tres temes mediambientals de la ciutat que més el preocupa",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "13-3-2",
+          "title": "Població que considera que l'afecta el calfament global",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-3-2",
+          "status": "complete"
         },
         {
           "id": "13-a-1",
@@ -1527,11 +2439,35 @@
         },
         {
           "id": "13-b-1",
-          "title": "Nombre de països menys avançats i petits Estats insulars en desenvolupament que reben suport especialitzat, i quantitat de suport, en particular financer, tecnològic i de creació de capacitat, per als mecanismes de desenvolupament de la capacitat de planificació i gestió eficaces en relació amb el canvi climàtic, inclosos els centrats en les dones, els joves i les comunitats locals i marginades",
+          "title": "Pressupost municipal destinat a Cooperació ODS13",
           "description": "",
           "keywords": "",
           "href": "/estadistica/13-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "13-b-2",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS13",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-b-2",
+          "status": "complete"
+        },
+        {
+          "id": "13-b-3",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS13",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-b-3",
+          "status": "complete"
+        },
+        {
+          "id": "13-b-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/13-b-4",
+          "status": "complete"
         }]
     }
   },
@@ -1655,11 +2591,99 @@
         },
         {
           "id": "15-3-1",
-          "title": "Proporció de terres degradades en comparació amb la superfície total",
+          "title": "Percentatge precipitació total anual respecte al valor mitjà del període 1961-1990",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "15-3-2",
+          "title": "Diferencia temperatura mitjana anual respecte al valor mitjà del període 1961-1990",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-3",
+          "title": "Percentatge precipitació total anual respecte al valor mitjà del període 1991-2010",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-4",
+          "title": "Diferencia temperatura mitjana anual respecte al valor mitjà del període 1991-2010",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-4",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-5",
+          "title": "Percentatge de superfície municipal amb el risc d'inundació",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-5",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-6",
+          "title": "Població que resideix en zones amb el risc d'inundació",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-6",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-7",
+          "title": "Percentatge de superfície municipal amb el risc d'inundació freqüent",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-7",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-8",
+          "title": "Percentatge de superfície municipal amb el risc d'inundació ocasional",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-8",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-9",
+          "title": "Percentatge de superfície municipal amb el risc d'inundació excepcional",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-9",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-10",
+          "title": "Percentatge de superfície municipal amb el risc d'inundació d'alt calat",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-10",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-11",
+          "title": "Percentatge de superfície municipal amb el risc d'inundació de baix calat",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-11",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-12",
+          "title": "Percentatge de quilòmetres d'infraestructures lineals en zones amb el risc d'inundació",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-3-12",
+          "status": "complete"
         },
         {
           "id": "15-4-1",
@@ -1711,11 +2735,11 @@
         },
         {
           "id": "15-9-1",
-          "title": "Avanços en l'assoliment de les metes nacionals establertes de conformitat amb la segona Meta de Aichi per a la Diversitat Biològica del Pla Estratègic per a la Diversitat Biològica 2011‐2020",
+          "title": "Pressupost municipal destinat a protecció i millora del medi ambient",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-a-1",
@@ -1727,11 +2751,35 @@
         },
         {
           "id": "15-b-1",
-          "title": "Assistència oficial per al desenvolupament i despesa pública destinats a la conservació i l'ús sostenible de la biodiversitat i els ecosistemes",
+          "title": "Pressupost municipal  destinat a  Cooperació ODS15",
           "description": "",
           "keywords": "",
           "href": "/estadistica/15-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "15-b-2",
+          "title": "Pressupost municipal  destinat a  Educació  per al  desenvolupament ODS15",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-b-2",
+          "status": "complete"
+        },
+        {
+          "id": "15-b-3",
+          "title": "Pressupost municipal  destinat a  Acció  Humanitàries ODS15",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-b-3",
+          "status": "complete"
+        },
+        {
+          "id": "15-b-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/15-b-4",
+          "status": "complete"
         },
         {
           "id": "15-c-1",
@@ -1751,35 +2799,67 @@
         
         {
           "id": "16-1-1",
-          "title": "Nombre de víctimes d'homicidis intencionals per cada 100.000 habitants, desglossat per sexe i edat",
+          "title": "Taxa de criminalitat",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-2",
-          "title": "Morts relacionades amb conflictes per cada 100.000 habitants, desglossades per sexe, edat i causa",
+          "title": "Valoració de la població adulta del grau de seguretat del seu barri de residència",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-3",
-          "title": "Proporció de la població que ha sofert a) violència física, b) violència psicològica i c) violència sexual en els últims 12 mesos",
+          "title": "Valoració de la població adulta del nivell d'altruisme de la majoria de la gent",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-1-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-4",
-          "title": "Proporció de la població que se sent segura en caminar sola en la seva zona de residència",
+          "title": "Taxa d'homicidis dolosos i assassinats consumats",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-1-4",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "16-1-5",
+          "title": "Taxa de delictes contra la llibertat i indemnitat sexual",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-1-5",
+          "status": "complete"
+        },
+        {
+          "id": "16-1-6",
+          "title": "Taxa de delictes per robatoris amb violència o intimidació",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-1-6",
+          "status": "complete"
+        },
+        {
+          "id": "16-1-7",
+          "title": "Taxa de delictes per lesions, renyines tumultuàries i segrestos",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-1-7",
+          "status": "complete"
+        },
+        {
+          "id": "16-1-8",
+          "title": "Taxa de delictes per tràfic de drogues",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-1-8",
+          "status": "complete"
         },
         {
           "id": "16-2-1",
@@ -1863,35 +2943,107 @@
         },
         {
           "id": "16-6-1",
-          "title": "Despeses primàries del govern en proporció al pressupost aprovat originalment, desglossats per sector (o per codis pressupostaris o elements similars)",
+          "title": "Superàvit municipal per habitant",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-6-2",
-          "title": "Proporció de la població que se sent satisfeta amb la seva última experiència dels serveis públics",
+          "title": "Endeutament municipal per habitant",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-6-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "16-6-3",
+          "title": "Autonomia de la institució municipal",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-6-3",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-4",
+          "title": "Despesa per habitant",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-6-4",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-5",
+          "title": "Inversió per habitant",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-6-5",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-6",
+          "title": "Índex de transparència",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-6-6",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-7",
+          "title": "Índex de transparència economicofinancera",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-6-7",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-8",
+          "title": "Valoració de la gestió municipal",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-6-8",
+          "status": "complete"
         },
         {
           "id": "16-7-1",
-          "title": "Proporcions de places (desglossades per sexe, edat, persones amb discapacitat i grups de població) en les institucions públiques (assemblees legislatives nacionals i locals, administració pública, poder judicial), en comparació amb la distribució nacional",
+          "title": "Pressupost destinat a processos de Pressupostos Participatius Municipals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-7-2",
-          "title": "Proporció de la població que considera que l'adopció de decisions és inclusiva i respon a les seves necessitats, desglossada per sexe, edat, discapacitat i grup de població",
+          "title": "Participació ciutadana en processos de Pressupostos Participatius Municipals",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-7-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "16-7-3",
+          "title": "Percentatge de participació en les eleccions municipals",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-7-3",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-4",
+          "title": "Percentatge de població adulta que considera que els polítics/as es preocupen per la gent",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-7-4",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-5",
+          "title": "Pressupost per a participació ciutadana per càpita",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-7-5",
+          "status": "complete"
         },
         {
           "id": "16-8-1",
@@ -1927,11 +3079,35 @@
         },
         {
           "id": "16-a-1",
-          "title": "Existència d'institucions nacionals independents de drets humans, en compliment dels Principis de París",
+          "title": "Pressupost municipal  destinat a  Cooperació ODS16",
           "description": "",
           "keywords": "",
           "href": "/estadistica/16-a-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "16-a-2",
+          "title": "Pressupost municipal  destinat a  Educació  per al  desenvolupament ODS16",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-a-2",
+          "status": "complete"
+        },
+        {
+          "id": "16-a-3",
+          "title": "Pressupost municipal  destinat a  Acció  Humanitàries ODS16",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "16-a-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/16-a-4",
+          "status": "complete"
         },
         {
           "id": "16-b-1",
@@ -1951,19 +3127,139 @@
         
         {
           "id": "17-1-1",
-          "title": "Total d'ingressos del govern en proporció al PIB, desglossat per font.",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 1",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-1-2",
-          "title": "Proporció del pressupost nacional finançat per impostos interns",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/17-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "17-1-3",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 3",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-4",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 4",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-5",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 5",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-5",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-6",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 6",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-6",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-7",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 7",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-7",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-8",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 8",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-8",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-9",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 9",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-9",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-10",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-10",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-11",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 11",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-11",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-12",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 12",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-12",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-13",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 13",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-13",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-14",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 14",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-14",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-15",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 15",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-15",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-16",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 16",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-16",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-17",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament ODS 17",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/17-1-17",
+          "status": "complete"
         },
         {
           "id": "17-2-1",

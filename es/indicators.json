@@ -614,14 +614,6 @@
           "status": "complete"
         },
         {
-          "id": "4-2-2",
-          "title": "Tasa de participación en el aprendizaje organizado (un año antes de la edad oficial de ingreso en la enseñanza primaria), desglosada por sexo",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/4-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "4-3-1",
           "title": "Porcentaje de personas que en el último año han realizado algún curso, taller o actividad formativa",
           "description": "",
@@ -631,7 +623,7 @@
         },
         {
           "id": "4-3-2",
-          "title": "global_indicators.4-3-2-title",
+          "title": "Porcentaje de mujeres entre los estudiantes universitarios",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-3-2",
@@ -663,7 +655,7 @@
         },
         {
           "id": "4-6-2",
-          "title": "global_indicators.4-6-2-title",
+          "title": "Población entre 25 y 64 años con estudios postobligatorios",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-6-2",
@@ -695,7 +687,7 @@
         },
         {
           "id": "4-b-2",
-          "title": "global_indicators.4-b-2-title",
+          "title": "Cobertura del cheque escolar",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-b-2",
@@ -711,7 +703,7 @@
         },
         {
           "id": "4-c-2",
-          "title": "global_indicators.4-c-2-title",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-c-2",
@@ -719,7 +711,7 @@
         },
         {
           "id": "4-c-3",
-          "title": "global_indicators.4-c-3-title",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-c-3",
@@ -727,7 +719,7 @@
         },
         {
           "id": "4-c-4",
-          "title": "global_indicators.4-c-4-title",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-c-4",
@@ -814,22 +806,6 @@
           "status": "complete"
         },
         {
-          "id": "5-3-1",
-          "title": "Proporción de mujeres de entre 20 y 24 años que estaban casadas o mantenían una unión estable antes de cumplir los 15 años y antes de cumplir los 18 años",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/5-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-3-2",
-          "title": "Proporción de niñas y mujeres de entre 15 y 49 años que han sufrido mutilación o ablación genital femenina, desglosada por edad",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/5-3-2",
-          "status": "notstarted"
-        },
-        {
           "id": "5-4-1",
           "title": "Tiempo que dedica la población a la atención y cura de los hijos convivientes",
           "description": "",
@@ -884,22 +860,6 @@
           "keywords": "",
           "href": "/estadistica/es/5-5-4",
           "status": "complete"
-        },
-        {
-          "id": "5-6-1",
-          "title": "Proporción de mujeres de entre 15 y 49 años que toman sus propias decisiones informadas sobre las relaciones sexuales, el uso de anticonceptivos y la atención de la salud reproductiva",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/5-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-6-2",
-          "title": "Número de países con leyes y reglamentos que garantizan a los hombres y las mujeres a partir de los 15 años de edad un acceso pleno e igualitario a los servicios de salud sexual y reproductiva y a la información y educación al respecto",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/5-6-2",
-          "status": "notstarted"
         },
         {
           "id": "5-a-1",
@@ -1086,38 +1046,6 @@
           "status": "complete"
         },
         {
-          "id": "6-4-1",
-          "title": "Cambio en el uso eficiente de los recursos hídricos con el paso del tiempo",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/6-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-4-2",
-          "title": "Nivel de estrés hídrico: extracción de agua dulce en proporción a los recursos de agua dulce disponibles",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/6-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-1",
-          "title": "Grado de gestión integrada de los recursos hídricos",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/6-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-2",
-          "title": "Proporción de la superficie de cuencas transfronterizas sujetas a arreglos operacionales para la cooperación en materia de aguas",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/6-5-2",
-          "status": "notstarted"
-        },
-        {
           "id": "6-6-1",
           "title": "Porcentaje de playas con calificación excelente",
           "description": "",
@@ -1156,14 +1084,6 @@
           "keywords": "",
           "href": "/estadistica/es/6-a-4",
           "status": "complete"
-        },
-        {
-          "id": "6-b-1",
-          "title": "Proporción de dependencias administrativas locales que han establecido políticas y procedimientos operacionales para la participación de las comunidades locales en la gestión del agua y el saneamiento",
-          "description": "",
-          "keywords": "",
-          "href": "/estadistica/es/6-b-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -1175,19 +1095,43 @@
         
         {
           "id": "7-1-1",
-          "title": "Proporción de la población que tiene acceso a la electricidad",
+          "title": "Consumo de energía eléctrica total por habitante y día (kWh)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/7-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-1-2",
-          "title": "Proporción de la población cuya fuente primaria de energía son los combustibles y tecnologías limpios",
+          "title": "Consumo de energía eléctrica doméstica por habitante y día (kWh)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/7-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "7-1-3",
+          "title": "Consumo de gas por habitante y día (kWh)",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/7-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "7-1-4",
+          "title": "Porcentaje de nuevas viviendas",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/7-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "7-1-5",
+          "title": "Puntos de alumbrado público",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/7-1-5",
+          "status": "complete"
         },
         {
           "id": "7-2-1",
@@ -1215,11 +1159,35 @@
         },
         {
           "id": "7-b-1",
-          "title": "Capacidad instalada de generación de energía renovable en los países en desarrollo (expresada en vatios per cápita)",
+          "title": "Presupuesto municipal destinado a Cooperación ODS7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/7-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "7-b-2",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS7",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/7-b-2",
+          "status": "complete"
+        },
+        {
+          "id": "7-b-3",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS7",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/7-b-3",
+          "status": "complete"
+        },
+        {
+          "id": "7-b-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/7-b-4",
+          "status": "complete"
         }]
     }
   },
@@ -1247,11 +1215,19 @@
         },
         {
           "id": "8-3-1",
-          "title": "Proporción de empleo informal con respecto al empleo total, desglosada por sector y sexo",
+          "title": "Población con contrato laboral temporal",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-3-2",
+          "title": "Población afiliada en régimen autónomo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-3-2",
+          "status": "complete"
         },
         {
           "id": "8-4-1",
@@ -1271,27 +1247,59 @@
         },
         {
           "id": "8-5-1",
-          "title": "Ingreso medio por hora de las personas empleadas, desglosado por sexo, edad, ocupación y personas con discapacidad",
+          "title": "Tasa de desocupación",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-2",
-          "title": "Tasa de desempleo, desglosada por sexo, edad y personas con discapacidad",
+          "title": "Paro registrado",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-5-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-5-3",
+          "title": "Paro registrado en personas con discapacidad",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-5-3",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-4",
+          "title": "Porcentaje de población con discapacidad entre los parados",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-5-4",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-5",
+          "title": "Población parada de larga duración",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-5-5",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-6",
+          "title": "Porcentaje de población desempleada parada de larga duración",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-5-6",
+          "status": "complete"
         },
         {
           "id": "8-6-1",
-          "title": "Proporción de jóvenes (entre 15 y 24 años) que no cursan estudios, no están empleados ni reciben capacitación",
+          "title": "Paro registrado en población joven con bajo nivel de estudios",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-7-1",
@@ -1303,51 +1311,115 @@
         },
         {
           "id": "8-8-1",
-          "title": "Lesiones ocupacionales mortales y no mortales por cada 100.000 trabajadores, desglosadas por sexo y estatus migratorio",
+          "title": "Número de accidentes laborales con baja",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-8-2",
-          "title": "Nivel de cumplimiento nacional de los derechos laborales (libertad de asociación y negociación colectiva) con arreglo a las fuentes textuales de la Organización Internacional del Trabajo (OIT) y la legislación interna, desglosado por sexo y estatus migratorio",
+          "title": "Accidentes laborales por cada 1.000 trabajadores activos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-8-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-8-3",
+          "title": "Población con enfermedades profesionales",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-8-3",
+          "status": "complete"
+        },
+        {
+          "id": "8-8-4",
+          "title": "Enfermedades profesionales por cada 10.000 trabajadores activos",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-8-4",
+          "status": "complete"
         },
         {
           "id": "8-9-1",
-          "title": "PIB generado directamente por el turismo en proporción al PIB total y a la tasa de crecimiento",
+          "title": "Número de plazas hoteleras",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-9-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-9-2",
+          "title": "Plazas hoteleras por cada 1.000 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-9-2",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-3",
+          "title": "Número de apartamentos turísticos",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-9-3",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-4",
+          "title": "Apartamentos turísticos por cada 1.000 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-9-4",
+          "status": "complete"
         },
         {
           "id": "8-10-1",
-          "title": "a) Número de sucursales de bancos comerciales por cada 100.000 adultos y b) número de cajeros automáticos por cada 100.000 adultos",
+          "title": "Sucursales bancarias",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-10-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-10-2",
-          "title": "Proporción de adultos (a partir de 15 años de edad) que tienen una cuenta en un banco u otra institución financiera o un proveedor de servicios de dinero móvil",
+          "title": "Sucursales bancarias por cada 1.000 habitantes > 15 años",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-10-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-a-1",
-          "title": "Compromisos y desembolsos en relación con la iniciativa Ayuda para el Comercio",
+          "title": "Presupuesto municipal destinado a Cooperación ODS8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-a-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "8-a-2",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS8",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-a-2",
+          "status": "complete"
+        },
+        {
+          "id": "8-a-3",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS8",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "8-a-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/8-a-4",
+          "status": "complete"
         },
         {
           "id": "8-b-1",
@@ -1367,35 +1439,115 @@
         
         {
           "id": "9-1-1",
-          "title": "Proporción de la población rural que vive a menos de 2 km de una carretera transitable todo el año",
+          "title": "Mercancíes transportadas en el Puerto de Valencia (toneladas)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-1-2",
-          "title": "Volumen de transporte de pasajeros y carga, desglosado por medio de transporte",
+          "title": "Pasajeros que han pasado por el Puerto de Valencia",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-1-3",
+          "title": "Mercancíes transportadas en el Aeropuerto de Valencia (toneladas)",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-4",
+          "title": "Pasajeros que han pasado por el Aeropuerto de Valencia",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-5",
+          "title": "Población que utiliza MetroValencia como principal medio para desplazarse",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-5",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-6",
+          "title": "Población que utiliza EMT como principal medio para desplazarse",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-6",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-7",
+          "title": "Valoración de la facilidad para desplazarse con MetroValencia",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-7",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-8",
+          "title": "Valoración de la facilidad para desplazarse con EMT",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-8",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-9",
+          "title": "Tiempo mediano a la parada de MetroValencia más próxima",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-9",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-10",
+          "title": "Tiempo mediano a la parada de EMT más próxima",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-10",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-11",
+          "title": "Población con una parada de MetroValencia a menos de 10 min",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-11",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-12",
+          "title": "Población con una parada de EMT a menos de 10 min",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-1-12",
+          "status": "complete"
         },
         {
           "id": "9-2-1",
-          "title": "Valor añadido del sector manufacturo en proporción al PIB y per cápita",
+          "title": "Porcentaje de empresas en el Sector Industrial",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
-          "title": "Empleo del sector manufacturero en proporción al empleo total",
+          "title": "Porcentaje de población ocupada en el Sector Industrial",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
@@ -1423,27 +1575,67 @@
         },
         {
           "id": "9-5-1",
-          "title": "Gastos en investigación y desarrollo en proporción al PIB",
+          "title": "Patentes solicitadas por residentes en Valencia",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
-          "title": "Número de investigadores (en equivalente a tiempo completo) por cada millón de habitantes",
+          "title": "Patentes presentadas por la Universitat de Valencia (UV)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-5-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-5-3",
+          "title": "Patentes presentadas por la Universitat Politècnica de Valencia (UPV)",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-5-3",
+          "status": "complete"
+        },
+        {
+          "id": "9-5-4",
+          "title": "Tasa de Patentes por 100.000 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-5-4",
+          "status": "complete"
         },
         {
           "id": "9-a-1",
-          "title": "Total de apoyo internacional oficial (asistencia oficial para el desarrollo más otras corrientes oficiales de recursos) destinado a la infraestructura",
+          "title": "Presupuesto municipal destinado a Cooperación ODS9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-a-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-a-2",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS9",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-a-2",
+          "status": "complete"
+        },
+        {
+          "id": "9-a-3",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS9",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "9-a-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-a-4",
+          "status": "complete"
         },
         {
           "id": "9-b-1",
@@ -1455,11 +1647,667 @@
         },
         {
           "id": "9-c-1",
-          "title": "Proporción de la población con cobertura de red móvil, desglosada por tecnología",
+          "title": "Porcentaje de viviendas con teléfono fijo",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-c-2",
+          "title": "Porcentaje de viviendas con teléfono móvil",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-c-2",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-3",
+          "title": "Porcentaje de viviendas con algún tipo de teléfono",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-c-3",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-4",
+          "title": "Porcentaje de viviendas con algún tipo de ordenador",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-c-4",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-5",
+          "title": "Porcentaje de viviendas con acceso a Internet",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-c-5",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-6",
+          "title": "Porcentaje de viviendas con conexión de banda ancha",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/9-c-6",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "10",
+      "title": "Reducir la desigualdad en los países y entre ellos",
+      "indicators": [
+        
+        {
+          "id": "10-1-1",
+          "title": "Población con ingresos por unidad de consumo por debajo de 5000 euros",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-2",
+          "title": "Población con ingresos por unidad de consumo por debajo de 7500 euros",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-3",
+          "title": "Población con ingresos por unidad de consumo por debajo de 10000 euros",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-4",
+          "title": "Índice de Gini",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-1",
+          "title": "Población con ingresos por unidad de consumo por debajo del 40% de la mediana",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-2",
+          "title": "Población con ingresos por unidad de consumo por debajo del 50% de la mediana",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-3",
+          "title": "Población con ingresos por unidad de consumo por debajo del 60% de la mediana",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-4",
+          "title": "Índice de Dependencia Demográfica",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-4",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-5",
+          "title": "Porcentaje de renta que controla el 20% más rico",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-5",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-6",
+          "title": "Porcentaje de renta que controla el 20% más pobre",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-6",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-7",
+          "title": "Paro registrado en personas con discapacidad",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-7",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-8",
+          "title": "Porcentaje de población con discapacidad entre los parados",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-8",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-9",
+          "title": "Porcentaje de población de nacionalidad extranjera",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-9",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-10",
+          "title": "Porcentaje de población parada de nacionalidad extranjera",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-10",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-11",
+          "title": "Porcentaje de población afiliada a la SS de nacionalidad extranjera",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-2-11",
+          "status": "complete"
+        },
+        {
+          "id": "10-3-1",
+          "title": "Porcentaje de personas que se han sentido discriminadas por alguna causa en los últimos 12 meses",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-3-2",
+          "title": "Porcentaje de personas que se han sentido discriminadas por motivos de discapacidad en los últimos 12 meses",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-1",
+          "title": "Porcentaje de rentas procedentes del salario",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-2",
+          "title": "Porcentaje de rentas procedentes de pensiones",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-4-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-3",
+          "title": "Porcentaje de rentas procedentes de prestaciones por incapacidad o dependencia",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-4-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-b-1",
+          "title": "Presupuesto municipal destinado a Cooperación ODS10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-b-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-b-2",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-b-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-b-3",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-b-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-b-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/10-b-4",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11",
+      "title": "Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles",
+      "indicators": [
+        
+        {
+          "id": "11-1-1",
+          "title": "Renta media de la población",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-2",
+          "title": "Porcentaje de población que vive en secciones censales vulnerables",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-3",
+          "title": "Porcentaje de población que vive en secciones censales vulnerables a nivel de equipación",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-4",
+          "title": "Porcentaje de población que vive en secciones censales vulnerables a nivel demográfico",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-5",
+          "title": "Porcentaje de población que vive en secciones censales vulnerables a nivel socioeconómico",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-1-5",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-6",
+          "title": "Precio medio m² vivienda en alquiler",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-1-6",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-7",
+          "title": "Tasa de sobrecarga precio de la vivienda",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-1-7",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-1",
+          "title": "Tiempo medio a la parada de MetroValència más próxima",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-2",
+          "title": "Tiempo medio a la parada de EMT más próxima",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-3",
+          "title": "Población con una parada de MetroValència a menos de 10 min",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-4",
+          "title": "Población con una parada de EMT a menos de 10 min",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-4",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-5",
+          "title": "Viajes en MetroValència por habitante",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-5",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-6",
+          "title": "Viajes en EMT por habitante",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-6",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-7",
+          "title": "Paradas de MetroValència por cada 100.000 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-7",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-8",
+          "title": "Paradas de EMT por cada 10.000 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-8",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-9",
+          "title": "Usuarios abonados a Valenbisi",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-9",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-10",
+          "title": "Precio del billete sencillo de EMT",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-10",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-11",
+          "title": "Accidentes de circulación",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-11",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-12",
+          "title": "Víctimas en accidentes de circulación",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-12",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-13",
+          "title": "Víctimas mortales en accidentes de circulación",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-2-13",
+          "status": "complete"
+        },
+        {
+          "id": "11-3-1",
+          "title": "Densidad de la población",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-3-2",
+          "title": "Superficie construida por cápita.",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-1",
+          "title": "Proporción de residuos tratados",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-6-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-2",
+          "title": "Concentración media anual de PM2.5",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-6-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-3",
+          "title": "Concentración media anual de PM10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-6-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-4",
+          "title": "Número de superaciones diarias de partículas en suspensión PM10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-6-4",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-5",
+          "title": "Concentración media anual de NO2",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-6-5",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-6",
+          "title": "Concentración media anual de O3",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-6-6",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-7",
+          "title": "Concentración media anual de SO2",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-6-7",
+          "status": "complete"
+        },
+        {
+          "id": "11-b-1",
+          "title": "Permaneciendo de tesorería para gastos generales",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-b-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-c-1",
+          "title": "Presupuesto municipal destinado a Cooperación ODS11",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-c-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-c-2",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS11",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-c-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-c-3",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS11",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-c-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-c-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/11-c-4",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12",
+      "title": "Garantizar modalidades de consumo y producción sostenibles",
+      "indicators": [
+        
+        {
+          "id": "12-5-1",
+          "title": "Proporción de residuos tratados",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-5-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-2",
+          "title": "Contenedores de vidrio por cada 1.000 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-5-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-3",
+          "title": "Contenedores de papel y cartón por cada 1.000 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-5-3",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-4",
+          "title": "Contenedores de plástico por cada 1.000 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-5-4",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-5",
+          "title": "Recogida anual de vidrio por habitante",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-5-5",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-6",
+          "title": "Recogida anual de papel y cartón por habitante",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-5-6",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-7",
+          "title": "Recogida anual de plástico por habitante",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-5-7",
+          "status": "complete"
+        },
+        {
+          "id": "12-5-8",
+          "title": "Porcentaje de residuos que son reciclados",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-5-8",
+          "status": "complete"
+        },
+        {
+          "id": "12-8-1",
+          "title": "Población que considera el cambio climático como uno de los tres temas medioambientales de la ciudad que más lo preocupa",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-8-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-8-2",
+          "title": "Población que considera que lo afecta el calentamiento global",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-8-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-a-1",
+          "title": "Presupuesto municipal destinado a Cooperación ODS12",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-a-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-a-2",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS12",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-a-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-a-3",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS12",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "12-a-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-a-4",
+          "status": "complete"
+        },
+        {
+          "id": "12-b-1",
+          "title": "Turistas (viajeros) per cápita",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-b-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-b-2",
+          "title": "Estancia mediana apartamentos turísticos",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/12-b-2",
+          "status": "complete"
         }]
     }
   },
@@ -1471,19 +2319,19 @@
         
         {
           "id": "13-1-1",
-          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 personas",
+          "title": "Porcentaje de superficie municipal con riesgo de inundación",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/13-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-2",
-          "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030",
+          "title": "Permaneciendo de tesorería para gastos generales",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/13-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-3",
@@ -1495,27 +2343,91 @@
         },
         {
           "id": "13-2-1",
-          "title": "Número de países con contribuciones determinadas a nivel nacional, estrategias a largo plazo y planes y estrategias nacionales de adaptación y estrategias indicadas en comunicaciones sobre la adaptación y comunicaciones nacionales",
+          "title": "Emisions tonelades CO2 por cada 100 habitantes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/13-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-2-2",
-          "title": "Emisiones totales de gases de efecto invernadero por año",
+          "title": "Emisions tonelades CO2 sector residencial por cada 100 habitantes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/13-2-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "13-2-3",
+          "title": "Emisions tonelades CO2 sector servicios por cada 100 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-2-3",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-4",
+          "title": "Emisions tonelades CO2 sector industrial por cada 100 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-2-4",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-5",
+          "title": "Emisions tonelades CO2 transporte privado y comercial por cada 100 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-2-5",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-6",
+          "title": "Emisions tonelades CO2 en residuos por cada 100 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-2-6",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-7",
+          "title": "Emisions tonelades CO2 en ámbitos del Ayuntamiento por cada 100 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-2-7",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-8",
+          "title": "Energía (MWh) procedente de fuentes renovables por cada 100 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-2-8",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-9",
+          "title": "Compra de energía verde certificada (MW) por cada 100 habitantes",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-2-9",
+          "status": "complete"
         },
         {
           "id": "13-3-1",
-          "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación del profesorado y d) la evaluación de los estudiantes",
+          "title": "Población que considera el cambio climático como uno de los tres temas medioambientales de la ciudad que más lo preocupa",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/13-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "13-3-2",
+          "title": "Población que considera que lo afecta el calentamiento global",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-3-2",
+          "status": "complete"
         },
         {
           "id": "13-a-1",
@@ -1527,11 +2439,35 @@
         },
         {
           "id": "13-b-1",
-          "title": "Número de países menos adelantados y pequeños Estados insulares en desarrollo con contribuciones determinadas a nivel nacional, estrategias a largo plazo y planes, estrategias nacionales de adaptación y estrategias indicadas en comunicaciones sobre la adaptación y comunicaciones nacionales",
+          "title": "Presupuesto municipal destinado a Cooperación ODS13",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/13-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "13-b-2",
+          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS13",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-b-2",
+          "status": "complete"
+        },
+        {
+          "id": "13-b-3",
+          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS13",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-b-3",
+          "status": "complete"
+        },
+        {
+          "id": "13-b-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/13-b-4",
+          "status": "complete"
         }]
     }
   },
@@ -1655,11 +2591,99 @@
         },
         {
           "id": "15-3-1",
-          "title": "Proporción de tierras degradadas en comparación con la superficie total",
+          "title": "Porcentaje precipitación total anual respecto al valor mediano del periodo 1961-1990",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/15-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "15-3-2",
+          "title": "Diferencia temperatura mediana anual respecto al valor mediano del periodo 1961-1990",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-3",
+          "title": "Porcentaje precipitación total anual respecto al valor mediano del periodo 1991-2010",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-4",
+          "title": "Diferencia temperatura mediana anual respecto al valor mediano del periodo 1991-2010",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-4",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-5",
+          "title": "Porcentaje de superficie municipal con riesgo de inundación",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-5",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-6",
+          "title": "Población que reside en zonas con riesgo de inundación",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-6",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-7",
+          "title": "Porcentaje de superficie municipal con riesgo de inundación frecuente",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-7",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-8",
+          "title": "Porcentaje de superficie municipal con riesgo de inundación ocasional",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-8",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-9",
+          "title": "Porcentaje de superficie municipal con riesgo de inundación excepcional",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-9",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-10",
+          "title": "Porcentaje de superficie municipal con riesgo de inundación de alto calado",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-10",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-11",
+          "title": "Porcentaje de superficie municipal con riesgo de inundación de bajo calado",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-11",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-12",
+          "title": "Porcentaje de kilómetros de infraestructuras lineales en zonas con riesgo de inundación",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-3-12",
+          "status": "complete"
         },
         {
           "id": "15-4-1",
@@ -1711,11 +2735,11 @@
         },
         {
           "id": "15-9-1",
-          "title": "a) Número de países que han establecido metas nacionales de conformidad con la segunda Meta de Aichi del Plan Estratégico para la Diversidad Biológica 2011-2020 o metas similares en sus estrategias y planes de acción nacionales en materia de diversidad biológica y han informado de sus progresos en el logro de estas metas; y b) integración de la biodiversidad en los sistemas nacionales de contabilidad y presentación de informes, definidos como implementación del Sistema de Contabilidad Ambiental y Económica",
+          "title": "Presupuesto municipal destinado a protección y mejora del medio ambiente",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/15-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-a-1",
@@ -1727,11 +2751,35 @@
         },
         {
           "id": "15-b-1",
-          "title": "a) Asistencia oficial para el desarrollo destinada concretamente a la conservación y el uso sostenible de la biodiversidad y b) ingresos generados y financiación movilizada mediante instrumentos económicos pertinentes para la biodiversidad",
+          "title": "Presupuesto municipal destinado a Cooperación ODS15",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/15-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "15-b-2",
+          "title": "Presupuesto municipal destinado a Educación  para el desarrollo ODS15",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-b-2",
+          "status": "complete"
+        },
+        {
+          "id": "15-b-3",
+          "title": "Presupuesto municipal destinado a Acción  Humanitarias ODS15",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-b-3",
+          "status": "complete"
+        },
+        {
+          "id": "15-b-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/15-b-4",
+          "status": "complete"
         },
         {
           "id": "15-c-1",
@@ -1751,35 +2799,67 @@
         
         {
           "id": "16-1-1",
-          "title": "Número de víctimas de homicidios intencionales por cada 100.000 habitantes, desglosado por sexo y edad",
+          "title": "Tasa de criminalidad",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/16-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-2",
-          "title": "Muertes relacionadas con conflictos por cada 100.000 habitantes, desglosadas por sexo, edad y causa",
+          "title": "Valoración de la población adulta del grado de seguridad de su barrio de residencia",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/16-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-3",
-          "title": "Proporción de la población que ha sufrido a) violencia física, b) violencia psicológica y c) violencia sexual en los últimos 12 meses",
+          "title": "Valoración de la población adulta del nivel de altruismo de la mayoría de la gente",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/16-1-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-4",
-          "title": "Proporción de la población que se siente segura al caminar sola en su zona de residencia",
+          "title": "Tasa de homicidios dolosos y asesinatos consumados",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/16-1-4",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "16-1-5",
+          "title": "Tasa de delitos contra la libertad e indemnidad sexual",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-1-5",
+          "status": "complete"
+        },
+        {
+          "id": "16-1-6",
+          "title": "Tasa de delitos por robos con violencia o intimidación",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-1-6",
+          "status": "complete"
+        },
+        {
+          "id": "16-1-7",
+          "title": "Tasa de delitos por lesiones, riñas tumultuarias y secuestros",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-1-7",
+          "status": "complete"
+        },
+        {
+          "id": "16-1-8",
+          "title": "Tasa de delitos por tráfico de drogas",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-1-8",
+          "status": "complete"
         },
         {
           "id": "16-2-1",
@@ -1863,35 +2943,107 @@
         },
         {
           "id": "16-6-1",
-          "title": "Gastos primarios del gobierno en proporción al presupuesto aprobado originalmente, desglosados por sector (o por códigos presupuestarios o elementos similares)",
+          "title": "Superávit municipal por habitante",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/16-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-6-2",
-          "title": "Proporción de la población que se siente satisfecha con su última experiencia de los servicios públicos",
+          "title": "Endeudamiento municipal por habitante",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/16-6-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "16-6-3",
+          "title": "Autonomía de la institución municipal",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-6-3",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-4",
+          "title": "Gasto por habitante",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-6-4",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-5",
+          "title": "Inversión por habitante",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-6-5",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-6",
+          "title": "Índice de transparencia",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-6-6",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-7",
+          "title": "Índice de transparencia económico-financiera",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-6-7",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-8",
+          "title": "Valoración de la gestión municipal",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-6-8",
+          "status": "complete"
         },
         {
           "id": "16-7-1",
-          "title": "Proporciones de plazas en las instituciones nacionales y locales, entre ellas: a) las asambleas legislativas, b) la administración pública y c) el poder judicial, en comparación con la distribución nacional, desglosadas por sexo, edad, personas con discapacidad y grupos de población",
+          "title": "Presupuesto destinado a procesos de Presupuestos Participativos Municipales",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/16-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-7-2",
-          "title": "Proporción de la población que considera que la adopción de decisiones es inclusiva y responde a sus necesidades, desglosada por sexo, edad, discapacidad y grupo de población",
+          "title": "Participación ciudadana en procesos de Presupuestos Participativos Municipales",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/16-7-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "16-7-3",
+          "title": "Porcentaje de participación en las elecciones municipales",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-7-3",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-4",
+          "title": "Porcentaje de población adulta que considera que los políticos/as se preocupan por la gente",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-7-4",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-5",
+          "title": "Presupuesto para participación ciudadana per cápita",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-7-5",
+          "status": "complete"
         },
         {
           "id": "16-8-1",
@@ -1927,11 +3079,35 @@
         },
         {
           "id": "16-a-1",
-          "title": "Existencia de instituciones nacionales independientes de derechos humanos, en cumplimiento de los Principios de París",
+          "title": "Presupuesto municipal destinado a Cooperación ODS16",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/16-a-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "16-a-2",
+          "title": "Presupuesto municipal destinado a Educación  para el desarrollo ODS16",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-a-2",
+          "status": "complete"
+        },
+        {
+          "id": "16-a-3",
+          "title": "Presupuesto municipal destinado a Acción  Humanitarias ODS16",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-a-3",
+          "status": "complete"
+        },
+        {
+          "id": "16-a-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/16-a-4",
+          "status": "complete"
         },
         {
           "id": "16-b-1",
@@ -1951,19 +3127,139 @@
         
         {
           "id": "17-1-1",
-          "title": "Total de ingresos del gobierno en proporción al PIB, desglosado por fuente",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 1",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/17-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-1-2",
-          "title": "Proporción del presupuesto nacional financiado por impuestos internos",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/17-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "17-1-3",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 3",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-4",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 4",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-5",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 5",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-5",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-6",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 6",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-6",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-7",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 7",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-7",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-8",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 8",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-8",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-9",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 9",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-9",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-10",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 10",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-10",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-11",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 11",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-11",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-12",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 12",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-12",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-13",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 13",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-13",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-14",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 14",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-14",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-15",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 15",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-15",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-16",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 16",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-16",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-17",
+          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo ODS 17",
+          "description": "",
+          "keywords": "",
+          "href": "/estadistica/es/17-1-17",
+          "status": "complete"
         },
         {
           "id": "17-2-1",
