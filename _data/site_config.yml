@@ -9,12 +9,12 @@ breadcrumbs:
   goal:
     - path: /
       label: general.home
-    - path: /goals
+    - path: /
       label: general.goals
   indicator:
     - path: /
       label: general.home
-    - path: /goals
+    - path: /
       label: general.goals
   post:
     - path: /
