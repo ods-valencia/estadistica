@@ -14,4 +14,4 @@ avaluació del grau d’assoliment dels Objectius de Desenvolupament Sostenible 
 Les dades d'aquest web s'actualitzaran almenys una vegada a l'any.
 
 Pot trobar més informació sobre els Objectius de Desenvolupament Sostenible a la ciutat de València desglossats per districtes, barris o seccions al web 
-de l'[Oficina d'Estadística de l'Ajuntament de València](https://www.valencia.es/cas/estadistica/ods_principal). A més, apareixen mapes per districtes, barris o seccions on es representen les dades.
+de l'[Oficina d'Estadística de l'Ajuntament de València](https://www.valencia.es/cas/estadistica/ods_principal). En el panell d'indicadors d'aquest web apareixen mapes per districtes, barris o seccions on es representen les dades.
