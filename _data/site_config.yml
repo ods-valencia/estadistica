@@ -88,8 +88,8 @@ footer_menu:
   #  translation_key: menu.contact_us
   - path: 'https://twitter.com/EstadisticaVLC'
     translation_key: general.twitter
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+  #- path: /about/cookies-and-privacy/
+  #  translation_key: menu.cookies
 frontpage_cards:
   - title: frontpage.download_all
     content: ''
