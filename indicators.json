@@ -295,7 +295,7 @@
         },
         {
           "id": "3-2-3",
-          "title": "global_indicators.3-2-3-title",
+          "title": "Taxa de mortalitat infantil",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-2-3",
@@ -343,7 +343,7 @@
         },
         {
           "id": "3-3-6",
-          "title": "global_indicators.3-3-6-title",
+          "title": "Taxa de mortalitat atribuïda a la tuberculosi",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-6",
@@ -351,7 +351,7 @@
         },
         {
           "id": "3-3-7",
-          "title": "global_indicators.3-3-7-title",
+          "title": "Taxa de mortalitat atribuïda a l'hepatitis vírica",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-7",
@@ -359,7 +359,7 @@
         },
         {
           "id": "3-3-8",
-          "title": "global_indicators.3-3-8-title",
+          "title": "Taxa de mortalitat atribuïda a enf. infeccioses del sistema respiratori",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-3-8",
@@ -383,7 +383,7 @@
         },
         {
           "id": "3-4-3",
-          "title": "global_indicators.3-4-3-title",
+          "title": "Taxa de mortalitat atribuïda a la diabetis",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-3",
@@ -391,7 +391,7 @@
         },
         {
           "id": "3-4-4",
-          "title": "global_indicators.3-4-4-title",
+          "title": "Taxa de mortalitat atribuïda al càncer",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-4",
@@ -399,7 +399,7 @@
         },
         {
           "id": "3-4-5",
-          "title": "global_indicators.3-4-5-title",
+          "title": "Taxa de mortalitat atribuïda a tumors del sistema respiratori",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-5",
@@ -407,7 +407,7 @@
         },
         {
           "id": "3-4-6",
-          "title": "global_indicators.3-4-6-title",
+          "title": "Taxa de mortalitat prematura",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-6",
@@ -415,7 +415,7 @@
         },
         {
           "id": "3-4-7",
-          "title": "global_indicators.3-4-7-title",
+          "title": "Esperança de vida en nàixer",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-7",
@@ -423,7 +423,7 @@
         },
         {
           "id": "3-4-8",
-          "title": "global_indicators.3-4-8-title",
+          "title": "Taxa de mortalitat per suïcidi",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-4-8",
@@ -447,7 +447,7 @@
         },
         {
           "id": "3-5-3",
-          "title": "global_indicators.3-5-3-title",
+          "title": "Percentatge de persones de 15 i més anys que consumeixen begudes alcohòliques almenys una vegada per setmana",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-5-3",
@@ -455,7 +455,7 @@
         },
         {
           "id": "3-5-4",
-          "title": "global_indicators.3-5-4-title",
+          "title": "Taxa de mortalitat atribuïda a trastorns mentals derivats de l'abús d'alcohol i drogues",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-5-4",
@@ -487,7 +487,7 @@
         },
         {
           "id": "3-7-3",
-          "title": "global_indicators.3-7-3-title",
+          "title": "Taxa de fecunditat de les adolescents de 10 a 19 anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-7-3",
@@ -511,7 +511,7 @@
         },
         {
           "id": "3-8-3",
-          "title": "global_indicators.3-8-3-title",
+          "title": "Llits instal·lats en hospitals públics per cada 10.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-8-3",
@@ -519,7 +519,7 @@
         },
         {
           "id": "3-8-4",
-          "title": "global_indicators.3-8-4-title",
+          "title": "Consultes d'odontologia per cada 10.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-8-4",
@@ -527,7 +527,7 @@
         },
         {
           "id": "3-8-5",
-          "title": "global_indicators.3-8-5-title",
+          "title": "Farmàcies per cada 10.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-8-5",
@@ -559,7 +559,7 @@
         },
         {
           "id": "3-c-2",
-          "title": "global_indicators.3-c-2-title",
+          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS3",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-c-2",
@@ -567,7 +567,7 @@
         },
         {
           "id": "3-c-3",
-          "title": "global_indicators.3-c-3-title",
+          "title": "Pressupost municipal destinat a Accions Humanitàries ODS3",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-c-3",
@@ -575,7 +575,7 @@
         },
         {
           "id": "3-c-4",
-          "title": "global_indicators.3-c-4-title",
+          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
           "description": "",
           "keywords": "",
           "href": "/estadistica/3-c-4",
