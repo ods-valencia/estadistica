@@ -76,10 +76,10 @@ date_formats:
 disclaimer:
   phase: ''
   message: ''
-email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+#email_contacts:
+#  questions: test@example.com
+#  suggestions: test@example.com
+#  functional: test@example.com
 environment: staging
 favicons: favicon.io
 footer_language_toggle: none
