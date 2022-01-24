@@ -5,7 +5,7 @@ layout: page
 language: es
 ---
 
-Este sitio web tiene el objetivo de difundir los datos de la Agenda 2030 de Valencia, para que esta información llegue al público interesado de la manera más completa, actualizada, estandarizada y reutilizable posible. Es un ejercicio de transparencia que debe permitir la consecución de un mejor seguimiento y evaluación del grado de consecución de los Objetivos de Desarrollo Sostenible en la ciudad de Valencia.
+Este sitio web tiene el objetivo de difundir los datos de la Agenda 2030 de Valencia, para que esta información llegue a una mayor cantidad de personas de la manera más completa, actualizada y estandarizada posible. Es un ejercicio de transparencia que debe permitir la consecución de un mejor seguimiento y evaluación del grado de consecución de los Objetivos de Desarrollo Sostenible en la ciudad de Valencia.
 
 Los datos de esta página se actualizarán al menos una vez al año.
 
