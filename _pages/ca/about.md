@@ -5,11 +5,8 @@ layout: page
 language: ca
 ---
 
-
-Aquest lloc web té l’objectiu de difondre les dades de l’Agenda 2030 de València, per tal que 
-aquesta informació arribe al públic interessat de la manera més completa, actualitzada, estandarditzada i 
-reutilitzable possible. És un exercici de transparència que ha de permetre fer un millor seguiment i 
-avaluació del grau d’assoliment dels Objectius de Desenvolupament Sostenible a la ciutat de València.
+L'objectiu d'aquest lloc web és que les dades de l'Agenda 2030 de València arriben a més gent de la manera més completa, actualitzada i estandaritzada possible.
+A més aquest web també té l'objectiu de poder fer un millor seguiment i avaluació del grau amb què s'han aconseguit els Objectius de Desenvolupament Sostenible a la ciutat de València.
 
 Les dades d'aquest web s'actualitzaran almenys una vegada a l'any.
 
