@@ -73,9 +73,9 @@ date_formats:
   - type: standard
     language: ca
     format: '%d de %B de %Y'
-disclaimer:
-  phase: ''
-  message: ''
+#disclaimer:
+#  phase: ''
+#  message: ''
 email_contacts:
   questions: test@example.com
   suggestions: test@example.com
