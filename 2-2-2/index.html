@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421110429">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421114051">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1207,7 +1207,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Definició i conceptes </th>
         <td>
           
-            <p>Es considera que una persona mostra un pes insuficient si el seu índex de massa corporal (IMC) és menor o igual a la mitjana menys dues desviacions típiques dels patrons d’IMC infantil de l’Organització Mundial de la Salut (OMS) per al seu sexe i edat.</p>
+            <p>Percentatge de persones de 5 a 14 anys d’edat amb pes insuficient respecte a la població de 5 a 14 anys d’edat resident a la ciutat de València.</p>
 
           
         </td>
@@ -1245,8 +1245,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Fonts de dades </th>
         <td>
           
-            
-<p>9907-Datos estadísticos de la ciudad de València. Pla Valencià d’Estadística 2019-2022. Explotació estadística Enquesta de Salut de la Comunitat Valenciana.</p>
+            <p>9907-Datos estadísticos de la ciudad de València. Pla Valencià d’Estadística 2019-2022. Explotació estadística Enquesta de Salut de la Comunitat Valenciana (Conselleria de Sanitat Universal i Salut Pública).</p>
 
           
         </td>
@@ -1286,11 +1285,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Observacions </th>
         <td>
           
-            <p>Una modificació d’aquest indicador apareix en el panell de l’INE (proporció de menors de 2 a 4 anys amb obesitat, sobrepés o pes insuficient) o de l’IVE (proporció de menors entre 2 i 17 anys amb obesitat, sobrepés o pes insuficient).</p>
-
-<p>L’Índex de Massa Corporal (IMC) es calcula dividint el pes corporal de cada individu (en quilograms) entre el quadrat de l’alçada (en metres). Es considera que una persona mostra pes insuficient si el seu IMC és menor o igual a la mitjana menys dues desviacions típiques dels patrons de creixement infantil de l’Organització Mundial de la Salut (OMS) per al seu sexe i edat. Aquests valors de referència poden consultar-se en: (https://www.who.int/tools/growth-reference-data-for-5to19-years/indicators/bmi-for-age).</p>
-
-<p>Encara que les taules de referència ofereixen dades segons mesos complits, en el fitxer de microdades de l’Enquesta de Salut de la Comunitat Valenciana únicament disposem d’informació dels anys complits de la persona enquestada. Per això considerarem que una persona enquestada d’edat x té pes insuficient si el seu IMC és menor o igual a la mitjana menys dues desviacions típiques que apareixen en les taules de referència de les persones amb 12x+6 mesos complits del mateix sexe. Per exemple, direm que les xiquetes de 5 anys presenten pes insuficient si el seu IMC és menor o igual a 12,718 kg/m². Pel fet que la mostra a la ciutat és reduïda (173 enquestats de 5 a 14 anys en l’Enquesta de Salut de la Comunitat Valenciana de 2016), les estimacions obtingudes han de prendre’s amb cautela. El percentatge de persones amb pes insuficient es calcula respecte al total de persones de 5 a 14 anys en què consta el pes i l’altura.</p>
+            <p>Encara que les taules de referència ofereixen dades segons mesos complits, en el fitxer de microdades de l’Enquesta de Salut de la Comunitat Valenciana únicament disposem d’informació dels anys complits de la persona enquestada. Per això considerarem que una persona enquestada d’edat x té pes insuficient si el seu IMC és menor o igual a la mediana menys dues desviacions típiques, dades que apareixen en les taules de referència de les persones amb 12x+6 mesos complits del mateix sexe. Per exemple, direm que les xiquetes de 5 anys presenten pes insuficient si el seu IMC és menor o igual a 12,718 kg/m2.  Pel fet que la mostra a la ciutat de València és reduïda (173 persones enquestades de 5 a 14 anys en l’Enquesta de Salut de la Comunitat Valenciana de 2016), les estimacions obtingudes han de prendre’s amb cautela.  Una modificació d’aquest indicador apareix en el Panell ODS de l’INE (proporció de menors de 2 a 4 anys amb obesitat, sobrepés o pes insuficient) o de l’IVE (proporció de menors entre 2 i 17 anys amb obesitat, sobrepés o pes insuficient).</p>
 
           
         </td>
@@ -1306,7 +1301,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Mètode de càlcul </th>
         <td>
           
-            <p>Percentatge de persones de 5 a 14 anys d’edat amb pes insuficient respecte a la població de 5 a 14 anys d’edat.</p>
+            <p>Es considera que una persona mostra pes insuficient si el seu índex de massa corporal (IMC) és menor o igual a la mitjana menys dues desviacions típiques dels patrons d’IMC de l’Organització Mundial de la Salut (OMS) per al seu sexe i edat.</p>
 
           
         </td>
@@ -1564,12 +1559,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220421110429'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220421114051'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220421110429"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220421114051"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
