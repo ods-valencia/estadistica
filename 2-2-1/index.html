@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421072447">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421102726">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -575,7 +575,7 @@ data-event-label="high"
   data-measurementunit=""
   data-xaxislabel=""
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="[]"
@@ -908,39 +908,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -1214,7 +1207,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Definició i conceptes </th>
         <td>
           
-            <p>Es considera que una persona mostra retard del creixement si la seua alçada és menor o igual a la mitjana menys dues desviacions típiques dels patrons de creixement infantil de l’Organització Mundial de la Salut (OMS) per al seu sexe i edat.</p>
+            <p>Percentatge de persones de 5 a 14 anys d’edat amb retard del creixement respecte a la població de 5 a 14 anys d’edat resident a la ciutat de València.</p>
 
           
         </td>
@@ -1252,8 +1245,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Fonts de dades </th>
         <td>
           
-            
-<p>9907-Datos estadísticos de la ciudad de València. Pla Valencià d’Estadística 2019-2022. Explotació estadística Enquesta de Salut de la Comunitat Valenciana.</p>
+            <p>9907-Datos estadísticos de la ciudad de València. Pla Valencià d’Estadística 2019-2022. Explotació estadística Enquesta de Salut de la Comunitat Valenciana (Conselleria de Sanitat Universal i Salut Pública).</p>
 
           
         </td>
@@ -1293,9 +1285,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Observacions </th>
         <td>
           
-            <p>Es considera que una persona mostra retard del creixement si la seua alçada és menor o igual a la mitjana menys dues desviacions típiques dels patrons de creixement infantil de l’Organització Mundial de la Salut (OMS) per al seu sexe i edat. Aquests valors de referència poden consultar-se en: (https://www.who.int/tools/growth-reference-data-for-5to19-years/indicators/height-for-age).</p>
-
-<p>Encara que les taules de referència ofereixen dades segons mesos complits, en el fitxer de microdades de l’Enquesta de Salut de la Comunitat Valenciana únicament disposem d’informació dels anys complits de la persona enquestada. Per això, considerarem que una persona enquestada d’edat x té baixa alçada si la seua alçada és menor o igual a la mitjana menys dues desviacions típiques que apareixen en les taules de referència de les persones amb 12x+6 mesos complits del mateix sexe. Per exemple, direm que les xiquetes de 5 anys presenten retard de creixement si la seua altura és menor o igual de 102,306 centímetres. Pel fet que la mostra a la ciutat és reduïda (173 enquestats de 5 a 14 anys en l’Enquesta de Salut de la Comunitat Valenciana de 2016), les estimacions obtingudes han de prendre’s amb cautela. El percentatge de persones amb retard de creixement es calcula respecte al total de persones de 5 a 14 anys en què consta l’altura.</p>
+            <p>Encara que les taules de referència ofereixen dades segons mesos complits, en el fitxer de microdades de l’Enquesta de Salut de la Comunitat Valenciana únicament disposem d’informació dels anys complits de la persona enquestada. Per això considerarem que una persona enquestada d’edat x té baixa alçada si aquesta és menor o igual a la mediana menys dues desviacions típiques, dades que apareixen en les taules de referència de les persones amb 12x+6 mesos complits del mateix sexe. Per exemple, direm que les xiquetes de 5 anys presenten retard de creixement si la seua altura és menor o igual a 102,306 centímetres.  Pel fet que la mostra a la ciutat de València és reduïda (173 persones enquestades de 5 a 14 anys en l’Enquesta de Salut de la Comunitat Valenciana de 2016), les estimacions obtingudes han de prendre’s amb cautela.</p>
 
           
         </td>
@@ -1311,7 +1301,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Mètode de càlcul </th>
         <td>
           
-            <p>Percentatge de persones de 5 a 14 anys d’edat amb retard del creixement respecte a la població de 5 a 14 anys d’edat.</p>
+            <p>Es considera que una persona mostra retard del creixement si la seua alçada és menor o igual a la mitjana menys dues desviacions típiques dels patrons de creixement infantil de l’Organització Mundial de la Salut (OMS) per al seu sexe i edat.</p>
 
           
         </td>
@@ -1569,12 +1559,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220421072447'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220421102726'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220421072447"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220421102726"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421072447">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421102726">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -575,7 +575,7 @@ data-event-label="high"
   data-measurementunit=""
   data-xaxislabel=""
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="[]"
@@ -908,39 +908,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -1162,7 +1155,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Indicador </th>
         <td>
           
-            <p>Tiempo que dedica la población a la atención y cura de personas convivientes dependientes o con discapacidad</p>
+            <p>Temps que dedica la població a l’atenció i cura de persones convivents dependents o amb discapacitat</p>
 
           
         </td>
@@ -1214,7 +1207,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Definición y conceptos </th>
         <td>
           
-            <p>Minutos que la población, a lo largo de un día, dedica a atender las necesidades y curas de las personas dependientes o con discapacidad del hogar.</p>
+            <p>Temps (en minuts) que la població dedica, al llarg d’un dia, a atendre les necessitats i cures de les persones dependents o amb discapacitat en la llar.</p>
 
           
         </td>
@@ -1230,7 +1223,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Unidad de medida </th>
         <td>
           
-            <p>Minutos</p>
+            <p>Minuts</p>
 
           
         </td>
@@ -1252,9 +1245,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Fuentes de datos </th>
         <td>
           
-            <p>9907-Datos estadísticos de la ciudad de València. Plan Valenciano de Estadística 2019-2022.</p>
-
-<p>Quinta Ola Barómetro de Opinión Ciudadana: Convivencia y Derechos Sociales. (2018).</p>
+            <p>9907-Datos estadísticos de la ciudad de València. Pla Valencià d’Estadística 2019-2022. Cinquena Ona Baròmetre d’Opinió Ciutadana: Convivència i Drets Socials. (2018).</p>
 
           
         </td>
@@ -1294,13 +1285,13 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Observaciones </th>
         <td>
           
-            <p>Este indicador forma parte del Panel ODS del Instituto Nacional de Estadística (https://www.ine.es/dyngs/ODS/es/index.htm) y del Panel ODS del Portal Estadístico de la Generalitat Valenciana (http://pegv.gva.es/es/ods), que ofrecen esta información para ámbitos territoriales superiores.</p>
+            <p>Aquest indicador forma part del Panell ODS de l’Institut Nacional d’Estadística (https://www.ine.es/dyngs/ODS/es/index.htm) i del Panell ODS del Portal Estadístic de la Generalitat Valenciana (http://pegv.gva.es/es/ods), que ofereixen aquesta informació per a àmbits territorials superiors.</p>
 
-<p>Documentación metodológica sobre la 5 Ola del Barómetro de Opinión Ciudadana: <a href="https://www.valencia.es/estadistica/Barometro/Metodologia5.pdf">Barómetro Ola 5</a>.</p>
+<p>Documentació metodològica sobre la 5 Ona del Baròmetre d’Opinió Ciutadana: <a href="https://www.valencia.es/estadistica/Barometro/Metodologia5.pdf">Baròmetre Ona 5</a>.</p>
 
-<p>Para las tasas específicas por sexo (edad) se consideran las personas de este sexo (edad).</p>
+<p>Per a les taxes específiques per sexe (edat) es consideren les persones d’aquest sexe (edat).</p>
 
-<p>Las entrevistas que se recogieron para la información del Barómetro se realizaron entre Junio y Julio de 2018 publicándose el Barómetro el mes de septiembre. Aunque los resultados se publican para el año 2018, las respuestas comprenden intervalo Junio/Julio 2017 - Junio/Julio 2018. Se entrevistó un total de 2301 personas empadronadas en la ciudad de València.  En las entrevistas realizadas una parte importante de la muestra contestaba que atendía y cuidaba a las personas con discapacidad o dependientes las 24 horas del día (1440 minutos). El exceso que produce esta respuesta, se corrige considerando para el cálculo del indicador toda la población. Es decir, consideramos también las personas que no cuentan con personas dependientes o con discapacidad en su domicilio, que en este caso dedican 0 minutos a la atención y cura de estos.</p>
+<p>Les entrevistes que es van recollir per a la informació del Baròmetre es van realitzar entre Juny i Juliol de 2018 publicant-se el Baròmetre el mes de setembre. Encara que els resultats es publiquen per a l’any 2018, les respostes comprenen l’interval Juny/Juliol 2017 - Juny/Juliol 2018. Es va entrevistar un total de 2301 persones empadronades a la ciutat de València.  En les entrevistes realitzades una part important de la mostra contestava que atenia i cuidava a les persones amb discapacitat o dependents les 24 hores del dia (1440 minuts). L’excés que produeix aquesta resposta, es corregeix considerant per al càlcul de l’indicador tota la població. És a dir, considerem també les persones que no compten amb persones dependents o amb discapacitat en el seu domicili, que en aquest cas dediquen 0 minuts a l’atenció i cura d’aquests.</p>
 
           
         </td>
@@ -1316,7 +1307,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Método de cálculo </th>
         <td>
           
-            <p>Cociente entre el tiempo total dedicado a la cura y atención de las personas dependientes o con discapacidad por parte de la población del municipio y el número de habitantes del propio municipio.</p>
+            <p>Quocient del temps total dedicat a la cura i atenció de les persones dependents o amb discapacitat declarat entre el total de persones enquestades que responen a la pregunta.</p>
 
           
         </td>
@@ -1574,12 +1565,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220421072447'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220421102726'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220421072447"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220421102726"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

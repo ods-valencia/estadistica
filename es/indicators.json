@@ -143,7 +143,7 @@
         
         {
           "id": "2-1-1",
-          "title": "Proporción del gasto anual de las personas destinada a alimentación",
+          "title": "Gasto anual de las personas destinado a alimentación",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-1-1",
@@ -183,7 +183,7 @@
         },
         {
           "id": "2-3-1",
-          "title": "Porcentaje de superficie destinada a tierras cultivadas",
+          "title": "Superficie destinada en tierras cultivadas",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-3-1",
@@ -191,7 +191,7 @@
         },
         {
           "id": "2-3-2",
-          "title": "Porcentaje de población ocupada en la agricultura",
+          "title": "Población ocupada en la agricultura",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-3-2",
@@ -223,7 +223,7 @@
         },
         {
           "id": "2-a-1",
-          "title": "Presupuesto municipal destinado a Cooperación ODS2",
+          "title": "Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-a-1",
@@ -231,7 +231,7 @@
         },
         {
           "id": "2-a-2",
-          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS2",
+          "title": "Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-a-2",
@@ -239,7 +239,7 @@
         },
         {
           "id": "2-a-3",
-          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS2",
+          "title": "Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-a-3",
@@ -247,7 +247,7 @@
         },
         {
           "id": "2-a-4",
-          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "title": "Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 2",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/2-a-4",
@@ -271,7 +271,7 @@
         },
         {
           "id": "3-1-2",
-          "title": "Proporción de partes atendidos por personal sanitario especializado",
+          "title": "Proporción de partos atendidos por personal sanitario especializado",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-1-2",
@@ -335,7 +335,7 @@
         },
         {
           "id": "3-3-5",
-          "title": "Tasa de mortalidad atribuida al VIH",
+          "title": "Tasa de mortalidad atribuida al VIH/SIDA",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-3-5",
@@ -359,7 +359,7 @@
         },
         {
           "id": "3-3-8",
-          "title": "Tasa de mortalidad atribuida a enf. infecciosas del sistema respiratorio",
+          "title": "Tasa de mortalidad atribuida a enf. Infecciosas del sistema respiratorio",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-3-8",
@@ -415,7 +415,7 @@
         },
         {
           "id": "3-4-7",
-          "title": "Esperança de vida al nacer",
+          "title": "Esperanza de vida",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-4-7",
@@ -447,7 +447,7 @@
         },
         {
           "id": "3-5-3",
-          "title": "Porcentaje de personas de 15 y más años que consumen bebidas alcohólicas al menos una vez por semana",
+          "title": "Porcentaje de personas de 15 y más años que consume bebidas alcohólicas al menos una vez por semana",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-5-3",
@@ -503,7 +503,7 @@
         },
         {
           "id": "3-8-2",
-          "title": "Proporción del gasto anual de las personas destinada a gastos relacionados con la salud",
+          "title": "Proporción del gasto anual de las personas destinado a gastos relacionados con la salud",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-8-2",
@@ -511,7 +511,7 @@
         },
         {
           "id": "3-8-3",
-          "title": "Camas instaladas en hospitales públicos por cada 10.000 habitantes",
+          "title": "Camas hospitalarias en centros públicos por cada 10.000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-8-3",
@@ -551,7 +551,7 @@
         },
         {
           "id": "3-c-1",
-          "title": "Presupuesto municipal destinado a Cooperación ODS3",
+          "title": "Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 3",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-c-1",
@@ -559,7 +559,7 @@
         },
         {
           "id": "3-c-2",
-          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS3",
+          "title": "Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 3",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-c-2",
@@ -567,7 +567,7 @@
         },
         {
           "id": "3-c-3",
-          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS3",
+          "title": "Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 3",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-c-3",
@@ -575,7 +575,7 @@
         },
         {
           "id": "3-c-4",
-          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "title": "Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 3",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/3-c-4",
@@ -679,7 +679,7 @@
         },
         {
           "id": "4-c-1",
-          "title": "Presupuesto municipal destinado a Cooperación ODS4",
+          "title": "Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-c-1",
@@ -687,7 +687,7 @@
         },
         {
           "id": "4-c-2",
-          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS4",
+          "title": "Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-c-2",
@@ -695,7 +695,7 @@
         },
         {
           "id": "4-c-3",
-          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS4",
+          "title": "Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-c-3",
@@ -703,7 +703,7 @@
         },
         {
           "id": "4-c-4",
-          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "title": "Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 4",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/4-c-4",
@@ -735,7 +735,7 @@
         },
         {
           "id": "5-2-2",
-          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia sexual a manos de su actual pareja en los últimos 12 meses",
+          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia sexual a lo largo de su vida",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-2-2",
@@ -743,7 +743,7 @@
         },
         {
           "id": "5-2-3",
-          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia psicológica de control a manos de su actual pareja en los últimos 12 meses",
+          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia física a manos de su pareja (actual o pasada) a lo largo de su vida",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-2-3",
@@ -751,7 +751,7 @@
         },
         {
           "id": "5-2-4",
-          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia psicológica emocional a manos de su actual pareja en los últimos 12 meses",
+          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia sexual a manos de su pareja (actual o pasada) a lo largo de su vida",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-2-4",
@@ -759,7 +759,7 @@
         },
         {
           "id": "5-2-5",
-          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia económica a manos de su actual pareja en los últimos 12 meses",
+          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia psicológica de control a manos de su pareja (actual o pasada) a lo largo de su vida",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-2-5",
@@ -767,7 +767,7 @@
         },
         {
           "id": "5-2-6",
-          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido en los 12 meses anteriores violencia sexual fuera del ámbito de la pareja",
+          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia psicológica emocional a manos de su pareja (actual o pasada) a lo largo de su vida",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-2-6",
@@ -775,7 +775,7 @@
         },
         {
           "id": "5-2-7",
-          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido en los 12 meses anteriores violencia sexual fuera del ámbito de la pareja",
+          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia económica a manos de su pareja (actual o pasada) a lo largo de su vida",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-2-7",
@@ -783,7 +783,7 @@
         },
         {
           "id": "5-2-8",
-          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido en los 12 meses anteriores violencia sexual fuera del ámbito de la pareja",
+          "title": "Proporción de mujeres y niñas de 16 años o más que han sufrido violencia física y/o sexual a manos de su actual pareja en los últimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-2-8",
@@ -807,7 +807,7 @@
         },
         {
           "id": "5-4-3",
-          "title": "Tiempo que dedica la población a la realización de las tareas domésticas y del hogar",
+          "title": "Tiempo que dedica la población a las realización de las tareas domésticas y del hogar",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-4-3",
@@ -815,7 +815,7 @@
         },
         {
           "id": "5-5-1",
-          "title": "Porcentaje de regidoras mujeres",
+          "title": "Proporción de mujeres regidoras al Ayuntamiento de València",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-5-1",
@@ -823,7 +823,7 @@
         },
         {
           "id": "5-5-2",
-          "title": "Porcentaje de mujeres en lugares municipales de dirección superior",
+          "title": "Mujeres en lugares municipales de dirección superior",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-5-2",
@@ -831,7 +831,7 @@
         },
         {
           "id": "5-5-3",
-          "title": "Porcentaje de mujeres profesoras en la UPV",
+          "title": "Mujeres profesoras en la UPV",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-5-3",
@@ -839,7 +839,7 @@
         },
         {
           "id": "5-5-4",
-          "title": "Porcentaje de mujeres profesoras en la UV",
+          "title": "Mujeres profesoras en la UV",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-5-4",
@@ -847,7 +847,7 @@
         },
         {
           "id": "5-a-1",
-          "title": "Presupuesto municipal destinado a Cooperación ODS5",
+          "title": "Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 5",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-a-1",
@@ -855,7 +855,7 @@
         },
         {
           "id": "5-a-2",
-          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS5",
+          "title": "Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS5",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-a-2",
@@ -863,7 +863,7 @@
         },
         {
           "id": "5-a-3",
-          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS5",
+          "title": "Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS5",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-a-3",
@@ -871,7 +871,7 @@
         },
         {
           "id": "5-a-4",
-          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "title": "Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 5",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-a-4",
@@ -879,7 +879,7 @@
         },
         {
           "id": "5-b-1",
-          "title": "Porcentaje de personas que han utilizado Internet en los últimos 3 meses",
+          "title": "Personas que han utilizado Internet en los últimos 3 meses",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-b-1",
@@ -887,7 +887,7 @@
         },
         {
           "id": "5-b-2",
-          "title": "Porcentaje de personas que han comprado por Internet en los últimos 3 meses",
+          "title": "Personas que han comprado por Internet en los últimos 3 meses",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-b-2",
@@ -911,7 +911,7 @@
         },
         {
           "id": "5-c-3",
-          "title": "Mujeres víctimas de denuncias en los Juzgados de Violencia Doméstica",
+          "title": "Mujeres víctimas de Violencia Doméstica",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-c-3",
@@ -919,7 +919,7 @@
         },
         {
           "id": "5-c-4",
-          "title": "Órdenes de alejamiento concedidas a mujeres por los Juzgados de Violencia Doméstica",
+          "title": "Órdenes de alejamiento concedidas a mujeres",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-c-4",
@@ -927,7 +927,7 @@
         },
         {
           "id": "5-c-5",
-          "title": "Porcentaje de mujeres víctimas de denuncias en los Juzgados de Violencia Doméstica",
+          "title": "Proporción de mujeres víctimas de Violencia Doméstica",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-c-5",
@@ -935,7 +935,7 @@
         },
         {
           "id": "5-c-6",
-          "title": "Porcentaje de órdenes de alejamiento concedidas a mujeres por los Juzgados de Violencia Doméstica",
+          "title": "Proporción de órdenes de alejamiento concedidas a mujeres",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/5-c-6",
