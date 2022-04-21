@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421102726">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421110429">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1155,7 +1155,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Indicador </th>
         <td>
           
-            <p>Proporció de dones i xiquetes de 16 anys o més que han patit violència sexual a les mans de la seua parella (actual o pasada) al llarg de la seua vida</p>
+            <p>Proporció de dones i xiquetes de 16 anys o més que han patit violència psicològica emocional a mans de la seua actual parella en els últims 12 mesos</p>
 
           
         </td>
@@ -1207,7 +1207,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Definició i conceptes </th>
         <td>
           
-            <p>Proporció de dones i xiquetes de 16 o més anys d’edat que declaren haver patit violència sexual alguna vegada en la vida a les mans de la seua parella (parella actual o parelles passades).</p>
+            <p>Proporció de dones i xiquetes de 16 anys o més que han patit violència psicològica emocional a mans de la seua actual parella en els últims 12 mesos.</p>
 
           
         </td>
@@ -1245,7 +1245,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Fonts de dades </th>
         <td>
           
-            <p>9907-Datos estadísticos de la ciudad de València. Pla Valencià d’Estadística 2019-2022. Explotació estadística Macroenquesta de Violència Contra la Dona 2019 del Ministeri d’Igualtat.</p>
+            <p>9907-Datos estadísticos de la ciudad de València. Pla Valencià d’Estadística 2019-2022. Explotació estadística Macroenquesta de Violència Contra la Dona del Ministeri d’Igualtat.</p>
 
           
         </td>
@@ -1285,11 +1285,11 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Observacions </th>
         <td>
           
-            <p>Aquest indicador forma part del Panell ODS de l’Institut Nacional d’Estadística (https://www.ine.es/dyngs/ODS/es/index.htm). També forma part del Panell ODS de la Xarxa Espanyola per al Desenvolupament Sostenible (https://spanish-cities.sdgindex.org/).</p>
+            <p>Aquest indicador forma part del Panell ODS de l’Institut Nacional d’Estadística (https://www.ine.es/dyngs/ODS/es/index.htm). També forma part del Panell ODS de la Xarxa Espanyola per al Desenvolupament Sostenible (https://spanish-cities.sdgindex.org/)</p>
 
 <p>Documentació metodològica sobre la Macroenquesta de Violència Contra la Dona del Ministeri d’Igualtat: <a href="https://violenciagenero.igualdad.gob.es/violenciaencifras/macroencuesta2015/macroencuesta2019/home.htm">Macroenquesta Violència Contra la Dona</a>.</p>
 
-<p>La mostra per al municipi de València és significativament xicoteta: 113 entrevistades.</p>
+<p>La mostra per al municipi de València és significativament xicoteta: 113 entrevistades.  La mostra vàlida definitiva amb la qual es treballa és de 111 dones entrevistades per a les quals disposem d’informació respecte al sexe de la parella i aquesta és un home. Obtindrem, per tant, el percentatge de dones que han patit violència psicològica emocional a mans de les seues parelles o exparelles.</p>
 
           
         </td>
@@ -1305,10 +1305,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Mètode de càlcul </th>
         <td>
           
-            <p>Quocient del nombre de dones i xiquetes de 16 o més anys d’edat que declaren haver patit
-violència sexual alguna vegada en la vida a les mans de la seua parella (parella actual o parelles
-passades) entre el total de dones enquestades de 16 o més anys d’edat residents a la ciutat de
-València.</p>
+            <p>Quocient entre el nombre de dones i xiquetes de 16 o més anys que han patit violència psicològica emocional a mans de la seua actual parella en els últims 12 mesos i el total de dones amb parella en el municipi de València.</p>
 
           
         </td>
@@ -1566,12 +1563,12 @@ València.</p>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220421102726'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220421110429'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220421102726"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220421110429"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
