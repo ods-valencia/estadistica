@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220404091645">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421072447">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -5366,7 +5366,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Definición y conceptos </th>
         <td>
           
-            <p>Personas de 65 años o más que residen en una hoja familiar formada por una única persona.</p>
+            <p>Número de personas de 65 años o más que están empadronados a una hoja familiar formado por una única persona.</p>
 
           
         </td>
@@ -5382,7 +5382,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Unidad de medida </th>
         <td>
           
-            <p>Número de personas</p>
+            <p>Personas</p>
 
           
         </td>
@@ -5444,8 +5444,11 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Observaciones </th>
         <td>
           
-            
-<p>Documentación metodológica sobre la explotación estadística del Padrón Municipal de Habitantes: <a href="https://www.valencia.es/estadistica/Padron/2020/Padron2020Val.pdf">Padrón Municipal</a>.</p>
+            <p>Documentación metodológica sobre la explotación estadística del Padrón Municipal de Habitantes: <a href="https://www.valencia.es/estadistica/Padron/2020/Padron2020Cast.pdf">Padrón Municipal</a>.</p>
+
+<p>El concepto de hogar familiar adoptado corresponde con el conjunto de personas residentes en una misma vivienda familiar que aparecen inscritas en una misma hoja padronal. No es por lo tanto coincidente con el concepto amplio de hogar (persona o conjunto de personas que residen habitualmente en una misma vivienda familiar principal) que se utiliza, por ejemplo, en la Encuesta Continua de Hogares. Tampoco es coincidente con el concepto estricto de hogar (persona o conjunto de personas que ocupan en común una vivienda familiar principal o parte, y consumen y/o comparten alimentos u otros bienes con cargo en un mismo presupuesto) utilizado, por ejemplo, en la Encuesta de Presupuestos Familiares. La información referida a hogares utilizada para este indicador es, por lo tanto, una aproximación a la realidad, y tiene que ser tomada con cierta cautela al ser obtenida de una fuente el objeto de la cual no es tratar esta variable.</p>
+
+<p>Aunque este indicador no es un indicador directo de pobreza, se ha incluido en esta meta para reflejar el tamaño de un colectivo poblacional con unas condiciones de ingresos específicas y que requiere de unas curas especiales.</p>
 
           
         </td>
@@ -5461,7 +5464,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Método de cálculo </th>
         <td>
           
-            <p>Número de personas de 65 o más años residentes en hogares familiares unipersonales empadronadas en la ciudad a 1 de enero del año de referencia.</p>
+            <p>Número de personas de 65 o más años de edad en hojas padronales familiares formados por una única persona registradas en el Padrón Municipal de Habitantes del Ayuntamiento de València a 1 de enero del año de referencia.</p>
 
           
         </td>
@@ -5719,12 +5722,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220404091645'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220421072447'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220404091645"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220421072447"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

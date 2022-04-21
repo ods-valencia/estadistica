@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220404091645">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421072447">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -632,6 +632,18 @@ data-event-label="high"
         
       </thead>
       <tbody>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td class="table-value">12.2</td>
+          
+          
+        </tr>
         
         <tr>
           
@@ -1298,7 +1310,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Definición y conceptos </th>
         <td>
           
-            <p>Porcentaje de personas con carencia material severa (carencia al menos de cuatro conceptos de una lista de nuevo).</p>
+            <p>Porcentaje de personas residentes en la ciudad con privación material severa (el hogar en el cual vive carencia de al menos cuatro conceptos de una lista de nuevo)</p>
 
           
         </td>
@@ -1338,7 +1350,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
             <p>9907-Datos estadísticos de la ciudad de València. Plan Valenciano de Estadística 2019-2022.</p>
 
-<p>Explotación estadística Encuesta de Condiciones de Vida (ECV) de la Generalitat Valenciana.</p>
+<p>Indicadores de pobreza y condiciones de vida a nivel subregional (Instituto Valenciano de Estadística)</p>
 
           
         </td>
@@ -1380,7 +1392,16 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
             <p>Este indicador forma parte del Panel ODS del Instituto Nacional de Estadística (https://www.ine.es/dyngs/ODS/es/index.htm) y del Panel ODS del Portal Estadístico de la Generalitat Valenciana (http://pegv.gva.es/es/ods), que ofrecen esta información para ámbitos territoriales superiores.</p>
 
-<p>Documentación metodológica sobre Indicadores de Pobreza y Condiciones de Vida a nivel subregional: <a href="https://pegv.gva.es/auto/produccion/web/ECV/Metodologia/Metodologia_cas.htm">Pobreza y Condiciones de Vida</a>.</p>
+<p>Documentación metodológica sobre Indicadores de Pobreza y Condiciones de Vida a nivel subregional: <a href="https://pegv.gva.es/auto/produccion/web/ECV/Metodologia/Metodologia_cas.htm">Pobreza y Condiciones de Vida</a>.  Una persona sufre privación material severa si el hogar en el cual vive carencia al menos de cuatro conceptos de los nueve siguientes: 
+ 1) No puede permitirse ir de vacaciones al menos una semana al año. 
+ 2) No puede permitirse una comida de carne, pollo o pescado al menos cada dos días. 
+ 3) No puede permitirse mantener la vivienda con una temperatura adecuada. 
+ 4) No tiene capacidad para afrontar gastos imprevistos (de 650 euros). 
+ 5) Ha tenido retrasos en el pago de gastos relacionados con la vivienda principal (hipoteca o alquiler, recibos de gas, comunidad…) en los últimos 12 meses. 
+ 6) No puede permitirse disponer de un automóvil. 
+ 7) No puede permitirse disponer de teléfono. 
+ 8) No puede permitirse disponer de un televisor. 
+ 9) No puede permitirse disponer de una lavadora.</p>
 
           
         </td>
@@ -1396,25 +1417,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Método de cálculo </th>
         <td>
           
-            <p>Porcentaje de población que vive en hogares que carecen al menos de cuatro conceptos de los nueve siguientes:</p>
-
-<p>1) No puede permitirse ir de vacaciones al menos una semana en el año.</p>
-
-<p>2) No puede permitirse una comida de carne, pollo o pescado al menos cada dos días.</p>
-
-<p>3) No puede permitirse mantener la vivienda con una temperatura adecuada.</p>
-
-<p>4) No tiene capacidad para afrontar gastos imprevistos.</p>
-
-<p>5) Ha tenido retrasos en el pago de gastos relacionados con la vivienda principal en los últimos 12 meses.</p>
-
-<p>6) No puede permitirse disponer de un automóvil.</p>
-
-<p>7) No puede permitirse disponer de teléfono.</p>
-
-<p>8) No puede permitirse disponer de un televisor.</p>
-
-<p>9) No puede permitirse disponer de una lavadora.</p>
+            <p>Cociente de la población con privación material severa respecto a la población residente en la ciudad, expresado en porcentaje.</p>
 
           
         </td>
@@ -1460,8 +1463,8 @@ data-event-label="Change to custom-translations.local-metadata tab"
             
 
             
-              <a href="https://github.com/ods-valencia/data/commit/f3ad270ce415c5dafb62ff42785c4b196e7d263d" target="_blank">
-                2021-12-28: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/ods-valencia/data/commit/41810e4a3afbb6b6439b06f533bee5521230d100" target="_blank">
+                2022-04-21: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1672,12 +1675,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220404091645'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220421072447'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220404091645"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220421072447"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
