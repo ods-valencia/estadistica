@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421114051">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220421123907">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -758,7 +758,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "Porcentaje de superficie destinada a tierras cultivadas");
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "Superfície destinada a terres cultivades");
         var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -916,7 +916,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "Porcentaje de la superficie destinada a tierras cultivadas respecto a la superficie total del municipio.");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "Percentatge de superfície destinada a terres de cultiu respecte a la superfície total del municipi.");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -930,7 +930,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('UNIT_MEASURE', "Porcentaje");
+        var currentValue = normalizeCurrentValue('UNIT_MEASURE', "Percentatge");
         var propertyEditor = editor.getEditor('root.UNIT_MEASURE');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -960,7 +960,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "\n9907-Datos estadísticos de la ciudad de València. Plan Valenciano de Estadística 2019-2022.\nConsell Agrario Municipal del Ayuntamiento de València.");
+        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "9907-Datos estadísticos de la ciudad de València. Pla Valencià d'Estadística 2019-2022. Explotació estadística Enquesta sobre Superfícies de Cultius i Aprofitaments per Termes Municipals (Ministeri d'Agricultura, Alimentació i Medi Ambient).");
         var propertyEditor = editor.getEditor('root.SOURCE_TYPE');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1074,7 +1074,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('REC_USE_LIM', "Este indicador forma parte del Panel ODS de la Red Española para el Desarrollo Sostenible (https://spanish-cities.sdgindex.org/).\n \n Esta información forma parte de la Estadística de Superficies de Cultivos y Aprovechamientos por Términos Municipales que realiza el Ministerio de Agricultura, Alimentación y Medio Ambiente en colaboración con los Servicios Estadísticos de las Comunidades Autónomas. \n \n Documentación metodológica: [Ministerio Agricultura](https://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/notas%20%20Metodol%C3%B3gicas%20Superficies%20y%20producciones%20anuales%20de%20cultivos_tcm30-122273.pdf).");
+        var currentValue = normalizeCurrentValue('REC_USE_LIM', "Aquest indicador forma part del Panell ODS de la Xarxa Espanyola per al Desenvolupament Sostenible (https://spanish-cities.sdgindex.org/). Aquesta informació forma part de l'Estadística de Superfícies i Rendiments de Cultius per Termes Municipals que realitza el Ministeri d'Agricultura, Alimentació i Medi Ambient, que es realitza amb periodicitat anual des de l'any 1990 en col·laboració amb els Serveis Estadístics de les Comunitats Autònomes. Es basa en una investigació en camp, en la qual es pren informació directament a peu de parcel·la en una mostra georeferenciada del territori nacional, realitzada en els mesos de maig a agost.");
         var propertyEditor = editor.getEditor('root.REC_USE_LIM');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1088,7 +1088,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('DATA_COMP', "Cociente de la superficie destinada a tierras cultivadas entre la superficie total del municipio para el año de referencia.\n\n Las tierras cultivadas incluyen las tierras con cultivos herbáceos, leñosos o en barbecho, ya sean de secano o de regadío. No incluyen el terreno forestal, los pastos y pastoreos, las superficies no agrícolas, la superficie de ríos y lagos o el terreno improductivo.");
+        var currentValue = normalizeCurrentValue('DATA_COMP', "Les terres cultivades inclouen les terres amb cultius herbacis, llenyosos o en guaret, ja siguen de secà o de regadiu. No inclou el terreny forestal, les pastures i pasturatges, les superfícies no agrícoles, la superfície de rius i llacs o el terreny improductiu.");
         var propertyEditor = editor.getEditor('root.DATA_COMP');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1212,12 +1212,60 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/ods-valencia/data/commit/7ecb3453c645e95c824969972527a087d57cbfca");
+        var propertyEditor = editor.getEditor('root.national_data_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url_text', "2022-04-21: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_data_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/ods-valencia/data/commit/0e6b7dd7fc85995cd2589ac40bdb58b7b253c613");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-04-21: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url_text'));
 
     
@@ -1339,12 +1387,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220421114051'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220421123907'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220421114051"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220421123907"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
