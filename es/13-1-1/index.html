@@ -107,7 +107,7 @@ var translations = {
         
         Indicador 13.1.1 -
         
-        Porcentaje de superficie municipal con riesgo de inundación - Indicadores para los Objetivos de Desarrollo Sostenible
+        Porcentaje de superficie con riesgo de inundación - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422095234">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422120524">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -530,7 +530,7 @@ data-event-label="high"
             
             Indicador 13.1.1
             
-            <span class="lead-copy">Porcentaje de superficie municipal con riesgo de inundación</span>
+            <span class="lead-copy">Porcentaje de superficie con riesgo de inundación</span>
           </h1>
         </div>
       </div>
@@ -570,12 +570,12 @@ data-event-label="high"
   data-indicatorid='indicator_13-1-1'
   data-id="13-1-1"
   data-country="Valencia"
-  data-charttitle="Porcentaje de superficie municipal con riesgo de inundación"
+  data-charttitle="Porcentaje de superficie con riesgo de inundación"
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel=""
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="[]"
@@ -619,7 +619,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Porcentaje de superficie municipal con riesgo de inundación</caption>
+      <caption>Porcentaje de superficie con riesgo de inundación</caption>
       <thead>
         
         
@@ -1016,7 +1016,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Porcentaje de superficie municipal con riesgo de inundación</h4>
+          <h4 id="chart-heading" class="chart-title">Porcentaje de superficie con riesgo de inundación</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1220,39 +1220,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -1474,7 +1467,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Indicador </th>
         <td>
           
-            <p>Porcentaje de superficie municipal con riesgo de inundación</p>
+            <p>Porcentaje de superficie con riesgo de inundación</p>
 
           
         </td>
@@ -1566,7 +1559,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
             <p>9907-Datos estadísticos de la ciudad de València. Plan Valenciano de Estadística 2019-2022.</p>
 
-<p>Pla de Acción Territorial sobre Prevención del Riesgo de Inundación en la Comunidad Valenciana (PATRICOVA) de 2015.</p>
+<p>Plan de Acción Territorial sobre Prevención del Riesgo de Inundación en la Comunidad Valenciana (PATRICOVA) de 2015.</p>
 
           
         </td>
@@ -1612,15 +1605,15 @@ data-event-label="Change to custom-translations.local-metadata tab"
 
 <p>Peligrosidad de nivel 1 (frecuencia alta y calado alto). Cuando la probabilidad que en un año cualquier se sufra, al menos, una inundación es superior a 0’04 (equivaliendo a un periodo de retorno inferior a 25 años), con un calado máximo generalizado conseguido por el agua superior a ochenta centímetros (80 cm).</p>
 
-<p>Peligrosidad de nivel 2 (frecuencia mediana y calado alto). Cuando la probabilidad que en un año cualquier se sufra, al menos, una inundación se encuentra entre 0’04 y 0’01 (equivaliendo a un periodo de retorno entre 25 y 100 años), con un calado máximo generalizado conseguido por el agua superior a ochenta centímetros (80 cm).</p>
+<p>Peligrosidad de nivel 2 (frecuencia media y calado alto). Cuando la probabilidad que en un año cualquier se sufra, al menos, una inundación se encuentra entre 0’04 y 0’01 (equivaliendo a un periodo de retorno entre 25 y 100 años), con un calado máximo generalizado conseguido por el agua superior a ochenta centímetros (80 cm).</p>
 
-<p>Peligrosidad de nivel 3 (frecuencia alta y calado bajo). Cuando la probabilidad que en un año cualquier se sufra, al menos, una inundación es superior a 0’04 (equivaliendo a un periodo de retorno inferior a 25 años), con un calado máximo generalizado conseguido por el agua inferior a ochenta centímetros (80 cm) y superior a quince centímetros (15 cm).  Peligrosidad de nivel 4 (frecuencia mediana y calado bajo). Cuando la probabilidad que en un año cualquier se sufra, al menos, una inundación se encuentra entre 0’04 y 0’01 (equivaliendo a un periodo de retorno entre 25 y 100 años), con un calado máximo generalizado conseguido por el agua inferior a ochenta centímetros (80 cm) y superior a quince centímetros (15 cm).</p>
+<p>Peligrosidad de nivel 3 (frecuencia alta y calado bajo). Cuando la probabilidad que en un año cualquier se sufra, al menos, una inundación es superior a 0’04 (equivaliendo a un periodo de retorno inferior a 25 años), con un calado máximo generalizado conseguido por el agua inferior a ochenta centímetros (80 cm) y superior a quince centímetros (15 cm).  Peligrosidad de nivel 4 (frecuencia mediana y calado bajo). Cuando la probabilidad que en un año cualquiera se sufra, al menos, una inundación se encuentra entre 0’04 y 0’01 (equivalente a un periodo de retorno entre 25 y 100 años), con un calado máximo generalizado conseguido por el agua inferior a ochenta centímetros (80 cm) y superior a quince centímetros (15 cm).</p>
 
-<p>Peligrosidad de nivel 5 (frecuencia baja y calado alto). Cuando la probabilidad que en un año cualquier se sufra, al menos, una inundación se encuentra entre 0’01 y 0’002 (equivaliendo a un periodo de retorno entre 100 y 500 años), con un calado máximo generalizado conseguido por el agua superior a ochenta centímetros (80 cm).</p>
+<p>Peligrosidad de nivel 5 (frecuencia baja y calado alto). Cuando la probabilidad que en un año cualquiera se sufra, al menos, una inundación se encuentra entre 0’01 y 0’002 (equivalente a un periodo de retorno entre 100 y 500 años), con un calado máximo generalizado conseguido por el agua superior a ochenta centímetros (80 cm).</p>
 
-<p>Peligrosidad de nivel 6 (frecuencia baja y calado bajo). Cuando la probabilidad que en un año cualquier se sufra, al menos, una inundación se encuentra entre 0’01 y 0’002 (equivaliendo a un periodo de retorno entre 100 y 500 años), con un calado máximo generalizado conseguido por el agua inferior a ochenta centímetros (80 cm) y superior a quince centímetros (15 cm).</p>
+<p>Peligrosidad de nivel 6 (frecuencia baja y calado bajo). Cuando la probabilidad que en un año cualquiera se sufra, al menos, una inundación se encuentra entre 0’01 y 0’002 (equivalente a un periodo de retorno entre 100 y 500 años), con un calado máximo generalizado conseguido por el agua inferior a ochenta centímetros (80 cm) y superior a quince centímetros (15 cm).</p>
 
-<p>Peligrosidad geomorfológica. En este nivel de peligrosidad de inundación se han identificado diferentes procesos geomorfológicos, que actúan como un indicador de la presencia de inundaciones históricas, teniéndose que identificar la probabilidad de reactivación de los fenómenos geomorfológicos y, en su caso, los efectos susceptibles de generarse.</p>
+<p>Peligrosidad geomorfológica. En este nivel de peligrosidad de inundación se han identificado diferentes procesos geomorfológicos, que, por sus características, actúan como un indicador de la presencia de inundaciones históricas, no necesariamente catalogadas, teniéndose que identificar la probabilidad de reactivación de los fenómenos geomorfológicos y, en su caso, los efectos susceptibles de generarse</p>
 
 <p>Documentación metodológica sobre el PATRICOVA: <a href="https://politicaterritorial.gva.es/documents/20551069/162377494/01+Memoria/9938fc0e-3ba8-4829-8524-5d3afa3542eb">PATRICOVA</a>.</p>
 
@@ -1896,12 +1889,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220422095234'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220422120524'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220422095234"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220422120524"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
