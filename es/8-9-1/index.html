@@ -107,7 +107,7 @@ var translations = {
         
         Indicador 8.9.1 -
         
-        Número de plazas hoteleras - Indicadores para los Objetivos de Desarrollo Sostenible
+        Número de plazas en establecimientos hoteleros - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422060505">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422080133">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -530,7 +530,7 @@ data-event-label="high"
             
             Indicador 8.9.1
             
-            <span class="lead-copy">Número de plazas hoteleras</span>
+            <span class="lead-copy">Número de plazas en establecimientos hoteleros</span>
           </h1>
         </div>
       </div>
@@ -570,7 +570,7 @@ data-event-label="high"
   data-indicatorid='indicator_8-9-1'
   data-id="8-9-1"
   data-country="Valencia"
-  data-charttitle="Número de plazas hoteleras"
+  data-charttitle="Número de plazas en establecimientos hoteleros"
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel=""
@@ -619,7 +619,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Número de plazas hoteleras</caption>
+      <caption>Número de plazas en establecimientos hoteleros</caption>
       <thead>
         
         
@@ -2728,7 +2728,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Número de plazas hoteleras</h4>
+          <h4 id="chart-heading" class="chart-title">Número de plazas en establecimientos hoteleros</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -3186,7 +3186,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Indicador </th>
         <td>
           
-            <p>Número de plazas hoteleras</p>
+            <p>Número de plazas en establecimientos hoteleros</p>
 
           
         </td>
@@ -3238,7 +3238,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Definición y conceptos </th>
         <td>
           
-            <p>Total de plazas hoteleras en la ciudad de València.</p>
+            <p>Número total de plazas en establecimientos hoteleros (hoteles, hostales, pensiones y albergues urbanos) situados en la ciudad de València a 31 de diciembre del año anterior al de referencia.</p>
 
           
         </td>
@@ -3276,7 +3276,8 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Fuentes de datos </th>
         <td>
           
-            <p>0505-Indicadoras sociales de la ciudad de València. Plan Valenciano de Estadística 2019-2022.</p>
+            <p>0505-Indicadoras sociales de la ciudad de València. Plan Valenciano de Estadística 2019-2022. 
+ Registro General de Empresas, Establecimientos y Profesiones Turísticas. Agencia Valenciana de Turismo.</p>
 
           
         </td>
@@ -3316,7 +3317,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Observaciones </th>
         <td>
           
-            <p>Documentación metodológica sobre la Encuesta de Ocupación Hotelera: <a href="https://www.ine.es/daco/daco42/ocuphotel/meto_eoh.pdf">EOH</a>.</p>
+            <p>Documentación metodológica sobre la Encuesta de Ocupación Hotelera: <a href="https://www.ine.es/daco/daco42/ocuphotel/meto_eoh.pdf">EOH</a>. La información está referida a la oferta en establecimientos hoteleros situados en la ciudad a 31 de diciembre de cada año. La información asociada al año t corresponde con la situación a 31 de diciembre del año t-1.</p>
 
           
         </td>
@@ -3326,7 +3327,20 @@ data-event-label="Change to custom-translations.local-metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Método de cálculo </th>
+        <td>
           
+            <p>Recoge información de los establecimientos hoteleros procedente de la tabulación estadística de los establecimientos del Registro General de Empresas, Establecimientos y Profesiones Turísticas situados en la ciudad, que es remitido por la Agencia Valenciana de Turismo de Presidencia de la Generalitat Valenciana.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -3577,12 +3591,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220422060505'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220422080133'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220422060505"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220422080133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

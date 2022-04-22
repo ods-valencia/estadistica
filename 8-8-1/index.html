@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422060505">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422080133">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1384,7 +1384,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Fonts de dades </th>
         <td>
           
-            <p>0505-Indicadores sociales de la ciudad de València. Pla Valencià d’Estadística 2019-2022.</p>
+            <p>0505-Indicadores sociales de la ciudad de València. Pla Valencià d’Estadística 2019-2022.  Explotació Estadística Ministeri de Treball i Economia Social.</p>
 
           
         </td>
@@ -1426,7 +1426,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
             <p>Aquest indicador forma part del Panell ODS de l’Institut Nacional d’Estadística (https://www.ine.es/dyngs/ODS/es/index.htm). També forma part del Panell ODS de la Xarxa Espanyola per al Desenvolupament Sostenible (https://spanish-cities.sdgindex.org/) i del Panell ODS definit en European Handbook for SDG Voluntary Local Reviews.</p>
 
-<p>L’estadística d’accidentalitat laboral ofereix dades del nombre d’accidentats i del nombre de dies de duració de les baixes a conseqüència de l’accident. La informació inclosa en aquest apartat procedeix d’una explotació específica realitzada pel Ministeri a partir de la informació recollida en els comunicats d’accidents de treball ocorreguts a treballadors d’empreses situades a la ciutat de València. S’inclouen tant els accidents ocorreguts durant la jornada de treball, com els esdevinguts durant el temps de desplaçament utilitzat per a anar o tornar del treball (‘‘in itinere’’).</p>
+<p>L’estadística d’accidentalitat laboral ofereix dades del nombre d’accidentats i del nombre de dies de duració de les baixes a conseqüència de l’accident. La informació inclosa en aquest apartat procedeix d’una explotació específica realitzada pel Ministeri a partir de la informació recollida en els comunicats d’accidents de treball ocorreguts a treballadors d’empreses situades a la ciutat de València. S’inclouen tant els accidents ocorreguts durant la jornada de treball, com els esdevinguts durant el temps de desplaçament utilitzat per a anar o tornar del treball (‘‘in itinere’’).  Els accidents de treball coberts per aquesta estadística són els que han patit els treballadors afiliats a la Seguretat Social amb la contingència d’accidents de treball específicament coberta. No s’inclouen accidents de treball patits per funcionaris mutualistes coberts per MUFACE, ISFAS i MUGEJU, ni als afiliats a la Seguretat Social sense la cobertura específica de la contingència d’accidents de treball. Tampoc s’inclouen els accidents de treball relacionats amb ocupacions militars.</p>
 
           
         </td>
@@ -1436,7 +1436,20 @@ data-event-label="Change to custom-translations.local-metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Mètode de càlcul </th>
+        <td>
           
+            <p>Accidents de treball que han causat la baixa del treballador accidentat notificats mitjançant el corresponent comunicat d’accident de treball, que conté informació relativa a característiques personals i professionals del treballador accidentat, dades del centre de treball i de l’empresa a la qual pertany el treballador accidentat així com les dades relatives al centre de treball en el qual ha ocorregut l’accident quan aquest centre és diferent d’aquell al qual està afiliat el treballador (empreses usuàries de ETT, contractes, etc.), així mateix recull les circumstàncies en què va ocórrer l’accident.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1687,12 +1700,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220422060505'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220422080133'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220422060505"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220422080133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422060505">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422080133">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1386,6 +1386,8 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
             <p>0505-Indicadoras sociales de la ciudad de València. Plan Valenciano de Estadística 2019-2022.</p>
 
+<p>Explotación Estadística Ministerio de Trabajo y Economía Social.</p>
+
           
         </td>
         </tr>
@@ -1426,7 +1428,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
             <p>Este indicador forma parte del Panel ODS del Instituto Nacional de Estadística (https://www.ine.es/dyngs/ODS/es/index.htm). También forma parte del Panel ODS de la Red Española para el Desarrollo Sostenible (https://spanish-cities.sdgindex.org/) y del Panel ODS definido en European Handbook for SDG Voluntary Local Reviews.</p>
 
-<p>La estadística de accidentalidad laboral ofrece datos del número de accidentados y del número de días de duración de las bajas a consecuencia del accidente. La información incluida en este apartado procede de una explotación específica realizada por el Ministerio a partir de la información recogida en los comunicados de accidentes de trabajo ocurridos a trabajadores de empresas situadas en la ciudad de València. Se incluyen tanto los accidentes ocurridos durante la jornada de trabajo, como los acontecidos durante el tiempo de desplazamiento utilizado para ir o volver del trabajo (‘‘in itinere’’).</p>
+<p>La estadística de accidentalidad laboral ofrece datos del número de accidentados y del número de días de duración de las bajas a consecuencia del accidente. La información incluida en este apartado procede de una explotación específica realizada por el Ministerio a partir de la información recogida en los comunicados de accidentes de trabajo ocurridos a trabajadores de empresas situadas en la ciudad de València. Se incluyen tanto los accidentes ocurridos durante la jornada de trabajo, como los acontecidos durante el tiempo de desplazamiento utilizado para ir o volver del trabajo (‘‘in itinere’’).  Los accidentes de trabajo cubiertos por esta estadística son los que han sufrido los trabajadores afiliados a la Seguridad Social con la contingencia de accidentes de trabajo específicamente cubierta. No se incluyen accidentes de trabajo sufridos por funcionarios mutualistas cubiertos por MUFACE, ISFAS y MUGEJU, ni a los afiliados a la Seguridad Social sin la cobertura específica de la contingencia de accidentes de trabajo. Tampoco se incluyen los accidentes de trabajo relacionados con ocupaciones militares.</p>
 
           
         </td>
@@ -1436,7 +1438,20 @@ data-event-label="Change to custom-translations.local-metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Método de cálculo </th>
+        <td>
           
+            <p>Accidentes de trabajo que han causado la baja del trabajador accidentado notificados mediante el correspondiente parte de accidente de trabajo, que contiene información relativa a características personales y profesionales del trabajador accidentado, datos del centro de trabajo y de la empresa a la cual pertenece el trabajador accidentado así como los datos relativos al centro de trabajo en el cual ha ocurrido el accidente cuando este centro es diferente de aquel al cual está afiliado el trabajador (empresas usuarias de ETT, contratos, etc.), así mismo recoge las circunstancias en que ocurrió el accidente.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1687,12 +1702,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220422060505'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220422080133'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220422060505"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220422080133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

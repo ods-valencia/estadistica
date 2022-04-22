@@ -999,7 +999,7 @@
         },
         {
           "id": "6-3-2",
-          "title": "Percentatge de substàncies solgudes eliminades",
+          "title": "Substàncies sòlides eliminades",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-3-2",
@@ -1007,7 +1007,7 @@
         },
         {
           "id": "6-3-3",
-          "title": "Percentatge de reducció de DBO5",
+          "title": "Reducció de DBO5",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-3-3",
@@ -1015,7 +1015,7 @@
         },
         {
           "id": "6-3-4",
-          "title": "Percentatge de reducció de DQO",
+          "title": "Reducció de DQO",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-3-4",
@@ -1031,7 +1031,7 @@
         },
         {
           "id": "6-a-1",
-          "title": "Pressupost municipal destinat a Cooperació ODS6",
+          "title": "Pressupost municipal destinat a Cooperació Internacional per al Desenvolupament relacionat amb l’ODS 6",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-a-1",
@@ -1039,7 +1039,7 @@
         },
         {
           "id": "6-a-2",
-          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS6",
+          "title": "Pressupost municipal destinat a Educació per al Desenvolupament i Ciutadania Global relacionat amb l'ODS 6",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-a-2",
@@ -1047,7 +1047,7 @@
         },
         {
           "id": "6-a-3",
-          "title": "Pressupost municipal destinat a Accions Humanitàries ODS6",
+          "title": "Pressupost municipal destinat a Acció Humanitària i d'Emergència relacionat amb l'ODS 6",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-a-3",
@@ -1055,7 +1055,7 @@
         },
         {
           "id": "6-a-4",
-          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "title": "Pressupost municipal d'Ajuda Oficial al Desenvolupament relacionat amb l'ODS 6",
           "description": "",
           "keywords": "",
           "href": "/estadistica/6-a-4",
@@ -1103,7 +1103,7 @@
         },
         {
           "id": "7-1-5",
-          "title": "Punts d'enllumenat públic",
+          "title": "Punts d'enllumenament públic",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-1-5",
@@ -1111,7 +1111,7 @@
         },
         {
           "id": "7-b-1",
-          "title": "Pressupost municipal destinat a Cooperació ODS7",
+          "title": "Pressupost municipal destinat a Cooperació Internacional per al Desenvolupament relacionat amb l’ODS 7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-b-1",
@@ -1119,7 +1119,7 @@
         },
         {
           "id": "7-b-2",
-          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS7",
+          "title": "Pressupost municipal destinat a Educació per al Desenvolupament i Ciutadania Global relacionat amb l'ODS 7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-b-2",
@@ -1127,7 +1127,7 @@
         },
         {
           "id": "7-b-3",
-          "title": "Pressupost municipal destinat a Accions Humanitàries ODS7",
+          "title": "Pressupost municipal destinat a Acció Humanitària i d'Emergència relacionat amb l'ODS 7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-b-3",
@@ -1135,7 +1135,7 @@
         },
         {
           "id": "7-b-4",
-          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "title": "Pressupost municipal d'Ajuda Oficial al Desenvolupament relacionat amb l'ODS 7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/7-b-4",
@@ -1151,7 +1151,7 @@
         
         {
           "id": "8-3-1",
-          "title": "Població amb contracte laboral temporal",
+          "title": "Treballadors afiliats al règim general amb contracte laboral temporal",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-3-1",
@@ -1159,7 +1159,7 @@
         },
         {
           "id": "8-3-2",
-          "title": "Població afiliada en règim autònom",
+          "title": "Treballadors afiliats en règim autònom",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-3-2",
@@ -1231,7 +1231,7 @@
         },
         {
           "id": "8-8-2",
-          "title": "Accidents laborals per cada 1.000 treballadors actius",
+          "title": "Accidents laborals amb baixa per cada 1.000 treballadors afiliats",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-8-2",
@@ -1247,7 +1247,7 @@
         },
         {
           "id": "8-8-4",
-          "title": "Malalties professionals per cada 10.000 treballadors actius",
+          "title": "Malalties professionals per cada 10.000 treballadors afiliats",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-8-4",
@@ -1255,7 +1255,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "Nombre de places hoteleres",
+          "title": "Nombre de places en establiments hotelers",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-9-1",
@@ -1263,7 +1263,7 @@
         },
         {
           "id": "8-9-2",
-          "title": "Places hoteleres per cada 1.000 habitants",
+          "title": "Places en establiments hotelers per cada 1.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-9-2",
@@ -1271,7 +1271,7 @@
         },
         {
           "id": "8-9-3",
-          "title": "Nombre d'apartaments turístics",
+          "title": "Nombre de places en apartaments turístics",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-9-3",
@@ -1279,7 +1279,7 @@
         },
         {
           "id": "8-9-4",
-          "title": "Apartaments turístics per cada 1.000 habitants",
+          "title": "Places en apartaments turístics per cada 1.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-9-4",
@@ -1295,7 +1295,7 @@
         },
         {
           "id": "8-10-2",
-          "title": "Sucursals bancàries per cada 1.000 habitants > 15 anys",
+          "title": "Sucursals bancàries per cada 1.000 habitants de 16 o més anys",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-10-2",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": "8-a-1",
-          "title": "Pressupost municipal destinat a Cooperació ODS8",
+          "title": "Pressupost municipal destinat a Cooperació Internacional per al Desenvolupament relacionat amb l’ODS 8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-a-1",
@@ -1311,7 +1311,7 @@
         },
         {
           "id": "8-a-2",
-          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS8",
+          "title": "Pressupost municipal destinat a Educació per al Desenvolupament i Ciutadania Global relacionat amb l'ODS 8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-a-2",
@@ -1319,7 +1319,7 @@
         },
         {
           "id": "8-a-3",
-          "title": "Pressupost municipal destinat a Accions Humanitàries ODS8",
+          "title": "Pressupost municipal destinat a Acció Humanitària i d'Emergència relacionat amb l'ODS 8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-a-3",
@@ -1327,7 +1327,7 @@
         },
         {
           "id": "8-a-4",
-          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "title": "Pressupost municipal d'Ajuda Oficial al Desenvolupament relacionat amb l'ODS 8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/8-a-4",
@@ -1343,7 +1343,7 @@
         
         {
           "id": "9-1-1",
-          "title": "Mercancíes transportades en el Port de València (tones)",
+          "title": "Mercaderies transportades en el Port de València (tones)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-1-1",
@@ -1359,7 +1359,7 @@
         },
         {
           "id": "9-1-3",
-          "title": "Mercancíes transportades en l'Aeroport de València (tones)",
+          "title": "Mercaderies transportades en l'Aeroport de València (tones)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-1-3",
@@ -1439,7 +1439,7 @@
         },
         {
           "id": "9-2-1",
-          "title": "Percentatge d'empreses en el Sector Industrial",
+          "title": "Percentatge d'empreses en el sector industrial",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-2-1",
@@ -1447,7 +1447,7 @@
         },
         {
           "id": "9-2-2",
-          "title": "Percentatge de població ocupada en el Sector Industrial",
+          "title": "Percentatge de població ocupada en el sector industrial",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-2-2",
@@ -1471,7 +1471,7 @@
         },
         {
           "id": "9-5-3",
-          "title": "Patents presentades per la Universitat Politècnica de València (UPV)",
+          "title": "Patents sol·licitades per la Universitat Politècnica de València (UPV)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-5-3",
@@ -1479,7 +1479,7 @@
         },
         {
           "id": "9-5-4",
-          "title": "Taxa de Patents per 100.000 habitants",
+          "title": "Taxa de patents per 100.000 habitants",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-5-4",
@@ -1487,7 +1487,7 @@
         },
         {
           "id": "9-a-1",
-          "title": "Pressupost municipal destinat a Cooperació ODS9",
+          "title": "Pressupost municipal destinat a Cooperació Internacional per al Desenvolupament relacionat amb l’ODS 9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-a-1",
@@ -1495,7 +1495,7 @@
         },
         {
           "id": "9-a-2",
-          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS9",
+          "title": "Pressupost municipal destinat a Educació per al Desenvolupament i Ciutadania Global relacionat amb l'ODS 9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-a-2",
@@ -1503,7 +1503,7 @@
         },
         {
           "id": "9-a-3",
-          "title": "Pressupost municipal destinat a Accions Humanitàries ODS9",
+          "title": "Pressupost municipal destinat a Acció Humanitària i d'Emergència relacionat amb l'ODS 9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-a-3",
@@ -1511,7 +1511,7 @@
         },
         {
           "id": "9-a-4",
-          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "title": "Pressupost municipal d'Ajuda Oficial al Desenvolupament relacionat amb l'ODS 9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/9-a-4",
@@ -1695,7 +1695,7 @@
         },
         {
           "id": "10-3-1",
-          "title": "Percentatge de persones que s'han sentit discriminades per alguna causa en els últims 12 mesos",
+          "title": "Percentatge de persones que s'han sentit discriminades per alguna causa en els útimos 12 mesos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-3-1",
@@ -1735,7 +1735,7 @@
         },
         {
           "id": "10-b-1",
-          "title": "Pressupost municipal destinat a Cooperació ODS10",
+          "title": "Pressupost municipal destinat a Cooperació Internacional per al Desenvolupament relacionat amb l’ODS 10",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-b-1",
@@ -1743,7 +1743,7 @@
         },
         {
           "id": "10-b-2",
-          "title": "Pressupost municipal destinat a Educació per al desenvolupament ODS10",
+          "title": "Pressupost municipal destinat a Educació per al Desenvolupament i Ciutadania Global relacionat amb l'ODS 10",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-b-2",
@@ -1751,7 +1751,7 @@
         },
         {
           "id": "10-b-3",
-          "title": "Pressupost municipal destinat a Accions Humanitàries ODS10",
+          "title": "Pressupost municipal destinat a Acció Humanitària i d'Emergència relacionat amb l'ODS 10",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-b-3",
@@ -1759,7 +1759,7 @@
         },
         {
           "id": "10-b-4",
-          "title": "Pressupost municipal destinat a Ajuda a Paises en Desenvolupament",
+          "title": "Pressupost municipal d'Ajuda Oficial al Desenvolupament relacionat amb l'ODS 10",
           "description": "",
           "keywords": "",
           "href": "/estadistica/10-b-4",

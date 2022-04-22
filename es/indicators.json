@@ -999,7 +999,7 @@
         },
         {
           "id": "6-3-2",
-          "title": "Porcentaje de sustancias solidas eliminadas",
+          "title": "Sustancias sólidas eliminadas",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/6-3-2",
@@ -1007,7 +1007,7 @@
         },
         {
           "id": "6-3-3",
-          "title": "Porcentaje de reducción de DBO5",
+          "title": "Reducción de DBO5",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/6-3-3",
@@ -1015,7 +1015,7 @@
         },
         {
           "id": "6-3-4",
-          "title": "Porcentaje de reducción de DQO",
+          "title": "Reducción de DQO",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/6-3-4",
@@ -1031,7 +1031,7 @@
         },
         {
           "id": "6-a-1",
-          "title": "Presupuesto municipal destinado a Cooperación ODS6",
+          "title": "Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 6",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/6-a-1",
@@ -1039,7 +1039,7 @@
         },
         {
           "id": "6-a-2",
-          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS6",
+          "title": "Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 6",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/6-a-2",
@@ -1047,7 +1047,7 @@
         },
         {
           "id": "6-a-3",
-          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS6",
+          "title": "Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 6",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/6-a-3",
@@ -1055,7 +1055,7 @@
         },
         {
           "id": "6-a-4",
-          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "title": "Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 6",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/6-a-4",
@@ -1103,7 +1103,7 @@
         },
         {
           "id": "7-1-5",
-          "title": "Puntos de alumbrado público",
+          "title": "Puntos de alumbramiento público",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/7-1-5",
@@ -1111,7 +1111,7 @@
         },
         {
           "id": "7-b-1",
-          "title": "Presupuesto municipal destinado a Cooperación ODS7",
+          "title": "Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/7-b-1",
@@ -1119,7 +1119,7 @@
         },
         {
           "id": "7-b-2",
-          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS7",
+          "title": "Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/7-b-2",
@@ -1127,7 +1127,7 @@
         },
         {
           "id": "7-b-3",
-          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS7",
+          "title": "Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/7-b-3",
@@ -1135,7 +1135,7 @@
         },
         {
           "id": "7-b-4",
-          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "title": "Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 7",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/7-b-4",
@@ -1151,7 +1151,7 @@
         
         {
           "id": "8-3-1",
-          "title": "Población con contrato laboral temporal",
+          "title": "Trabajadores afiliados al régimen general con contrato laboral temporal",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-3-1",
@@ -1159,7 +1159,7 @@
         },
         {
           "id": "8-3-2",
-          "title": "Población afiliada en régimen autónomo",
+          "title": "Trabajadores afiliados en régimen autónomo",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-3-2",
@@ -1231,7 +1231,7 @@
         },
         {
           "id": "8-8-2",
-          "title": "Accidentes laborales por cada 1.000 trabajadores activos",
+          "title": "Accidentes laborales con baja por cada 1.000 trabajadores afiliados",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-8-2",
@@ -1247,7 +1247,7 @@
         },
         {
           "id": "8-8-4",
-          "title": "Enfermedades profesionales por cada 10.000 trabajadores activos",
+          "title": "Enfermedades profesionales por cada 10.000 trabajadores afiliados",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-8-4",
@@ -1255,7 +1255,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "Número de plazas hoteleras",
+          "title": "Número de plazas en establecimientos hoteleros",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-9-1",
@@ -1263,7 +1263,7 @@
         },
         {
           "id": "8-9-2",
-          "title": "Plazas hoteleras por cada 1.000 habitantes",
+          "title": "Plazas en establecimientos hoteleros por cada 1.000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-9-2",
@@ -1271,7 +1271,7 @@
         },
         {
           "id": "8-9-3",
-          "title": "Número de apartamentos turísticos",
+          "title": "Número de plazas en apartamentos turísticos",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-9-3",
@@ -1279,7 +1279,7 @@
         },
         {
           "id": "8-9-4",
-          "title": "Apartamentos turísticos por cada 1.000 habitantes",
+          "title": "Plazas en apartamentos turísticos por cada 1.000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-9-4",
@@ -1295,7 +1295,7 @@
         },
         {
           "id": "8-10-2",
-          "title": "Sucursales bancarias por cada 1.000 habitantes > 15 años",
+          "title": "Sucursales bancarias por cada 1.000 habitantes de 16 o más años",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-10-2",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": "8-a-1",
-          "title": "Presupuesto municipal destinado a Cooperación ODS8",
+          "title": "Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-a-1",
@@ -1311,7 +1311,7 @@
         },
         {
           "id": "8-a-2",
-          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS8",
+          "title": "Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-a-2",
@@ -1319,7 +1319,7 @@
         },
         {
           "id": "8-a-3",
-          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS8",
+          "title": "Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-a-3",
@@ -1327,7 +1327,7 @@
         },
         {
           "id": "8-a-4",
-          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "title": "Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 8",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/8-a-4",
@@ -1343,7 +1343,7 @@
         
         {
           "id": "9-1-1",
-          "title": "Mercancíes transportadas en el Puerto de Valencia (toneladas)",
+          "title": "Mercancías transportadas en el Puerto de València (toneladas)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-1-1",
@@ -1351,7 +1351,7 @@
         },
         {
           "id": "9-1-2",
-          "title": "Pasajeros que han pasado por el Puerto de Valencia",
+          "title": "Pasajeros que han pasado por el Puerto de València",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-1-2",
@@ -1359,7 +1359,7 @@
         },
         {
           "id": "9-1-3",
-          "title": "Mercancíes transportadas en el Aeropuerto de Valencia (toneladas)",
+          "title": "Mercancías transportadas en el Aeropuerto de València (toneladas)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-1-3",
@@ -1367,7 +1367,7 @@
         },
         {
           "id": "9-1-4",
-          "title": "Pasajeros que han pasado por el Aeropuerto de Valencia",
+          "title": "Pasajeros que han pasado por el Aeropuerto de València",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-1-4",
@@ -1407,7 +1407,7 @@
         },
         {
           "id": "9-1-9",
-          "title": "Tiempo mediano a la parada de MetroValencia más próxima",
+          "title": "Tiempo medio a la parada de MetroValencia más próxima",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-1-9",
@@ -1415,7 +1415,7 @@
         },
         {
           "id": "9-1-10",
-          "title": "Tiempo mediano a la parada de EMT más próxima",
+          "title": "Tiempo medio a la parada de EMT más próxima",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-1-10",
@@ -1439,7 +1439,7 @@
         },
         {
           "id": "9-2-1",
-          "title": "Porcentaje de empresas en el Sector Industrial",
+          "title": "Porcentaje de empresas en el sector industrial",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-2-1",
@@ -1447,7 +1447,7 @@
         },
         {
           "id": "9-2-2",
-          "title": "Porcentaje de población ocupada en el Sector Industrial",
+          "title": "Porcentaje de población ocupada en el sector industrial",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-2-2",
@@ -1455,7 +1455,7 @@
         },
         {
           "id": "9-5-1",
-          "title": "Patentes solicitadas por residentes en Valencia",
+          "title": "Patentes solicitadas por residentes en València",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-5-1",
@@ -1463,7 +1463,7 @@
         },
         {
           "id": "9-5-2",
-          "title": "Patentes presentadas por la Universitat de Valencia (UV)",
+          "title": "Patentes presentadas por la Universitat de València (UV)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-5-2",
@@ -1471,7 +1471,7 @@
         },
         {
           "id": "9-5-3",
-          "title": "Patentes presentadas por la Universitat Politècnica de Valencia (UPV)",
+          "title": "Patentes solicitadas por la Universitat Politècnica de València (UPV)",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-5-3",
@@ -1479,7 +1479,7 @@
         },
         {
           "id": "9-5-4",
-          "title": "Tasa de Patentes por 100.000 habitantes",
+          "title": "Tasa de patentes por 100.000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-5-4",
@@ -1487,7 +1487,7 @@
         },
         {
           "id": "9-a-1",
-          "title": "Presupuesto municipal destinado a Cooperación ODS9",
+          "title": "Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-a-1",
@@ -1495,7 +1495,7 @@
         },
         {
           "id": "9-a-2",
-          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS9",
+          "title": "Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-a-2",
@@ -1503,7 +1503,7 @@
         },
         {
           "id": "9-a-3",
-          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS9",
+          "title": "Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-a-3",
@@ -1511,7 +1511,7 @@
         },
         {
           "id": "9-a-4",
-          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "title": "Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 9",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/9-a-4",
@@ -1695,7 +1695,7 @@
         },
         {
           "id": "10-3-1",
-          "title": "Porcentaje de personas que se han sentido discriminadas por alguna causa en los últimos 12 meses",
+          "title": "Porcentaje de personas que se han sentido discriminadas por alguna causa en los útimos 12 meses",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/10-3-1",
@@ -1735,7 +1735,7 @@
         },
         {
           "id": "10-b-1",
-          "title": "Presupuesto municipal destinado a Cooperación ODS10",
+          "title": "Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 10",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/10-b-1",
@@ -1743,7 +1743,7 @@
         },
         {
           "id": "10-b-2",
-          "title": "Presupuesto municipal destinado a Educación para el desarrollo ODS10",
+          "title": "Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 10",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/10-b-2",
@@ -1751,7 +1751,7 @@
         },
         {
           "id": "10-b-3",
-          "title": "Presupuesto municipal destinado a Acciones Humanitarias ODS10",
+          "title": "Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 10",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/10-b-3",
@@ -1759,7 +1759,7 @@
         },
         {
           "id": "10-b-4",
-          "title": "Presupuesto municipal destinado a Ayuda a Paises en Desarrollo",
+          "title": "Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 10",
           "description": "",
           "keywords": "",
           "href": "/estadistica/es/10-b-4",

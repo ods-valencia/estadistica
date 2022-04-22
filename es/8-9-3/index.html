@@ -107,7 +107,7 @@ var translations = {
         
         Indicador 8.9.3 -
         
-        Número de apartamentos turísticos - Indicadores para los Objetivos de Desarrollo Sostenible
+        Número de plazas en apartamentos turísticos - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422060505">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20220422080133">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -530,7 +530,7 @@ data-event-label="high"
             
             Indicador 8.9.3
             
-            <span class="lead-copy">Número de apartamentos turísticos</span>
+            <span class="lead-copy">Número de plazas en apartamentos turísticos</span>
           </h1>
         </div>
       </div>
@@ -570,7 +570,7 @@ data-event-label="high"
   data-indicatorid='indicator_8-9-3'
   data-id="8-9-3"
   data-country="Valencia"
-  data-charttitle="Número de apartamentos turísticos"
+  data-charttitle="Número de plazas en apartamentos turísticos"
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel=""
@@ -619,7 +619,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Número de apartamentos turísticos</caption>
+      <caption>Número de plazas en apartamentos turísticos</caption>
       <thead>
         
         
@@ -2360,7 +2360,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Número de apartamentos turísticos</h4>
+          <h4 id="chart-heading" class="chart-title">Número de plazas en apartamentos turísticos</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -2818,7 +2818,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Indicador </th>
         <td>
           
-            <p>Número de apartamentos turísticos</p>
+            <p>Número de plazas en apartamentos turísticos</p>
 
           
         </td>
@@ -2870,7 +2870,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Definición y conceptos </th>
         <td>
           
-            <p>Total de apartamentos turísticos en la ciudad de València.</p>
+            <p>Número total de plazas en apartamentos turísticos situados en la ciudad de València a 31 de diciembre del año anterior al de referencia.</p>
 
           
         </td>
@@ -2909,6 +2909,8 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <td>
           
             <p>0505-Indicadoras sociales de la ciudad de València. Plan Valenciano de Estadística 2019-2022.</p>
+
+<p>Registro General de Empresas, Establecimientos y Profesiones Turísticas. Agencia Valenciana de Turismo.</p>
 
           
         </td>
@@ -2950,6 +2952,8 @@ data-event-label="Change to custom-translations.local-metadata tab"
           
             <p>Documentación metodológica sobre la Encuesta de Apartamentos Turísticos: <a href="https://www.ine.es/daco/daco42/ocupapar/meto_eoap.pdf">EOAT</a>.</p>
 
+<p>La información está referida a la oferta de apartamentos turísticos situados en la ciudad a 31 de diciembre de cada año. La información asociada al año t corresponde con la situación a 31 de diciembre del año t-1.</p>
+
           
         </td>
         </tr>
@@ -2958,7 +2962,20 @@ data-event-label="Change to custom-translations.local-metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Método de cálculo </th>
+        <td>
           
+            <p>Recoge información de los apartamentos turísticos procedente de la tabulación estadística de los establecimientos del Registro General de Empresas, Establecimientos y Profesiones Turísticas situados en la ciudad, que es remitido por la Agencia Valenciana de Turismo de Presidencia de la Generalitat Valenciana.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -3209,12 +3226,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20220422060505'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20220422080133'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20220422060505"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20220422080133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
