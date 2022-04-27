@@ -76,9 +76,8 @@ date_formats:
 #disclaimer:
 #  phase: ''
 #  message: ''
-#disclaimer:
-#  hidden: true
 disclaimer:
+  hidden: true
   phase: BETA
 email_contacts:
   questions: test@example.com
