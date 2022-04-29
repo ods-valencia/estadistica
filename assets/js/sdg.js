@@ -2849,7 +2849,7 @@ var mapView = function () {
     $('.map').show();
     $('#map').sdgMap({
       indicatorId: indicatorId,
-      mapOptions: {"minZoom":5,"maxZoom":10,"tileURL":"","tileOptions":{"id":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png","accessToken":"","attribution":"<a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a>"}},
+      mapOptions: {"minZoom":5,"maxZoom":10,"tileURL":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"},
       mapLayers: [{"subfolder":"regions","label":"Distritos","min_zoom":0,"max_zoom":20,"staticBorders":true}],
       precision: precision,
       decimalSeparator: decimalSeparator,
