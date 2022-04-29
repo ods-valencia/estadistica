@@ -172,11 +172,11 @@ map_layers:
 map_options:
   minZoom: 5
   maxZoom: 10
-  tileURL: ''
-  tileOptions:
-    id: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
-    accessToken: ''
-    attribution:  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>
+  tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+  #tileOptions:
+  #  id: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+  #  accessToken: ''
+  #  attribution:  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>
 #  colorRange: chroma.brewer.BuGn
 #  noValueColor: '#f0f0f0'
 #  styleNormal:
