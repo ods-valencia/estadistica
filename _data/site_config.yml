@@ -164,13 +164,13 @@ map_layers:
     # The label to use in the "Download GeoJSON" button:
     label: Distritos
     # The minimum zoom at which this layer should be visible.
-    min_zoom: 0
+    min_zoom: 5
     # The maximum zoom at which this layer should be visible.
     max_zoom: 20
     # Whether or not these boundaries should display statically on lower layers.
     staticBorders: true
 map_options:
-  minZoom: 5
+  minZoom: 6
   maxZoom: 20
   tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
   tileOptions:
