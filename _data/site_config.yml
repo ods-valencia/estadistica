@@ -178,7 +178,7 @@ map_options:
   #  accessToken: ''
     attribution:  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>
   #colorRange: chroma.brewer.BuGn
-  colorRange: ['#762a83','#af8dc3','#e7d4e8','#d9f0d3','#7fbf7b','#1b7837']
+  colorRange: ['#ffffe5','#fff7bc','#fee391','#fec44f','#fe9929','#ec7014','#cc4c02','#993404','#662506']
   noValueColor: '#f0f0f0'
   styleNormal:
     weight: 1
