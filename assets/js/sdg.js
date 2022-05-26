@@ -2849,8 +2849,8 @@ var mapView = function () {
     $('.map').show();
     $('#map').sdgMap({
       indicatorId: indicatorId,
-      mapOptions: {"minZoom":10,"maxZoom":20,"tileURL":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png","tileOptions":{"attribution":"<a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a>"},"colorRange":["#ffffe5","#fff7bc","#fee391","#fec44f","#fe9929","#ec7014","#cc4c02","#993404","#662506"],"noValueColor":"#f0f0f0","styleNormal":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#888888","dashArray":""},"styleHighlighted":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#111111","dashArray":""},"styleStatic":{"weight":2,"opacity":1,"fillOpacity":0,"color":"#172d44","dashArray":"5,5"}},
-      mapLayers: [{"subfolder":"regions","label":"Distritos","min_zoom":10,"max_zoom":15,"staticBorders":true}],
+      mapOptions: {"minZoom":10,"maxZoom":16,"tileURL":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png","tileOptions":{"attribution":"<a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a>"},"colorRange":["#ffffe5","#fff7bc","#fee391","#fec44f","#fe9929","#ec7014","#cc4c02","#993404","#662506"],"noValueColor":"#f0f0f0","styleNormal":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#888888","dashArray":""},"styleHighlighted":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#111111","dashArray":""},"styleStatic":{"weight":2,"opacity":1,"fillOpacity":0,"color":"#172d44","dashArray":"5,5"}},
+      mapLayers: [{"subfolder":"regions","label":"Distritos","min_zoom":10,"max_zoom":14,"staticBorders":true}],
       precision: precision,
       decimalSeparator: decimalSeparator,
     });
