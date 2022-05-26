@@ -170,7 +170,7 @@ map_layers:
     # Whether or not these boundaries should display statically on lower layers.
     staticBorders: true
 map_options:
-  minZoom: 13
+  minZoom: 10
   maxZoom: 20
   tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
   tileOptions:
