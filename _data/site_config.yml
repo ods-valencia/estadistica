@@ -166,12 +166,12 @@ map_layers:
     # The minimum zoom at which this layer should be visible.
     min_zoom: 10
     # The maximum zoom at which this layer should be visible.
-    max_zoom: 15
+    max_zoom: 14
     # Whether or not these boundaries should display statically on lower layers.
     staticBorders: true
 map_options:
   minZoom: 10
-  maxZoom: 20
+  maxZoom: 16
   tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
   tileOptions:
   #  id: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
