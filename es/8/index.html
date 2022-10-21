@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -40,10 +40,6 @@ var opensdg = {
 
   language: 'es',
 };
-
-// For backwards compatibility, some of these might need to be global.
-// @TODO: Remove these eventually.
-var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
 
 </script>
 
@@ -118,22 +114,18 @@ var translations = {
         <script src="/estadistica/assets/js/lib/classList.js"></script>
         <![endif]-->
 
-        
-
-
-
-
-<link rel="apple-touch-icon" sizes="180x180" href="/estadistica/assets/img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/estadistica/assets/img/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/estadistica/assets/img/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/estadistica/assets/img/favicons/favicon-16x16.png">
 <link rel="icon" type="image/x-icon" href="/estadistica/assets/img/favicons/favicon.ico" />
 
 
         
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20221021075330">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20221021081957">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -144,6 +136,10 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/>
         
 
+        <!--[if IE]>
+        <link rel="stylesheet" href="/estadistica/assets/css/ie.css">
+        <![endif]-->
+
         
 
     </head>
@@ -152,155 +148,52 @@ layout-goal
 ">
 <!-- <div class="container"> -->
 
-
 <script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo.","enable_high_contrast":"Habilitar alto contraste","high_contrast":"Alto contraste","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Menú de alternancia. Haga clic para ampliar o reducir el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
+<div class="container internet-explorer-message">
+    <h2 class="internet-explorer-message-title"></h2>
+    <p class="internet-explorer-message-body"></p>
+</div>
 <div id="disclaimer">
-  <div class="container">
-  <div class="disclaimer-alert">
-    <strong class="phase-tag">BETA</strong>
     
-    Este es un sitio web de desarrollo.
-  </div>
 </div>
 
-</div>
-
-<header role="banner" class="header-menu-left-aligned">
-  <div class="container">
-
-    <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/estadistica/es/" id="home">
+<header role="banner" class="">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
+            <a class="navbar-brand" href="/estadistica/es/" id="home">
     <img src="/estadistica/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
 </a>
-      <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'>
-        
-
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Desactivar alto contraste"
-           aria-label="Desactivar alto contraste"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Habilitar alto contraste"
-           aria-label="Habilitar alto contraste"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-    </ul><div class="language-toggle-mobile">
-        <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Castellano</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-ca">
-            <a href="/estadistica/8/">
-              Valencià
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-    </div></div>
-    </div>
-
-    <div class="search-and-desktop-widgets">
-      <div id="search" class="menu-target">
-  <form action="/estadistica/es/search/">
-    <label class="sr-only" for="indicator_search">Buscar</label>
-    <input type="text" name="q" id="indicator_search" title="Buscar" /><!--
-    --><button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-      <div class="navbar navbar-default widgets-without-menu">
-        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
-            
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Castellano</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-ca">
-            <a href="/estadistica/8/">
-              Valencià
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-        </li>
-
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Desactivar alto contraste"
-           aria-label="Desactivar alto contraste"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Habilitar alto contraste"
-           aria-label="Habilitar alto contraste"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-        </ul>
-      </div>
-    </div>
-
-    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
-      <ul class="top-level">
-    <li id="menuToggle"
-        aria-label="Menú de alternancia. Haga clic para ampliar o reducir el menú."
-        aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
-        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/estadistica/es/">Objetivos</a>
-</li><li class="nav-link ">
-    <a href="/estadistica/es/reporting-status">Estado de informes</a>
-</li><li class="nav-link ">
-    <a href="/estadistica/es/about">Información</a>
-</li><li class="language-toggle-menu-header">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex flex-wrap w-100 justify-content-between">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav" id="menu"><li class="nav-item ">
+    <a class="nav-link" href="/estadistica/es/">Objetivos</a>
+</li><li class="nav-item ">
+    <a class="nav-link" href="/estadistica/es/reporting-status">Estado de informes</a>
+</li><li class="nav-item ">
+    <a class="nav-link" href="/estadistica/es/about">Información</a>
+</li></ul>
     
+                </div>
+                <div class="header-search-bar">
+                    <form class="align-self-lg-end" id="search" action="/estadistica/es/search/">
+    <div class="input-group">
+        <label class="visually-hidden" for="indicator_search">Buscar</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Buscar">
+        <span class="input-group-append">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Buscar" id="search-btn" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+    </div>
+</form>
+
+                </div>
+                <div class="header-toggles d-flex">
 
 
 
@@ -308,12 +201,13 @@ data-event-label="high"
 
   <div class="language-toggle-container">
   
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Castellano</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-ca">
-            <a href="/estadistica/8/">
+  <div class="btn-group language-toggle-dropdown  dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-globe"></i>
+      Castellano
+    </button>
+    <ul class="dropdown-menu"><li>
+            <a class="dropdown-item" href="/estadistica/8/">
               Valencià
             </a>
           </li></ul>
@@ -322,96 +216,55 @@ data-event-label="high"
 
 
 
-</li>
-
-
-
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Desactivar alto contraste"
-           aria-label="Desactivar alto contraste"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Habilitar alto contraste"
-           aria-label="Habilitar alto contraste"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
+                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
+    <i class="fa fa-globe language-toggle-globe-links"></i>
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-ca list-inline-item">
+            <a class="language-toggle-link" href="/estadistica/8/">
+                Valencià
+            </a>
+        </li></ul>
+</div></span><a title="Habilitar alto contraste" aria-label="Habilitar alto contraste"
+    data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
 data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-
-</ul>
-
-    </li>
-    <li id="searchToggle"
-        aria-label="Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."
-        aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Buscar</button>
-        <div id="search-mobile" class="menu-target">
-  <form action="/estadistica/es/search/">
-    <label class="sr-only" for="indicator_search-mobile">Buscar</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Buscar" /><!--
-    --><button aria-label="Buscar" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-    </li>
-</ul>
-      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/estadistica/es/">Objetivos</a>
-</li><li class="nav-link ">
-    <a href="/estadistica/es/reporting-status">Estado de informes</a>
-</li><li class="nav-link ">
-    <a href="/estadistica/es/about">Información</a>
-</li>
-
-</ul>
-
+>A</a>
+                </div>
+            </div>
+        </nav>
     </div>
-
-  </div>
-
 </header>
 <div id="top" tabindex=-1></div>
 
 
 
-
 <div class="container">
-  <ol class="breadcrumb">
-  
-  <li><a href="/estadistica/es/">Inicio</a></li>
-  <li><a href="/estadistica/es/">Objetivos</a></li>
-  
-  
-</ol>
-
+  <nav>
+    <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
+        
+        <li class="breadcrumb-item" >
+            <a href="/estadistica/es/">Inicio</a>
+        </li>
+        <li class="breadcrumb-item" >
+            <a href="/estadistica/es/">Objetivos</a>
+        </li>
+        
+        
+    </ol>
+</nav>
   
     
-<div class="previous-next-links row">
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
+<div class="previous-next-links d-flex justify-content-between">
+    <div class="text-left">
         <a class="btn btn-primary" href="/estadistica/es/7" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Objetivo anterior</span>
+            <span id="previous-link" class="d-none d-md-inline">Objetivo anterior</span>
         </a>
     </div>
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
+    <div class="text-right">
         <a class="btn btn-primary" href="/estadistica/es/9" aria-labelledby="next-link">
+            <span id="next-link" class="d-none d-md-inline">Próximo objetivo</span>
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Próximo objetivo</span>
         </a>
     </div>
 </div>
@@ -421,825 +274,1296 @@ data-event-label="high"
 </div>
 
 <div class="heading goal-banner goal-8">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/8.png" alt="Trabajo Decente y Crecimiento Económico - Objetivo 8" id="goal-8" class="goal-icon-image goal-icon-image-" />
-      </div>
-      <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Objetivo 8: </span>Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos
-        </h1>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
+                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/8.png" alt="Trabajo Decente y Crecimiento Económico - Objetivo 8" id="goal-8" class="goal-icon-image goal-icon-image-" />
+            </div>
+            <div class="col-8 col-md-9 col-lg-10 goal-details">
+                <h1>Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos</h1>
+            </div>
+        </div>
     </div>
+</div>
+
+
+<div id="main-content" class="container" role="main">
+
+  
+
+
+
+  <div class="container g-0">
+    <h2 class="goal-page-heading">Metas e indicadores</h2>
+
+    
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Meta</span> 8.3</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Promover políticas orientadas al desarrollo que apoyen las actividades productivas, la creación de puestos de trabajo decentes, el emprendimiento, la creatividad y la innovación, y fomentar la formalización y el crecimiento de las microempresas y las pequeñas y medianas empresas, incluso mediante el acceso a servicios financieros</span>
+          </div>
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.3.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-3-1">Trabajadores afiliados al régimen general con contrato laboral temporal</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.3.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-3-2">Trabajadores afiliados en régimen autónomo</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Meta</span> 8.5</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">De aquí a 2030, lograr el empleo pleno y productivo y el trabajo decente para todas las mujeres y los hombres, incluidos los jóvenes y las personas con discapacidad, así como la igualdad de remuneración por trabajo de igual valor</span>
+          </div>
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.5.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-5-1">Tasa de desocupación</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.5.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-5-2">Paro registrado</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.5.3</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-5-3">Paro registrado en personas con discapacidad</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.5.4</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-5-4">Porcentaje de población con discapacidad entre los parados</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.5.5</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-5-5">Población parada de larga duración</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.5.6</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-5-6">Porcentaje de población desempleada parada de larga duración</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Meta</span> 8.6</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">De aquí a 2020, reducir considerablemente la proporción de jóvenes que no están empleados y no cursan estudios ni reciben capacitación</span>
+          </div>
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.6.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-6-1">Paro registrado en población joven con bajo nivel de estudios</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Meta</span> 8.8</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Proteger los derechos laborales y promover un entorno de trabajo seguro y sin riesgos para todos los trabajadores, incluidos los trabajadores migrantes, en particular las mujeres migrantes y las personas con empleos precarios</span>
+          </div>
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.8.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-8-1">Número de accidentes laborales con baja</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.8.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-8-2">Accidentes laborales con baja por cada 1.000 trabajadores afiliados</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.8.3</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-8-3">Población con enfermedades profesionales</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.8.4</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-8-4">Enfermedades profesionales por cada 10.000 trabajadores afiliados</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Meta</span> 8.9</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">De aquí a 2030, elaborar y poner en práctica políticas encaminadas a promover un turismo sostenible que cree puestos de trabajo y promueva la cultura y los productos locales</span>
+          </div>
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.9.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-9-1">Número de plazas en establecimientos hoteleros</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.9.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-9-2">Plazas en establecimientos hoteleros por cada 1.000 habitantes</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.9.3</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-9-3">Número de plazas en apartamentos turísticos</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.9.4</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-9-4">Plazas en apartamentos turísticos por cada 1.000 habitantes</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Meta</span> 8.10</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Fortalecer la capacidad de las instituciones financieras nacionales para fomentar y ampliar el acceso a los servicios bancarios, financieros y de seguros para todos</span>
+          </div>
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.10.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-10-1">Sucursales bancarias</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.10.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-10-2">Sucursales bancarias por cada 1.000 habitantes de 16 o más años</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Meta</span> 8.a</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Aumentar el apoyo a la iniciativa de ayuda para el comercio en los países en desarrollo, en particular los países menos adelantados, incluso mediante el Marco Integrado Mejorado para la Asistencia Técnica a los Países Menos Adelantados en Materia de Comercio</span>
+          </div>
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.a.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-a-1">Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 8</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.a.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-a-2">Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 8</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.a.3</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-a-3">Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 8</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 8.a.4</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/estadistica/es/8-a-4">Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 8</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
+        <span class="visually-hidden">Estado del indicador</span>
+        
+
+
+
+<span class="status complete">
+    <span class="status-inner">Reportado</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-1 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
   </div>
+  <a href="#top">Volver al principio</a>
 </div>
 
-
-<div id="main-content" class="container goal-indicators goal-8" role="main">
-
-  
-
-
-
-  
-  
-
-    
-    
-    
-
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-3-1">
-            <span class="indicator-card-number">
-              8.3.1
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Trabajadores afiliados al régimen general con contrato laboral temporal
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-3-2">
-            <span class="indicator-card-number">
-              8.3.2
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Trabajadores afiliados en régimen autónomo
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-5-1">
-            <span class="indicator-card-number">
-              8.5.1
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Tasa de desocupación
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-5-2">
-            <span class="indicator-card-number">
-              8.5.2
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Paro registrado
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    </div>
-    
-
-    
-    
-    
-
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-5-3">
-            <span class="indicator-card-number">
-              8.5.3
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Paro registrado en personas con discapacidad
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-5-4">
-            <span class="indicator-card-number">
-              8.5.4
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Porcentaje de población con discapacidad entre los parados
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-5-5">
-            <span class="indicator-card-number">
-              8.5.5
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Población parada de larga duración
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-5-6">
-            <span class="indicator-card-number">
-              8.5.6
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Porcentaje de población desempleada parada de larga duración
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    </div>
-    
-
-    
-    
-    
-
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-6-1">
-            <span class="indicator-card-number">
-              8.6.1
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Paro registrado en población joven con bajo nivel de estudios
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-8-1">
-            <span class="indicator-card-number">
-              8.8.1
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Número de accidentes laborales con baja
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-8-2">
-            <span class="indicator-card-number">
-              8.8.2
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Accidentes laborales con baja por cada 1.000 trabajadores afiliados
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-8-3">
-            <span class="indicator-card-number">
-              8.8.3
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Población con enfermedades profesionales
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    </div>
-    
-
-    
-    
-    
-
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-8-4">
-            <span class="indicator-card-number">
-              8.8.4
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Enfermedades profesionales por cada 10.000 trabajadores afiliados
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-9-1">
-            <span class="indicator-card-number">
-              8.9.1
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Número de plazas en establecimientos hoteleros
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-9-2">
-            <span class="indicator-card-number">
-              8.9.2
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Plazas en establecimientos hoteleros por cada 1.000 habitantes
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-9-3">
-            <span class="indicator-card-number">
-              8.9.3
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Número de plazas en apartamentos turísticos
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    </div>
-    
-
-    
-    
-    
-
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-9-4">
-            <span class="indicator-card-number">
-              8.9.4
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Plazas en apartamentos turísticos por cada 1.000 habitantes
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-10-1">
-            <span class="indicator-card-number">
-              8.10.1
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Sucursales bancarias
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-10-2">
-            <span class="indicator-card-number">
-              8.10.2
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Sucursales bancarias por cada 1.000 habitantes de 16 o más años
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-a-1">
-            <span class="indicator-card-number">
-              8.a.1
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Presupuesto municipal destinado a Cooperación Internacional para el Desarrollo relacionado con el ODS 8
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    </div>
-    
-
-    
-    
-    
-
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-a-2">
-            <span class="indicator-card-number">
-              8.a.2
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Presupuesto municipal destinado a Educación para el Desarrollo y Ciudadanía Global relacionado con el ODS 8
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-a-3">
-            <span class="indicator-card-number">
-              8.a.3
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Presupuesto municipal destinado a Acción Humanitaria y de Emergencia relacionado con el ODS 8
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/estadistica/es/8-a-4">
-            <span class="indicator-card-number">
-              8.a.4
-              
-
-
-
-<span class="status complete">
-    <span class="status-inner">Reportado</span>
-</span>
-
-
-            </span>
-            Presupuesto municipal de Ayuda Oficial al Desarrollo relacionado con el ODS 8
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-	 	
-		
-			</div>
-		
-</div>
 
 <footer role="contentinfo">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <div id="footerLinks">
-          <ul>
-            <li><a href="https://open-sdg.org">Construido usando Open SDG</a></li>
-            
-              <li>
-                
-                  <a href="https://twitter.com/EstadisticaVLC" target="_blank">Twitter</a>
-                
-                </li>
-              
-            
-            
-            <li><a href="/estadistica/es/config">Configuration</a></li>
-            </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="footerLinks">
+                    <ul>
+                        <li>
+                            <a href="https://open-sdg.org">Construido usando Open SDG</a>
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="https://twitter.com/EstadisticaVLC" target="_blank">Twitter</a>
+                            
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/estadistica/es/config">Configuration</a>
+                        </li>
+                        </ul>
+                </div>
+            </div>
         </div>
-      </div>
+        
     </div>
-  </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
 
@@ -1259,83 +1583,16 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20221021075330'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20221021081957'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20221021075330"></script><script>
-$(function() {
-    if($('#indicatorData').length) {
-      var domData = $('#indicatorData').data();
-
-      if (domData.showdata) {
-
-        $('.async-loading').each(function(i, obj) {
-            $(obj).append($('<img />').attr('src', $(obj).data('img')).attr('alt', translations.indicator.loading));
-        });
-
-        var remoteUrl = '/comb/' + domData.id + '.json';
-        if (opensdg.remoteDataBaseUrl !== '/') {
-          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
-        }
-
-        $.ajax({
-          url: remoteUrl,
-          success: function(res) {
-
-            $('.async-loading').remove();
-            $('.async-loaded').show();
-
-            var model = new indicatorModel({
-              data: res.data,
-              edgesData: res.edges,
-              showMap: domData.showmap,
-              country: domData.country,
-              indicatorId: domData.indicatorid,
-              shortIndicatorId: domData.id,
-              chartTitle: domData.charttitle,
-              chartTitles: domData.charttitles,
-              measurementUnit: domData.measurementunit,
-              xAxisLabel: domData.xaxislabel,
-              showData: domData.showdata,
-              graphType: domData.graphtype,
-              startValues: domData.startvalues,
-              graphLimits: domData.graphlimits,
-              stackedDisaggregation: domData.stackeddisaggregation,
-              graphAnnotations: domData.graphannotations,
-              graphTargetLines: domData.graphtargetlines,
-              graphSeriesBreaks: domData.graphseriesbreaks,
-              indicatorDownloads: domData.indicatordownloads,
-              dataSchema: domData.dataschema,
-              compositeBreakdownLabel: domData.compositebreakdownlabel,
-              precision: domData.precision,
-            }),
-            view  = new indicatorView(model, {
-              rootElement: '#indicatorData',
-              legendElement: '#plotLegend',
-              decimalSeparator: ',',
-              maxChartHeight: 420,
-              tableColumnDefs: [
-                { maxCharCount: 25 }, // nowrap
-                { maxCharCount: 35, width: 200 },
-                { maxCharCount: Infinity, width: 250 }
-              ]
-            }),
-            controller = new indicatorController(model, view);
-            controller.initialise();
-          }
-        });
-      }
-    }
-
-    var switcher = new accessibilitySwitcher();
-
-
-});
+    <script src="/estadistica/assets/js/custom.js?v=20221021081957"></script><script>
+    new indicatorInit();
+    new accessibilitySwitcher();
 </script>
 
 
 </body>
 </html>
-
