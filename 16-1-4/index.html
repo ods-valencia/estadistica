@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20221024063416">
+        <link rel="stylesheet" href="/estadistica/assets/css/style.css?v=20221024082137">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -433,7 +433,7 @@ data-event-label="high"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
-  data-showmap="true"
+  data-showmap="false"
   data-startvalues="[]"
   data-graphlimits="[]"
   data-stackeddisaggregation=""
@@ -502,7 +502,7 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.87</td>
+          <td class="table-value">0.88</td>
           
           
         </tr>
@@ -575,6 +575,30 @@ data-event-label="high"
           
           
           <td class="table-value">0.76</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td class="table-value">0.51</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td class="table-value">0.63</td>
           
           
         </tr>
@@ -660,31 +684,6 @@ data-event-label="Change to Table tab"
 
         
       >Taula</button>
-    </li>
-    
-    <li role="presentation"
-      class="
-        nav-item
-        map
-        
-      ">
-      <button
-        class="nav-link "
-        data-bs-toggle="tab"
-        role="tab"
-        type="button"
-        
-          id="tab-mapview"
-          data-bs-target="#mapview"
-          aria-controls="mapview"
-          data-no-disagg="true"
-          data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Map tab"
-
-        
-      >Mapa</button>
     </li>
     
   </ul>
@@ -831,64 +830,6 @@ data-event-label="Change to Map tab"
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
-
-        </div>
-      
-    
-      
-        <div role="tabpanel" class="tab-pane " id="mapview" class="map">
-          
-<h4 id="map-heading" class="map-title">Taxa d'homicidis dolosos i assassinats consumats</h4>
-<div id="map" aria-describedby="table-alternative">
-  <img class="map-loading-image" src="/estadistica/assets/img/loading.gif" alt="Carregant mapa" />
-</div>
-
-
-
-
-<div id="mapFooter" class="table-footer-text">
-  <h5 class="sr-only">Chart details</h5>
-    <dl>
-        
-
-        
-        <dt>Àrea geogràfica:</dt>
-        <dd>València</dd>
-        
-
-        <dt class="data-controlled-footer-field unit-from-data">Unitat de mesura:</dt>
-        <dd class="data-controlled-footer-field unit-from-data"></dd>
-
-        
-
-        
-
-        
-
-        
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        >Nota:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        ></dd>
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        >Dades actualitzades per última vegada:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        ></dd>
-        
-        
-    </dl>
-</div>
-
 
         </div>
       
@@ -1085,7 +1026,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Definició i conceptes </th>
         <td>
           
-            <p>Infraccions penals tipificades com a homicidis dolosos i assassinats consumats (inclosos en els art. 138, 139 i 140 del Codi Penal) ocorreguts a la ciutat conegudes per les diferents Forces i Cossos de Seguretat (Guàrdia Civil, Cos Nacional de Policia, Policia Autonòmica o Policia Local de València), ja siga per mitjà de denúncia interposada o per actuació policial realitzada motu proprio (labor preventiva o d’investigació).</p>
+            <p>Infraccions penals tipificades com a homicidis dolosos i assassinats consumats (inclosos en els art. 138, 139 i 140 del Codi Penal) ocorreguts a la ciutat conegudes per les diferents Forces i Cossos de Seguretat (Guàrdia Civil, Cos Nacional de Policia, Policia Autonòmica o Policia Local de València), ja siga per mitjà de denúncia interposada o per actuació policial realitzada.</p>
 
           
         </td>
@@ -1123,7 +1064,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Fonts de dades </th>
         <td>
           
-            <p>Balanç Trimestral de Criminalitat del SEC (Sistema Estadístic de Criminalitat) del Ministeri de l’Interior.</p>
+            <p>9907-Datos estadísticos de la ciudad de València. Pla Valencià d’Estadística 2019-2022. Explotació estadística Balanç Trimestral de Criminalitat del SEC (Sistema Estadístic de Criminalitat) del Ministeri de l’Interior.</p>
 
           
         </td>
@@ -1163,13 +1104,11 @@ data-event-label="Change to custom-translations.local-metadata tab"
         <th scope="row">Observacions </th>
         <td>
           
-            <p>Aquest indicador forma part del Panell ODS de l’Institut Nacional d’Estadística (https://www.ine.es/dyngs/ODS/es/index.htm), que ofereix informació per a àmbits territorials superiors. També forma part del Panell ODS de la Comissió Europea definit en European Handbook for SDG Voluntary Local Reviews, del Panell ODS de la Xarxa Espanyola per al Desenvolupament Sostenible (https://spanish-cities.sdgindex.org/) i del Panell ODS del grup IDENCITY.</p>
+            <p>Aquest indicador forma part del Panell ODS de l’Institut Nacional d’Estadística (https://www.ine.es/dyngs/ODS/es/index.htm), que ofereix informació per a àmbits territorials superiors. També forma part del Panell ODS de la Comissió Europea definit en European Handbook for SDG Voluntary Local Reviews i del Panell ODS de la Xarxa Espanyola per al Desenvolupament Sostenible (https://spanish-cities.sdgindex.org/)</p>
 
 <p>Documentació metodològica sobre el Balanç Trimestral de Criminalitat: <a href="https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/dam/jcr:b36b25ac-491b-49a6-be33-9cdcb168f0c9/01_Metodolog%C3%ADA_Balances_criminalitat.pdf">Balanç Criminalitat</a>.</p>
 
-<p>Documentació metodològica sobre l’Explotació estadística del Padró Municipal d’Habitants de València: <a href="https://www.valencia.es/estadistica/Padron/2020/Padron2020Cast.pdf">Explotació Estadística Padró</a>.</p>
-
-<p>En aquest indicador no s’inclouen els homicidis dolosos i assassinats en grau de temptativa. La població a meitat de l’any t s’ha calculat com a semisuma de les poblacions a 1 de gener de l’any t i de l’any t+1. Les dades de l’últim any són provisionals, estan pendents de consolidar.</p>
+<p>La població a meitat de l’any t s’ha calculat com a semisuma de les poblacions a 1 de gener de l’any t i de l’any t+1. Les dades de l’últim any són provisionals, estan pendents de consolidar.</p>
 
           
         </td>
@@ -1231,8 +1170,8 @@ data-event-label="Change to custom-translations.local-metadata tab"
             
 
             
-              <a href="https://github.com/ods-valencia/data/commit/adb36c067433a47ec37af23aed186120a9a7d78f" target="_blank">
-                2022-04-22: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
+              <a href="https://github.com/ods-valencia/data/commit/2aa1a8d299004a829bc88e74f45e0c3771287a84" target="_blank">
+                2022-10-24: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1433,15 +1372,6 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.2.2/dist/chartjs-plugin-annotation.min.js" integrity="sha256-XuHhf6q+GD7fscc96mTm/228GXf1Nn9wOYOE0EgeFzY=" crossorigin="anonymous"></script>
 
 
-<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
-<script src="https://cdn.jsdelivr.net/npm/leaflet.zoomshowhide@0.1.0/dist/leaflet-zoom-show-hide.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.4.0/chroma.min.js"></script>
-<script src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
-<script src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-<script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
@@ -1458,12 +1388,12 @@ data-event-label="Change to custom-translations.local-metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/estadistica/assets/js/sdg.js?v=20221024063416'></script>
+<script src='/estadistica/assets/js/sdg.js?v=20221024082137'></script>
 
 
     
     
-    <script src="/estadistica/assets/js/custom.js?v=20221024063416"></script><script>
+    <script src="/estadistica/assets/js/custom.js?v=20221024082137"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
