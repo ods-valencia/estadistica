@@ -1,25 +1,18 @@
-name: Deploy to staging
+name: Test PRs
 
-on:
-  push:
-    branches:
-      - develop
-  repository_dispatch:
-    types: rebuild-staging
-  #schedule:
-  #  - cron: '10 0 * * *'
+on: [pull_request]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: '2.6'
     - name: Inject slug/short variables
       uses: rlespinasse/github-slug-action@v3.x
     - name: Set the REPOSITORY_URL_SITE environment variable
@@ -30,10 +23,5 @@ jobs:
         bundle config path vendor/bundle
         bundle install
         bundle exec jekyll build --baseurl=/${{ env.GITHUB_REPOSITORY_NAME_PART }}
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: _site
-        CLEAN: true
+    - name: Test the HTML
+      run: bash scripts/test/html_proofer_staging.sh
